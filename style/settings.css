@@ -1,0 +1,132 @@
+.keyimage {
+    margin: 10px 0;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: height .2s ease-out;
+       -moz-transition: height .2s ease-out;
+        -ms-transition: height .2s ease-out;
+         -o-transition: height .2s ease-out;
+            transition: height .2s ease-out;
+}
+
+.keyimage.closed {
+    height: 0 !important;
+}
+
+.keyimage#bannerkeyimage1,
+.keyimage#bannerkeyimage2,
+.keyimage#bannerkeyimage3,
+.keyimage#bannerkeyimage4 {
+    background-image: url(../pix/settings/banner-key.png);
+    height: 150px;
+}
+
+.keyimage#blockkeyimage1,
+.keyimage#blockkeyimage2,
+.keyimage#blockkeyimage3 {
+    background-image: url(../pix/settings/block-key.png);
+    height: 192px;
+}
+
+.keyimage#coursecatkeyimage {
+    background-image: url(../pix/settings/course-catalog-key);
+    height: 233px;
+}
+
+.keyimage#quizlayoutkeyimage {
+    background-image: url(../pix/settings/quiz-layout-key.png);
+    height: 206px;
+}
+
+.keyimage#slideoutpanelkeyimage {
+    background-image: url(../pix/settings/slideout-panel-key.png);
+    height: 242px;
+}
+
+.keyimage#onetopickeyimage {
+    background-image: url(../pix/settings/onetopic-vertical-key.jpg);
+    height: 190px;
+}
+
+#admin-themecolor.form-item .form-description:after {
+    content: "";
+    display: block;
+    background: linear-gradient(to right, #00477F 0%, #00477F 50%, #000000 50%, #fff 50%, #fff 100%);
+    width: 237px;
+    height: 40px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+       -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+#admin-themecolor.form-item.red-theme .form-description:after {
+    background: linear-gradient(to right, #ad111e 0%, #ad111e 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.blue-theme .form-description:after {
+    background: linear-gradient(to right, #3b5998 0%, #3b5998 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.blue-theme-2 .form-description:after {
+    background: linear-gradient(to right, #0078b9 0%, #0078b9 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.blue-theme-3 .form-description:after {
+    background: linear-gradient(to right, #00274c 0%, #00274c 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.green-theme .form-description:after {
+    background: linear-gradient(to right, #00674b 0%, #00674b 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.green-theme-2 .form-description:after {
+    background: linear-gradient(to right, #169A5A 0%, #169A5A 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.blackgold-theme .form-description:after {
+    background: linear-gradient(to right, #333 0%, #333 50%, #000000 50%, #d2b887 50%, #d2b887 100%);
+}
+
+#admin-themecolor.form-item.blackyellow-theme .form-description:after {
+    background: linear-gradient(to right, #131313 0%, #131313 50%, #000000 50%, #FFB612 50%, #FFB612 100%);
+}
+
+#admin-themecolor.form-item.bluegold-theme .form-description:after {
+    background: linear-gradient(to right, #00274c 0%, #00274c 50%, #000000 50%, #ffcb05 50%, #ffcb05 100%);
+}
+
+#admin-themecolor.form-item.greengold-theme .form-description:after {
+    background: linear-gradient(to right, #154733 0%, #154733 50%, #000000 50%, #fee123 50%, #fee123 100%);
+}
+
+#admin-themecolor.form-item.bluered-theme .form-description:after {
+    background: linear-gradient(to right, #192f6b 0%, #192f6b 50%, #000000 50%, #ca001a 50%, #ca001a 100%);
+}
+
+#admin-themecolor.form-item.blueorange-theme .form-description:after {
+    background: linear-gradient(to right, #03244d 0%, #03244d 50%, #000000 50%, #dd550c 50%, #dd550c 100%);
+}
+
+#admin-themecolor.form-item.bluewhite-theme .form-description:after {
+    background: linear-gradient(to right, #235d86 0%, #235d86 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+#admin-themecolor.form-item.purplegold-theme .form-description:after {
+    background: linear-gradient(to right, #461d7c 0%, #461d7c 50%, #000000 50%, #fdd023 50%, #fdd023 100%);
+}
+
+#admin-themecolor.form-item.redblack-theme .form-description:after {
+    background: linear-gradient(to right, #333 0%, #333 50%, #000000 50%, #cc0000 50%, #cc0000 100%);
+}
+
+#admin-themecolor.form-item.maroongray-theme .form-description:after {
+    background: linear-gradient(to right, #500000 0%, #500000 50%, #000000 50%, #555 50%, #555 100%);
+}
+
+#admin-themecolor.form-item.training-theme .form-description:after {
+    background: linear-gradient(to right, #03244d 0%, #03244d 50%, #000000 50%, #dd550c 50%, #dd550c 100%);
+}
