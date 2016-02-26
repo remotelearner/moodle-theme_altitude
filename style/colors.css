@@ -1,0 +1,5837 @@
+/*
+'' => 'Default',
+'red' => 'Red',
+'blue' => 'Blue',
+'green' => 'Green',
+'blackgold' => 'Black and Gold',
+'bluegold' => 'Blue and Gold',
+*/
+
+.red-theme a,
+.red-theme a:link,
+.red-theme a:visited,
+.red-theme .theme .moodle-actionmenu a {
+    color: #ad111e;
+}
+
+.red-theme a:hover,
+.red-theme a:focus {
+    color: #333;
+}
+
+.red-theme a:active {
+    color: #111;
+}
+
+.red-theme ::selection {
+    background: #ad111e;
+}
+
+.red-theme ::-moz-selection {
+    background: #ad111e;
+}
+
+.red-theme button,
+.red-theme input.form-submit,
+.red-theme input[type="button"],
+.red-theme input[type="submit"],
+.red-theme input[type="reset"],
+.red-theme input.form-submit,
+.red-theme input#id_submitbutton,
+.red-theme input#id_submitbutton2,
+.red-theme .path-admin .buttons input[type="submit"],
+.red-theme td.submit input,
+.red-theme a.btn,
+.red-theme .btn-theme,
+.red-theme .theme .deepsight_filter_generator {
+    background: #ad111e;
+}
+
+.red-theme button:hover,
+.red-theme button:focus,
+.red-theme input.form-submit:hover,
+.red-theme input[type="button"]:hover,
+.red-theme input[type="submit"]:hover,
+.red-theme input[type="reset"]:hover,
+.red-theme input.form-submit:focus,
+.red-theme input[type="button"]:focus,
+.red-theme input[type="submit"]:focus,
+.red-theme input[type="reset"]:focus,
+.red-theme input#id_submitbutton:hover,
+.red-theme input#id_submitbutton2:hover,
+.red-theme .path-admin .buttons input[type="submit"]:hover,
+.red-theme td.submit input:hover,
+.red-theme input#id_submitbutton:focus,
+.red-theme input#id_submitbutton2:focus,
+.red-theme .path-admin .buttons input[type="submit"]:focus,
+.red-theme td.submit input:focus,
+.red-theme a.btn:hover,
+.red-theme a.btn:focus,
+.red-theme .btn-theme:hover,
+.red-theme .btn-theme:focus,
+.red-theme .theme .deepsight_filter_generator:hover,
+.red-theme .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.red-theme button:active,
+.red-theme input.form-submit:active,
+.red-theme input[type="button"]:active,
+.red-theme input[type="submit"]:active,
+.red-theme input[type="reset"]:active,
+.red-theme input.form-submit:active,
+.red-theme input#id_submitbutton:active,
+.red-theme input#id_submitbutton2:active,
+.red-theme .path-admin .buttons input[type="submit"]:active,
+.red-theme td.submit input:active,
+.red-theme a.btn:active,
+.red-theme .btn-theme:active,
+.red-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.red-theme #top-header-wrap {
+    background: #ad111e;
+}
+
+.red-theme .navbar .nav>li>a::after {
+    background: #ad111e;
+}
+
+.red-theme .navbar .nav>li>a:hover,
+.red-theme .navbar .nav>li>a:focus {
+    color: #ad111e;
+}
+
+.red-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.red-theme .navbar .nav li.dropdown>a:hover .caret,
+.red-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #ad111e;
+    border-bottom-color: #ad111e;
+}
+
+.red-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.red-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.red-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #ad111e;
+}
+
+.red-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.red-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.red-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #ad111e;
+    border-bottom-color: #ad111e;
+}
+
+.red-theme .dropdown-menu {
+    background: #ad111e;
+}
+
+.red-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #ad111e;
+}
+
+.red-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.red-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: #333;
+}
+
+.red-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.red-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.red-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.red-theme #banner-title a .fa {
+    color: #ad111e;
+}
+
+.red-theme #banner-title a:hover,
+.red-theme #banner-title a:focus {
+    color: #ad111e;
+}
+
+.red-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.red-theme #action-blocks .block a h2:after {
+    background-color: #ad111e;
+}
+
+.red-theme #action-blocks a.action:hover button,
+.red-theme #action-blocks a.action:active button,
+.red-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.red-theme #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.red-theme #action-blocks a.action:hover button .fa,
+.red-theme #action-blocks a.action:active button .fa,
+.red-theme #action-blocks a.action:focus button .fa {
+    color: #ad111e;
+}
+
+.red-theme .hi-icon-effect-1 .hi-icon {
+    background: #ad111e;
+}
+
+.red-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.red-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.red-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.red-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.red-theme .block .header .title h2 {
+    background: #ad111e;
+}
+
+.red-theme .course_category_tree .category {
+    background-color: #ad111e;
+    border-left: 5px solid #ad111e;
+}
+
+.red-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #ad111e;
+}
+
+.red-theme .course_category_tree .category:hover .categoryname a,
+.red-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.red-theme .course_category_tree .category:hover,
+.red-theme .course_category_tree .category:focus {
+    background-color: #ad111e;
+}
+
+.red-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #ad111e;
+}
+
+.red-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #ad111e;
+}
+
+body.altitude-settings-onetopictabs.red-theme .onetopic ul.nav-tabs li {
+    background: #333;
+}
+
+body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #ad111e;
+       -moz-box-shadow: inset 5px 0 0 #ad111e;
+            box-shadow: inset 5px 0 0 #ad111e;
+}
+
+body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li:active {
+    background: #ad111e;
+}
+
+.red-theme #page-footer .block .header .title h2:before {
+    color: #ad111e;
+}
+
+.red-theme #page-footer2 {
+    background-color: #ad111e;
+}
+
+
+/*rein colors*/
+.red-theme .ui-state-default,
+.red-theme .ui-widget-header,
+.red-theme .ui-widget-header .ui-state-default,
+.red-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.red-theme .ui-state-default:hover,
+.red-theme .ui-state-default:focus {
+    background: #ad111e;
+}
+
+.red-theme .ui-accordion .ui-accordion-header-active {
+    background: #ad111e;
+}
+
+.red-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.red-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #ad111e;
+}
+
+.red-theme .sortableCols li,
+.red-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.red-theme .sortableCols li:hover,
+.red-theme .do-multi-drop .ui-state-default:hover {
+    background: #ad111e;
+}
+
+.red-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.red-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+.blue-theme a,
+.blue-theme a:link,
+.blue-theme a:visited,
+.blue-theme .theme .moodle-actionmenu a {
+    color: #3b5998;
+}
+
+.blue-theme a:hover,
+.blue-theme a:focus {
+    color: #333;
+}
+
+.blue-theme a:active {
+    color: #111;
+}
+
+.blue-theme ::selection {
+    background: #3b5998;
+}
+
+.blue-theme ::-moz-selection {
+    background: #3b5998;
+}
+
+.blue-theme button,
+.blue-theme input.form-submit,
+.blue-theme input[type="button"],
+.blue-theme input[type="submit"],
+.blue-theme input[type="reset"],
+.blue-theme input.form-submit,
+.blue-theme input#id_submitbutton,
+.blue-theme input#id_submitbutton2,
+.blue-theme .path-admin .buttons input[type="submit"],
+.blue-theme td.submit input,
+.blue-theme a.btn,
+.blue-theme .btn-theme,
+.blue-theme .theme .deepsight_filter_generator {
+    background: #3b5998;
+}
+
+.blue-theme button:hover,
+.blue-theme button:focus,
+.blue-theme input.form-submit:hover,
+.blue-theme input[type="button"]:hover,
+.blue-theme input[type="submit"]:hover,
+.blue-theme input[type="reset"]:hover,
+.blue-theme input.form-submit:focus,
+.blue-theme input[type="button"]:focus,
+.blue-theme input[type="submit"]:focus,
+.blue-theme input[type="reset"]:focus,
+.blue-theme input#id_submitbutton:hover,
+.blue-theme input#id_submitbutton2:hover,
+.blue-theme .path-admin .buttons input[type="submit"]:hover,
+.blue-theme td.submit input:hover,
+.blue-theme input#id_submitbutton:focus,
+.blue-theme input#id_submitbutton2:focus,
+.blue-theme .path-admin .buttons input[type="submit"]:focus,
+.blue-theme td.submit input:focus,
+.blue-theme a.btn:hover,
+.blue-theme a.btn:focus,
+.blue-theme .btn-theme:hover,
+.blue-theme .btn-theme:focus,
+.blue-theme .theme .deepsight_filter_generator:hover,
+.blue-theme .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.blue-theme button:active,
+.blue-theme input.form-submit:active,
+.blue-theme input[type="button"]:active,
+.blue-theme input[type="submit"]:active,
+.blue-theme input[type="reset"]:active,
+.blue-theme input.form-submit:active,
+.blue-theme input#id_submitbutton:active,
+.blue-theme input#id_submitbutton2:active,
+.blue-theme .path-admin .buttons input[type="submit"]:active,
+.blue-theme td.submit input:active,
+.blue-theme a.btn:active,
+.blue-theme .btn-theme:active,
+.blue-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.blue-theme #top-header-wrap {
+    background: #3b5998;
+}
+
+.blue-theme .navbar .nav>li>a::after {
+    background: #3b5998;
+}
+
+.blue-theme .navbar .nav>li>a:hover,
+.blue-theme .navbar .nav>li>a:focus {
+    color: #3b5998;
+}
+
+.blue-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blue-theme .navbar .nav li.dropdown>a:hover .caret,
+.blue-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #3b5998;
+    border-bottom-color: #3b5998;
+}
+
+.blue-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blue-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blue-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #3b5998;
+}
+
+.blue-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blue-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blue-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #3b5998;
+    border-bottom-color: #3b5998;
+}
+
+.blue-theme .dropdown-menu {
+    background: #3b5998;
+}
+
+.blue-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #3b5998;
+}
+
+.blue-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blue-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.blue-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blue-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blue-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.blue-theme #banner-title a .fa {
+    color: #3b5998;
+}
+
+.blue-theme #banner-title a:hover,
+.blue-theme #banner-title a:focus {
+    color: #3b5998;
+}
+
+.blue-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.blue-theme #action-blocks .block a h2:after {
+    background-color: #3b5998;
+}
+
+.blue-theme #action-blocks a.action:hover button,
+.blue-theme #action-blocks a.action:active button,
+.blue-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.blue-theme #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.blue-theme #action-blocks a.action:hover button .fa,
+.blue-theme #action-blocks a.action:active button .fa,
+.blue-theme #action-blocks a.action:focus button .fa {
+    color: #3b5998;
+}
+
+.blue-theme .hi-icon-effect-1 .hi-icon {
+    background: #3b5998;
+}
+
+.blue-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.blue-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blue-theme .block .header .title h2 {
+    background: #3b5998;
+}
+
+.blue-theme .course_category_tree .category {
+    background-color: #3b5998;
+    border-left: 5px solid #3b5998;
+}
+
+.blue-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #3b5998;
+}
+
+.blue-theme .course_category_tree .category:hover .categoryname a,
+.blue-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blue-theme .course_category_tree .category:hover,
+.blue-theme .course_category_tree .category:focus {
+    background-color: #3b5998;
+}
+
+.blue-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #3b5998;
+}
+
+.blue-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #3b5998;
+}
+
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li {
+    background: #3b5998;
+}
+
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.5);
+}
+
+body.altitude-settings-onetopictabs.blue-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #3b5998;
+       -moz-box-shadow: inset 5px 0 0 #3b5998;
+            box-shadow: inset 5px 0 0 #3b5998;
+}
+
+body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li:active {
+    background: #3b5998;
+}
+
+.blue-theme #page-footer .block .header .title h2:before {
+    color: #3b5998;
+}
+
+.blue-theme #page-footer2 {
+    background-color: #3b5998;
+}
+
+/*rein colors*/
+.blue-theme .ui-state-default,
+.blue-theme .ui-widget-header,
+.blue-theme .ui-widget-header .ui-state-default,
+.blue-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blue-theme .ui-state-default:hover,
+.blue-theme .ui-state-default:focus {
+    background: #3b5998;
+}
+
+.blue-theme .ui-accordion .ui-accordion-header-active {
+    background: #3b5998;
+}
+
+.blue-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blue-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #3b5998;
+}
+
+.blue-theme .sortableCols li,
+.blue-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blue-theme .sortableCols li:hover,
+.blue-theme .do-multi-drop .ui-state-default:hover {
+    background: #3b5998;
+}
+
+.blue-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blue-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+#admin-themecolor.form-item.blue-theme-2 .form-description:after {
+    background: linear-gradient(to right, #0078b9 0%, #0078b9 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+.blue-theme-2 a,
+.blue-theme-2 a:link,
+.blue-theme-2 a:visited,
+.blue-theme-2 .theme .moodle-actionmenu a {
+    color: #0078b9;
+}
+
+.blue-theme-2 a:hover,
+.blue-theme-2 a:focus {
+    color: #333;
+}
+
+.blue-theme-2 a:active {
+    color: #111;
+}
+
+.blue-theme-2 ::selection {
+    background: #0078b9;
+}
+
+.blue-theme-2 ::-moz-selection {
+    background: #0078b9;
+}
+
+.blue-theme-2 button,
+.blue-theme-2 input.form-submit,
+.blue-theme-2 input[type="button"],
+.blue-theme-2 input[type="submit"],
+.blue-theme-2 input[type="reset"],
+.blue-theme-2 input.form-submit,
+.blue-theme-2 input#id_submitbutton,
+.blue-theme-2 input#id_submitbutton2,
+.blue-theme-2 .path-admin .buttons input[type="submit"],
+.blue-theme-2 td.submit input,
+.blue-theme-2 a.btn,
+.blue-theme-2 .btn-theme,
+.blue-theme-2 .theme .deepsight_filter_generator {
+    background: #0078b9;
+}
+
+.blue-theme-2 button:hover,
+.blue-theme-2 button:focus,
+.blue-theme-2 input.form-submit:hover,
+.blue-theme-2 input[type="button"]:hover,
+.blue-theme-2 input[type="submit"]:hover,
+.blue-theme-2 input[type="reset"]:hover,
+.blue-theme-2 input.form-submit:focus,
+.blue-theme-2 input[type="button"]:focus,
+.blue-theme-2 input[type="submit"]:focus,
+.blue-theme-2 input[type="reset"]:focus,
+.blue-theme-2 input#id_submitbutton:hover,
+.blue-theme-2 input#id_submitbutton2:hover,
+.blue-theme-2 .path-admin .buttons input[type="submit"]:hover,
+.blue-theme-2 td.submit input:hover,
+.blue-theme-2 input#id_submitbutton:focus,
+.blue-theme-2 input#id_submitbutton2:focus,
+.blue-theme-2 .path-admin .buttons input[type="submit"]:focus,
+.blue-theme-2 td.submit input:focus,
+.blue-theme-2 a.btn:hover,
+.blue-theme-2 a.btn:focus,
+.blue-theme-2 .btn-theme:hover,
+.blue-theme-2 .btn-theme:focus,
+.blue-theme-2 .theme .deepsight_filter_generator:hover,
+.blue-theme-2 .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.blue-theme-2 button:active,
+.blue-theme-2 input.form-submit:active,
+.blue-theme-2 input[type="button"]:active,
+.blue-theme-2 input[type="submit"]:active,
+.blue-theme-2 input[type="reset"]:active,
+.blue-theme-2 input.form-submit:active,
+.blue-theme-2 input#id_submitbutton:active,
+.blue-theme-2 input#id_submitbutton2:active,
+.blue-theme-2 .path-admin .buttons input[type="submit"]:active,
+.blue-theme-2 td.submit input:active,
+.blue-theme-2 a.btn:active,
+.blue-theme-2 .btn-theme:active,
+.blue-theme-2 .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.blue-theme-2 #top-header-wrap {
+    background: #0078b9;
+}
+
+.blue-theme-2 .navbar .nav>li>a::after {
+    background: #0078b9;
+}
+
+.blue-theme-2 .navbar .nav>li>a:hover,
+.blue-theme-2 .navbar .nav>li>a:focus {
+    color: #0078b9;
+}
+
+.blue-theme-2 .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blue-theme-2 .navbar .nav li.dropdown>a:hover .caret,
+.blue-theme-2 .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #0078b9;
+    border-bottom-color: #0078b9;
+}
+
+.blue-theme-2 .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blue-theme-2 .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blue-theme-2 .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #0078b9;
+}
+
+.blue-theme-2 .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blue-theme-2 .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blue-theme-2 .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #0078b9;
+    border-bottom-color: #0078b9;
+}
+
+.blue-theme-2 .dropdown-menu {
+    background: #0078b9;
+}
+
+.blue-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #0078b9;
+}
+
+.blue-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blue-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.blue-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blue-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blue-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.blue-theme-2 #banner-title a .fa {
+    color: #0078b9;
+}
+
+.blue-theme-2 #banner-title a:hover,
+.blue-theme-2 #banner-title a:focus {
+    color: #0078b9;
+}
+
+.blue-theme-2 #action-blocks .block a h2 {
+    color: #333;
+}
+
+.blue-theme-2 #action-blocks .block a h2:after {
+    background-color: #0078b9;
+}
+
+.blue-theme-2 #action-blocks a.action:hover button,
+.blue-theme-2 #action-blocks a.action:active button,
+.blue-theme-2 #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.blue-theme-2 #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.blue-theme-2 #action-blocks a.action:hover button .fa,
+.blue-theme-2 #action-blocks a.action:active button .fa,
+.blue-theme-2 #action-blocks a.action:focus button .fa {
+    color: #0078b9;
+}
+
+.blue-theme-2 .hi-icon-effect-1 .hi-icon {
+    background: #0078b9;
+}
+
+.blue-theme-2 .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.blue-theme-2 a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme-2 a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme-2 a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blue-theme-2 .block .header .title h2 {
+    background: #0078b9;
+}
+
+.blue-theme-2 .course_category_tree .category {
+    background-color: #0078b9;
+    border-left: 5px solid #0078b9;
+}
+
+.blue-theme-2 .course_category_tree .category.collapsed .categoryname a {
+    color: #0078b9;
+}
+
+.blue-theme-2 .course_category_tree .category:hover .categoryname a,
+.blue-theme-2 .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blue-theme-2 .course_category_tree .category:hover,
+.blue-theme-2 .course_category_tree .category:focus {
+    background-color: #0078b9;
+}
+
+.blue-theme-2 .course_category_tree .category .category .info > .categoryname a {
+    color: #0078b9;
+}
+
+.blue-theme-2 .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #0078b9;
+}
+
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li {
+    background: #0078b9;
+}
+
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.3);
+}
+
+body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #0078b9;
+       -moz-box-shadow: inset 5px 0 0 #0078b9;
+            box-shadow: inset 5px 0 0 #0078b9;
+}
+
+body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li:active {
+    background: #0078b9;
+}
+
+.blue-theme-2 #page-footer .block .header .title h2:before {
+    color: #0078b9;
+}
+
+.blue-theme-2 #page-footer2 {
+    background-color: #0078b9;
+}
+
+/*rein colors*/
+.blue-theme-2 .ui-state-default,
+.blue-theme-2 .ui-widget-header,
+.blue-theme-2 .ui-widget-header .ui-state-default,
+.blue-theme-2 .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blue-theme-2 .ui-state-default:hover,
+.blue-theme-2 .ui-state-default:focus {
+    background: #0078b9;
+}
+
+.blue-theme-2 .ui-accordion .ui-accordion-header-active {
+    background: #0078b9;
+}
+
+.blue-theme-2 .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blue-theme-2 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #0078b9;
+}
+
+.blue-theme-2 .sortableCols li,
+.blue-theme-2 .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blue-theme-2 .sortableCols li:hover,
+.blue-theme-2 .do-multi-drop .ui-state-default:hover {
+    background: #0078b9;
+}
+
+.blue-theme-2 .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blue-theme-2 .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.blue-theme-3 a,
+.blue-theme-3 a:link,
+.blue-theme-3 a:visited,
+.blue-theme-3 .theme .moodle-actionmenu a {
+    color: #00274c;
+}
+
+.blue-theme-3 a:hover,
+.blue-theme-3 a:focus {
+    color: #333;
+}
+
+.blue-theme-3 a:active {
+    color: #111;
+}
+
+.blue-theme-3 ::selection {
+    background: #00274c;
+}
+
+.blue-theme-3 ::-moz-selection {
+    background: #00274c;
+}
+
+.blue-theme-3 button,
+.blue-theme-3 input.form-submit,
+.blue-theme-3 input[type="button"],
+.blue-theme-3 input[type="submit"],
+.blue-theme-3 input[type="reset"],
+.blue-theme-3 input.form-submit,
+.blue-theme-3 input#id_submitbutton,
+.blue-theme-3 input#id_submitbutton2,
+.blue-theme-3 .path-admin .buttons input[type="submit"],
+.blue-theme-3 td.submit input,
+.blue-theme-3 a.btn,
+.blue-theme-3 .btn-theme,
+.blue-theme-3 .theme .deepsight_filter_generator {
+    background: #00274c;
+}
+
+.blue-theme-3 button:hover,
+.blue-theme-3 button:focus,
+.blue-theme-3 input.form-submit:hover,
+.blue-theme-3 input[type="button"]:hover,
+.blue-theme-3 input[type="submit"]:hover,
+.blue-theme-3 input[type="reset"]:hover,
+.blue-theme-3 input.form-submit:focus,
+.blue-theme-3 input[type="button"]:focus,
+.blue-theme-3 input[type="submit"]:focus,
+.blue-theme-3 input[type="reset"]:focus,
+.blue-theme-3 input#id_submitbutton:hover,
+.blue-theme-3 input#id_submitbutton2:hover,
+.blue-theme-3 .path-admin .buttons input[type="submit"]:hover,
+.blue-theme-3 td.submit input:hover,
+.blue-theme-3 input#id_submitbutton:focus,
+.blue-theme-3 input#id_submitbutton2:focus,
+.blue-theme-3 .path-admin .buttons input[type="submit"]:focus,
+.blue-theme-3 td.submit input:focus,
+.blue-theme-3 a.btn:hover,
+.blue-theme-3 a.btn:focus,
+.blue-theme-3 .btn-theme:hover,
+.blue-theme-3 .btn-theme:focus,
+.blue-theme-3 .theme .deepsight_filter_generator:hover,
+.blue-theme-3 .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.blue-theme-3 button:active,
+.blue-theme-3 input.form-submit:active,
+.blue-theme-3 input[type="button"]:active,
+.blue-theme-3 input[type="submit"]:active,
+.blue-theme-3 input[type="reset"]:active,
+.blue-theme-3 input.form-submit:active,
+.blue-theme-3 input#id_submitbutton:active,
+.blue-theme-3 input#id_submitbutton2:active,
+.blue-theme-3 .path-admin .buttons input[type="submit"]:active,
+.blue-theme-3 td.submit input:active,
+.blue-theme-3 a.btn:active,
+.blue-theme-3 .btn-theme:active,
+.blue-theme-3 .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.blue-theme-3 #top-header-wrap {
+    background: #00274c;
+}
+
+.blue-theme-3 .navbar .nav>li>a::after {
+    background: #00274c;
+}
+
+.blue-theme-3 .navbar .nav>li>a:hover,
+.blue-theme-3 .navbar .nav>li>a:focus {
+    color: #00274c;
+}
+
+.blue-theme-3 .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blue-theme-3 .navbar .nav li.dropdown>a:hover .caret,
+.blue-theme-3 .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #00274c;
+    border-bottom-color: #00274c;
+}
+
+.blue-theme-3 .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blue-theme-3 .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blue-theme-3 .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #00274c;
+}
+
+.blue-theme-3 .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blue-theme-3 .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blue-theme-3 .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #00274c;
+    border-bottom-color: #00274c;
+}
+
+.blue-theme-3 .dropdown-menu {
+    background: #00274c;
+}
+
+.blue-theme-3.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #00274c;
+}
+
+.blue-theme-3.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blue-theme-3.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.3);
+}
+
+.blue-theme-3.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blue-theme-3.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blue-theme-3.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.blue-theme-3 #banner-title a .fa {
+    color: #00274c;
+}
+
+.blue-theme-3 #banner-title a:hover,
+.blue-theme-3 #banner-title a:focus {
+    color: #00274c;
+}
+
+.blue-theme-3 #action-blocks .block a h2 {
+    color: #333;
+}
+
+.blue-theme-3 #action-blocks .block a h2:after {
+    background-color: #00274c;
+}
+
+.blue-theme-3 #action-blocks a.action:hover button,
+.blue-theme-3 #action-blocks a.action:active button,
+.blue-theme-3 #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.blue-theme-3 #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.blue-theme-3 #action-blocks a.action:hover button .fa,
+.blue-theme-3 #action-blocks a.action:active button .fa,
+.blue-theme-3 #action-blocks a.action:focus button .fa {
+    color: #00274c;
+}
+
+.blue-theme-3 .hi-icon-effect-1 .hi-icon {
+    background: #00274c;
+}
+
+.blue-theme-3 .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.blue-theme-3 a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme-3 a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blue-theme-3 a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blue-theme-3 .block .header .title h2 {
+    background: #00274c;
+}
+
+.blue-theme-3 .course_category_tree .category {
+    background-color: #00274c;
+    border-left: 5px solid #00274c;
+}
+
+.blue-theme-3 .course_category_tree .category.collapsed .categoryname a {
+    color: #00274c;
+}
+
+.blue-theme-3 .course_category_tree .category:hover .categoryname a,
+.blue-theme-3 .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blue-theme-3 .course_category_tree .category:hover,
+.blue-theme-3 .course_category_tree .category:focus {
+    background-color: #00274c;
+}
+
+.blue-theme-3 .course_category_tree .category .category .info > .categoryname a {
+    color: #00274c;
+}
+
+.blue-theme-3 .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #00274c;
+}
+
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li {
+    background: #00274c;
+}
+
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.4);
+}
+
+body.altitude-settings-onetopictabs.blue-theme-3 .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.5);
+}
+
+body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #00274c;
+       -moz-box-shadow: inset 5px 0 0 #00274c;
+            box-shadow: inset 5px 0 0 #00274c;
+}
+
+body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li:active {
+    background: #00274c;
+}
+
+.blue-theme-3 #page-footer .block .header .title h2:before {
+    color: #00274c;
+}
+
+.blue-theme-3 #page-footer2 {
+    background-color: #00274c;
+}
+
+/*rein colors*/
+.blue-theme-3 .ui-state-default,
+.blue-theme-3 .ui-widget-header,
+.blue-theme-3 .ui-widget-header .ui-state-default,
+.blue-theme-3 .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blue-theme-3 .ui-state-default:hover,
+.blue-theme-3 .ui-state-default:focus {
+    background: #00274c;
+}
+
+.blue-theme-3 .ui-accordion .ui-accordion-header-active {
+    background: #00274c;
+}
+
+.blue-theme-3 .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blue-theme-3 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00274c;
+}
+
+.blue-theme-3 .sortableCols li,
+.blue-theme-3 .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blue-theme-3 .sortableCols li:hover,
+.blue-theme-3 .do-multi-drop .ui-state-default:hover {
+    background: #00274c;
+}
+
+.blue-theme-3 .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blue-theme-3 .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.green-theme a,
+.green-theme a:link,
+.green-theme a:visited,
+.green-theme .theme .moodle-actionmenu a {
+    color: #00674b;
+}
+
+.green-theme a:hover,
+.green-theme a:focus {
+    color: #333;
+}
+
+.green-theme a:active {
+    color: #111;
+}
+
+.green-theme ::selection {
+    background: #00674b;
+}
+
+.green-theme ::-moz-selection {
+    background: #00674b;
+}
+
+.green-theme button,
+.green-theme input.form-submit,
+.green-theme input[type="button"],
+.green-theme input[type="submit"],
+.green-theme input[type="reset"],
+.green-theme input.form-submit,
+.green-theme input#id_submitbutton,
+.green-theme input#id_submitbutton2,
+.green-theme .path-admin .buttons input[type="submit"],
+.green-theme td.submit input,
+.green-theme a.btn,
+.green-theme .btn-theme,
+.green-theme .theme .deepsight_filter_generator {
+    background: #00674b;
+}
+
+.green-theme button:hover,
+.green-theme button:focus,
+.green-theme input.form-submit:hover,
+.green-theme input[type="button"]:hover,
+.green-theme input[type="submit"]:hover,
+.green-theme input[type="reset"]:hover,
+.green-theme input.form-submit:focus,
+.green-theme input[type="button"]:focus,
+.green-theme input[type="submit"]:focus,
+.green-theme input[type="reset"]:focus,
+.green-theme input#id_submitbutton:hover,
+.green-theme input#id_submitbutton2:hover,
+.green-theme .path-admin .buttons input[type="submit"]:hover,
+.green-theme td.submit input:hover,
+.green-theme input#id_submitbutton:focus,
+.green-theme input#id_submitbutton2:focus,
+.green-theme .path-admin .buttons input[type="submit"]:focus,
+.green-theme td.submit input:focus,
+.green-theme a.btn:hover,
+.green-theme a.btn:focus,
+.green-theme .btn-theme:hover,
+.green-theme .btn-theme:focus,
+.green-theme .theme .deepsight_filter_generator:hover,
+.green-theme .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.green-theme button:active,
+.green-theme input.form-submit:active,
+.green-theme input[type="button"]:active,
+.green-theme input[type="submit"]:active,
+.green-theme input[type="reset"]:active,
+.green-theme input.form-submit:active,
+.green-theme input#id_submitbutton:active,
+.green-theme input#id_submitbutton2:active,
+.green-theme .path-admin .buttons input[type="submit"]:active,
+.green-theme td.submit input:active,
+.green-theme a.btn:active,
+.green-theme .btn-theme:active,
+.green-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.green-theme #top-header-wrap {
+    background: #00674b;
+}
+
+.green-theme .navbar .nav>li>a::after {
+    background: #00674b;
+}
+
+.green-theme .navbar .nav>li>a:hover,
+.green-theme .navbar .nav>li>a:focus {
+    color: #00674b;
+}
+
+.green-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.green-theme .navbar .nav li.dropdown>a:hover .caret,
+.green-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #00674b;
+    border-bottom-color: #00674b;
+}
+
+.green-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.green-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.green-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #00674b;
+}
+
+.green-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.green-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.green-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #00674b;
+    border-bottom-color: #00674b;
+}
+
+.green-theme .dropdown-menu {
+    background: #00674b;
+}
+
+.green-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #00674b;
+}
+
+.green-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.green-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.green-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.green-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.green-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.green-theme #banner-title a .fa {
+    color: #00674b;
+}
+
+.green-theme #banner-title a:hover,
+.green-theme #banner-title a:focus {
+    color: #00674b;
+}
+
+.green-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.green-theme #action-blocks .block a h2:after {
+    background-color: #00674b;
+}
+
+.green-theme #action-blocks a.action:hover button,
+.green-theme #action-blocks a.action:active button,
+.green-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.green-theme #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.green-theme #action-blocks a.action:hover button .fa,
+.green-theme #action-blocks a.action:active button .fa,
+.green-theme #action-blocks a.action:focus button .fa {
+    color: #00674b;
+}
+
+.green-theme .hi-icon-effect-1 .hi-icon {
+    background: #00674b;
+}
+
+.green-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.green-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.green-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.green-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.green-theme .block .header .title h2 {
+    background: #00674b;
+}
+
+.green-theme .course_category_tree .category {
+    background-color: #00674b;
+    border-left: 5px solid #00674b;
+}
+
+.green-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #00674b;
+}
+
+.green-theme .course_category_tree .category:hover .categoryname a,
+.green-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.green-theme .course_category_tree .category:hover,
+.green-theme .course_category_tree .category:focus {
+    background-color: #00674b;
+}
+
+.green-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #00674b;
+}
+
+.green-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #00674b;
+}
+
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li {
+    background: #00674b;
+}
+
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.4);
+}
+
+body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopicvertical .green-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #00674b;
+       -moz-box-shadow: inset 5px 0 0 #00674b;
+            box-shadow: inset 5px 0 0 #00674b;
+}
+
+body.altitude-settings-onetopicvertical.green-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.green-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.green-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.green-theme .onetopic .nav-tabs li:active {
+    background: #00674b;
+}
+
+.green-theme #page-footer .block .header .title h2:before {
+    color: #00674b;
+}
+
+.green-theme #page-footer2 {
+    background-color: #00674b;
+}
+
+
+/*rein colors*/
+.green-theme .ui-state-default,
+.green-theme .ui-widget-header,
+.green-theme .ui-widget-header .ui-state-default,
+.green-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.green-theme .ui-state-default:hover,
+.green-theme .ui-state-default:focus {
+    background: #00674b;
+}
+
+.green-theme .ui-accordion .ui-accordion-header-active {
+    background: #00674b;
+}
+
+.green-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.green-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00674b;
+}
+
+.green-theme .sortableCols li,
+.green-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.green-theme .sortableCols li:hover,
+.green-theme .do-multi-drop .ui-state-default:hover {
+    background: #00674b;
+}
+
+.green-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.green-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+.green-theme-2 a,
+.green-theme-2 a:link,
+.green-theme-2 a:visited,
+.green-theme-2 .theme .moodle-actionmenu a {
+    color: #169A5A;
+}
+
+.green-theme-2 a:hover,
+.green-theme-2 a:focus {
+    color: #333;
+}
+
+.green-theme-2 a:active {
+    color: #111;
+}
+
+.green-theme-2 ::selection {
+    background: #169A5A;
+}
+
+.green-theme-2 ::-moz-selection {
+    background: #169A5A;
+}
+
+.green-theme-2 button,
+.green-theme-2 input.form-submit,
+.green-theme-2 input[type="button"],
+.green-theme-2 input[type="submit"],
+.green-theme-2 input[type="reset"],
+.green-theme-2 input.form-submit,
+.green-theme-2 input#id_submitbutton,
+.green-theme-2 input#id_submitbutton2,
+.green-theme-2 .path-admin .buttons input[type="submit"],
+.green-theme-2 td.submit input,
+.green-theme-2 a.btn,
+.green-theme-2 .btn-theme,
+.green-theme-2 .theme .deepsight_filter_generator {
+    background: #169A5A;
+}
+
+.green-theme-2 button:hover,
+.green-theme-2 button:focus,
+.green-theme-2 input.form-submit:hover,
+.green-theme-2 input[type="button"]:hover,
+.green-theme-2 input[type="submit"]:hover,
+.green-theme-2 input[type="reset"]:hover,
+.green-theme-2 input.form-submit:focus,
+.green-theme-2 input[type="button"]:focus,
+.green-theme-2 input[type="submit"]:focus,
+.green-theme-2 input[type="reset"]:focus,
+.green-theme-2 input#id_submitbutton:hover,
+.green-theme-2 input#id_submitbutton2:hover,
+.green-theme-2 .path-admin .buttons input[type="submit"]:hover,
+.green-theme-2 td.submit input:hover,
+.green-theme-2 input#id_submitbutton:focus,
+.green-theme-2 input#id_submitbutton2:focus,
+.green-theme-2 .path-admin .buttons input[type="submit"]:focus,
+.green-theme-2 td.submit input:focus,
+.green-theme-2 a.btn:hover,
+.green-theme-2 a.btn:focus,
+.green-theme-2 .btn-theme:hover,
+.green-theme-2 .btn-theme:focus,
+.green-theme-2 .theme .deepsight_filter_generator:hover,
+.green-theme-2 .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.green-theme-2 button:active,
+.green-theme-2 input.form-submit:active,
+.green-theme-2 input[type="button"]:active,
+.green-theme-2 input[type="submit"]:active,
+.green-theme-2 input[type="reset"]:active,
+.green-theme-2 input.form-submit:active,
+.green-theme-2 input#id_submitbutton:active,
+.green-theme-2 input#id_submitbutton2:active,
+.green-theme-2 .path-admin .buttons input[type="submit"]:active,
+.green-theme-2 td.submit input:active,
+.green-theme-2 a.btn:active,
+.green-theme-2 .btn-theme:active,
+.green-theme-2 .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.green-theme-2 #top-header-wrap {
+    background: #169A5A;
+}
+
+.green-theme-2 .navbar .nav>li>a::after {
+    background: #169A5A;
+}
+
+.green-theme-2 .navbar .nav>li>a:hover,
+.green-theme-2 .navbar .nav>li>a:focus {
+    color: #169A5A;
+}
+
+.green-theme-2 .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.green-theme-2 .navbar .nav li.dropdown>a:hover .caret,
+.green-theme-2 .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #169A5A;
+    border-bottom-color: #169A5A;
+}
+
+.green-theme-2 .navbar .nav li.dropdown.open>.dropdown-toggle,
+.green-theme-2 .navbar .nav li.dropdown.active>.dropdown-toggle,
+.green-theme-2 .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #169A5A;
+}
+
+.green-theme-2 .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.green-theme-2 .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.green-theme-2 .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #169A5A;
+    border-bottom-color: #169A5A;
+}
+
+.green-theme-2 .dropdown-menu {
+    background: #169A5A;
+}
+
+.green-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #169A5A;
+}
+
+.green-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.green-theme-2.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.green-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.green-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.green-theme-2.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.green-theme-2 #banner-title a .fa {
+    color: #169A5A;
+}
+
+.green-theme-2 #banner-title a:hover,
+.green-theme-2 #banner-title a:focus {
+    color: #169A5A;
+}
+
+.green-theme-2 #action-blocks .block a h2 {
+    color: #333;
+}
+
+.green-theme-2 #action-blocks .block a h2:after {
+    background-color: #169A5A;
+}
+
+.green-theme-2 #action-blocks a.action:hover button,
+.green-theme-2 #action-blocks a.action:active button,
+.green-theme-2 #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.green-theme-2 #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.green-theme-2 #action-blocks a.action:hover button .fa,
+.green-theme-2 #action-blocks a.action:active button .fa,
+.green-theme-2 #action-blocks a.action:focus button .fa {
+    color: #169A5A;
+}
+
+.green-theme-2 .hi-icon-effect-1 .hi-icon {
+    background: #169A5A;
+}
+
+.green-theme-2 .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.green-theme-2 a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.green-theme-2 a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.green-theme-2 a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.green-theme-2 .block .header .title h2 {
+    background: #169A5A;
+}
+
+.green-theme-2 .course_category_tree .category {
+    background-color: #169A5A;
+    border-left: 5px solid #169A5A;
+}
+
+.green-theme-2 .course_category_tree .category.collapsed .categoryname a {
+    color: #169A5A;
+}
+
+.green-theme-2 .course_category_tree .category:hover .categoryname a,
+.green-theme-2 .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.green-theme-2 .course_category_tree .category:hover,
+.green-theme-2 .course_category_tree .category:focus {
+    background-color: #169A5A;
+}
+
+.green-theme-2 .course_category_tree .category .category .info > .categoryname a {
+    color: #169A5A;
+}
+
+.green-theme-2 .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #169A5A;
+}
+
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li {
+    background: #169A5A;
+}
+
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.3);
+}
+
+body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopicvertical .green-theme-2 .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #169A5A;
+       -moz-box-shadow: inset 5px 0 0 #169A5A;
+            box-shadow: inset 5px 0 0 #169A5A;
+}
+
+body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li:active {
+    background: #169A5A;
+}
+
+.green-theme-2 #page-footer .block .header .title h2:before {
+    color: #169A5A;
+}
+
+.green-theme-2 #page-footer2 {
+    background-color: #169A5A;
+}
+
+
+/*rein colors*/
+.green-theme-2 .ui-state-default,
+.green-theme-2 .ui-widget-header,
+.green-theme-2 .ui-widget-header .ui-state-default,
+.green-theme-2 .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.green-theme-2 .ui-state-default:hover,
+.green-theme-2 .ui-state-default:focus {
+    background: #169A5A;
+}
+
+.green-theme-2 .ui-accordion .ui-accordion-header-active {
+    background: #169A5A;
+}
+
+.green-theme-2 .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.green-theme-2 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #169A5A;
+}
+
+.green-theme-2 .sortableCols li,
+.green-theme-2 .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.green-theme-2 .sortableCols li:hover,
+.green-theme-2 .do-multi-drop .ui-state-default:hover {
+    background: #169A5A;
+}
+
+.green-theme-2 .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.green-theme-2 .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+
+.blackgold-theme a,
+.blackgold-theme a:link,
+.blackgold-theme a:visited,
+.blackgold-theme .theme .moodle-actionmenu a {
+    color: #333;
+    font-weight: bold;
+}
+
+.blackgold-theme a:hover,
+.blackgold-theme a:focus {
+    color: #d2b887;
+}
+
+.blackgold-theme a:active {
+    color: #d2b887;
+}
+
+.blackgold-theme ::selection {
+    background: #333;
+    color: #d2b887;
+}
+
+.blackgold-theme ::-moz-selection {
+    background: #333;
+    color: #d2b887;
+}
+
+.blackgold-theme button,
+.blackgold-theme input.form-submit,
+.blackgold-theme input[type="button"],
+.blackgold-theme input[type="submit"],
+.blackgold-theme input[type="reset"],
+.blackgold-theme input.form-submit,
+.blackgold-theme input#id_submitbutton,
+.blackgold-theme input#id_submitbutton2,
+.blackgold-theme .path-admin .buttons input[type="submit"],
+.blackgold-theme td.submit input,
+.blackgold-theme a.btn,
+.blackgold-theme .btn-theme,
+.blackgold-theme .theme .deepsight_filter_generator {
+    background: #333;
+}
+
+.blackgold-theme button:hover,
+.blackgold-theme button:focus,
+.blackgold-theme input.form-submit:hover,
+.blackgold-theme input[type="button"]:hover,
+.blackgold-theme input[type="submit"]:hover,
+.blackgold-theme input[type="reset"]:hover,
+.blackgold-theme input.form-submit:focus,
+.blackgold-theme input[type="button"]:focus,
+.blackgold-theme input[type="submit"]:focus,
+.blackgold-theme input[type="reset"]:focus,
+.blackgold-theme input#id_submitbutton:hover,
+.blackgold-theme input#id_submitbutton2:hover,
+.blackgold-theme .path-admin .buttons input[type="submit"]:hover,
+.blackgold-theme td.submit input:hover,
+.blackgold-theme input#id_submitbutton:focus,
+.blackgold-theme input#id_submitbutton2:focus,
+.blackgold-theme .path-admin .buttons input[type="submit"]:focus,
+.blackgold-theme td.submit input:focus,
+.blackgold-theme a.btn:hover,
+.blackgold-theme a.btn:focus,
+.blackgold-theme .btn-theme:hover,
+.blackgold-theme .btn-theme:focus,
+.blackgold-theme .theme .deepsight_filter_generator:hover,
+.blackgold-theme .theme .deepsight_filter_generator:focus {
+    background: #d2b887;
+}
+
+.blackgold-theme button:active,
+.blackgold-theme input.form-submit:active,
+.blackgold-theme input[type="button"]:active,
+.blackgold-theme input[type="submit"]:active,
+.blackgold-theme input[type="reset"]:active,
+.blackgold-theme input.form-submit:active,
+.blackgold-theme input#id_submitbutton:active,
+.blackgold-theme input#id_submitbutton2:active,
+.blackgold-theme .path-admin .buttons input[type="submit"]:active,
+.blackgold-theme td.submit input:active,
+.blackgold-theme a.btn:active,
+.blackgold-theme .btn-theme:active,
+.blackgold-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.blackgold-theme #top-header-wrap {
+    background: #333;
+}
+
+.blackgold-theme .navbar .nav>li>a::after {
+    background: #d2b887;
+}
+
+.blackgold-theme .navbar .nav>li>a:hover,
+.blackgold-theme .navbar .nav>li>a:focus {
+    color: #d2b887;
+}
+
+.blackgold-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blackgold-theme .navbar .nav li.dropdown>a:hover .caret,
+.blackgold-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #d2b887;
+    border-bottom-color: #d2b887;
+}
+
+.blackgold-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blackgold-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blackgold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #d2b887;
+}
+
+.blackgold-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blackgold-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blackgold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #d2b887;
+    border-bottom-color: #d2b887;
+}
+
+.blackgold-theme .dropdown-menu {
+    background: #333;
+}
+
+.blackgold-theme .dropdown-menu>li>a:hover,
+.blackgold-theme .dropdown-menu>li>a:focus,
+.blackgold-theme .dropdown-submenu:hover>a,
+.blackgold-theme .dropdown-submenu:focus>a {
+    background: #d2b887;
+}
+
+.blackgold-theme .usermenu .login a,
+.blackgold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #d2b887;
+}
+
+.blackgold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #333;
+}
+
+.blackgold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blackgold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.blackgold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blackgold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blackgold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #d2b887;
+}
+
+.blackgold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #d2b887;
+}
+
+.blackgold-theme #banner-title a .fa {
+    color: #d2b887;
+}
+
+.blackgold-theme #banner-title a:hover,
+.blackgold-theme #banner-title a:focus {
+    color: #d2b887;
+}
+
+.blackgold-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.blackgold-theme #action-blocks .block a h2:after {
+    background-color: #d2b887;
+}
+
+.blackgold-theme #action-blocks a.action:hover button,
+.blackgold-theme #action-blocks a.action:active button,
+.blackgold-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.blackgold-theme #action-blocks .content button .fa {
+    color: #d2b887;
+}
+
+.blackgold-theme #action-blocks a.action:hover button .fa,
+.blackgold-theme #action-blocks a.action:active button .fa,
+.blackgold-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.blackgold-theme .hi-icon-effect-1 .hi-icon {
+    background: #d2b887;
+}
+
+.blackgold-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.blackgold-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blackgold-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blackgold-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blackgold-theme .block .header .title h2 {
+    background: #333;
+}
+
+.blackgold-theme .block .header .title h2:before {
+    color: #d2b887;
+}
+
+.blackgold-theme .course_category_tree .category {
+    background-color: #333;
+    border-left: 5px solid #d2b887;
+}
+
+.blackgold-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #333;
+}
+
+.blackgold-theme .course_category_tree .category:hover .categoryname a,
+.blackgold-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blackgold-theme .course_category_tree .category:hover,
+.blackgold-theme .course_category_tree .category:focus {
+    background-color: #333;
+}
+
+.blackgold-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #333;
+}
+
+.blackgold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #333;
+}
+
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li {
+    background: #333;
+}
+
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: #333;
+    color: #d2b887;
+}
+
+body.altitude-settings-onetopictabs.blackgold-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.1);
+    color: #d2b887;
+}
+
+body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #d2b887;
+       -moz-box-shadow: inset 5px 0 0 #d2b887;
+            box-shadow: inset 5px 0 0 #d2b887;
+}
+
+body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li:active {
+    background: #333;
+}
+
+.blackgold-theme #page-footer .block .header .title h2:before {
+    color: #d2b887;
+}
+
+.blackgold-theme #page-footer2 {
+    background-color: #333;
+}
+
+.blackgold-theme #page-footer2 a {
+    color: #d2b887;
+}
+
+.blackgold-theme #page-footer2 a:hover,
+.blackgold-theme #page-footer2 a:focus,
+.blackgold-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.blackgold-theme .ui-state-default,
+.blackgold-theme .ui-widget-header,
+.blackgold-theme .ui-widget-header .ui-state-default,
+.blackgold-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blackgold-theme .ui-state-default:hover,
+.blackgold-theme .ui-state-default:focus {
+    background: #d2b887;
+}
+
+.blackgold-theme .ui-accordion .ui-accordion-header-active {
+    background: #d2b887;
+}
+
+.blackgold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blackgold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #d2b887;
+}
+
+.blackgold-theme .sortableCols li,
+.blackgold-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blackgold-theme .sortableCols li:hover,
+.blackgold-theme .do-multi-drop .ui-state-default:hover {
+    background: #d2b887;
+}
+
+.blackgold-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blackgold-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+
+.blackyellow-theme a,
+.blackyellow-theme a:link,
+.blackyellow-theme a:visited,
+.blackyellow-theme .theme .moodle-actionmenu a {
+    color: #131313;
+    font-weight: bold;
+}
+
+.blackyellow-theme a:hover,
+.blackyellow-theme a:focus {
+    color: #FFB612;
+}
+
+.blackyellow-theme a:active {
+    color: #FFB612;
+}
+
+.blackyellow-theme ::selection {
+    background: #131313;
+    color: #FFB612;
+}
+
+.blackyellow-theme ::-moz-selection {
+    background: #131313;
+    color: #FFB612;
+}
+
+.blackyellow-theme button,
+.blackyellow-theme input.form-submit,
+.blackyellow-theme input[type="button"],
+.blackyellow-theme input[type="submit"],
+.blackyellow-theme input[type="reset"],
+.blackyellow-theme input.form-submit,
+.blackyellow-theme input#id_submitbutton,
+.blackyellow-theme input#id_submitbutton2,
+.blackyellow-theme .path-admin .buttons input[type="submit"],
+.blackyellow-theme td.submit input,
+.blackyellow-theme a.btn,
+.blackyellow-theme .btn-theme,
+.blackyellow-theme .theme .deepsight_filter_generator {
+    background: #131313;
+}
+
+.blackyellow-theme button:hover,
+.blackyellow-theme button:focus,
+.blackyellow-theme input.form-submit:hover,
+.blackyellow-theme input[type="button"]:hover,
+.blackyellow-theme input[type="submit"]:hover,
+.blackyellow-theme input[type="reset"]:hover,
+.blackyellow-theme input.form-submit:focus,
+.blackyellow-theme input[type="button"]:focus,
+.blackyellow-theme input[type="submit"]:focus,
+.blackyellow-theme input[type="reset"]:focus,
+.blackyellow-theme input#id_submitbutton:hover,
+.blackyellow-theme input#id_submitbutton2:hover,
+.blackyellow-theme .path-admin .buttons input[type="submit"]:hover,
+.blackyellow-theme td.submit input:hover,
+.blackyellow-theme input#id_submitbutton:focus,
+.blackyellow-theme input#id_submitbutton2:focus,
+.blackyellow-theme .path-admin .buttons input[type="submit"]:focus,
+.blackyellow-theme td.submit input:focus,
+.blackyellow-theme a.btn:hover,
+.blackyellow-theme a.btn:focus,
+.blackyellow-theme .btn-theme:hover,
+.blackyellow-theme .btn-theme:focus,
+.blackyellow-theme .theme .deepsight_filter_generator:hover,
+.blackyellow-theme .theme .deepsight_filter_generator:focus {
+    background: #FFB612;
+}
+
+.blackyellow-theme button:active,
+.blackyellow-theme input.form-submit:active,
+.blackyellow-theme input[type="button"]:active,
+.blackyellow-theme input[type="submit"]:active,
+.blackyellow-theme input[type="reset"]:active,
+.blackyellow-theme input.form-submit:active,
+.blackyellow-theme input#id_submitbutton:active,
+.blackyellow-theme input#id_submitbutton2:active,
+.blackyellow-theme .path-admin .buttons input[type="submit"]:active,
+.blackyellow-theme td.submit input:active,
+.blackyellow-theme a.btn:active,
+.blackyellow-theme .btn-theme:active,
+.blackyellow-theme .theme .deepsight_filter_generator:active {
+    background: #131313;
+}
+
+.blackyellow-theme #top-header-wrap {
+    background: #131313;
+}
+
+.blackyellow-theme .navbar .nav>li>a::after {
+    background: #FFB612;
+}
+
+.blackyellow-theme .navbar .nav>li>a:hover,
+.blackyellow-theme .navbar .nav>li>a:focus {
+    color: #131313;
+}
+
+.blackyellow-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blackyellow-theme .navbar .nav li.dropdown>a:hover .caret,
+.blackyellow-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #FFB612;
+    border-bottom-color: #FFB612;
+}
+
+.blackyellow-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blackyellow-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blackyellow-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #FFB612;
+}
+
+.blackyellow-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blackyellow-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blackyellow-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #FFB612;
+    border-bottom-color: #FFB612;
+}
+
+.blackyellow-theme .dropdown-menu>li>a:hover,
+.blackyellow-theme .dropdown-menu>li>a:focus,
+.blackyellow-theme .dropdown-submenu:hover>a,
+.blackyellow-theme .dropdown-submenu:focus>a {
+    background: #FFB612;
+}
+
+.blackyellow-theme .usermenu .login a,
+.blackyellow-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFB612;
+}
+
+.blackyellow-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #131313;
+}
+
+.blackyellow-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blackyellow-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.blackyellow-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blackyellow-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blackyellow-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #FFB612;
+}
+
+.blackyellow-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #FFB612;
+}
+
+.blackyellow-theme #banner-title a .fa {
+    color: #FFB612;
+}
+
+.blackyellow-theme #banner-title a:hover,
+.blackyellow-theme #banner-title a:focus {
+    color: #FFB612;
+}
+
+.blackyellow-theme #action-blocks .block a h2 {
+    color: #131313;
+}
+
+.blackyellow-theme #action-blocks .block a h2:after {
+    background-color: #FFB612;
+}
+
+.blackyellow-theme #action-blocks a.action:hover button,
+.blackyellow-theme #action-blocks a.action:active button,
+.blackyellow-theme #action-blocks a.action:focus button {
+    background: #131313;
+}
+
+.blackyellow-theme #action-blocks .content button .fa {
+    color: #FFB612;
+}
+
+.blackyellow-theme #action-blocks a.action:hover button .fa,
+.blackyellow-theme #action-blocks a.action:active button .fa,
+.blackyellow-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.blackyellow-theme .hi-icon-effect-1 .hi-icon {
+    background: #FFB612;
+}
+
+.blackyellow-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #131313;
+}
+
+.blackyellow-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blackyellow-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blackyellow-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blackyellow-theme .block .header .title h2 {
+    background: #131313;
+}
+
+.blackyellow-theme .block .header .title h2:before {
+    color: #FFB612;
+}
+
+.blackyellow-theme .course_category_tree .category {
+    background-color: #131313;
+    border-left: 5px solid #FFB612;
+}
+
+.blackyellow-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #131313;
+}
+
+.blackyellow-theme .course_category_tree .category:hover .categoryname a,
+.blackyellow-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blackyellow-theme .course_category_tree .category:hover,
+.blackyellow-theme .course_category_tree .category:focus {
+    background-color: #131313;
+}
+
+.blackyellow-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #131313;
+}
+
+.blackyellow-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #131313;
+}
+
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li {
+    background: #131313;
+}
+
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: #131313;
+    color: #FFB612;
+}
+
+body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.1);
+    color: #FFB612;
+}
+
+body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #FFB612;
+       -moz-box-shadow: inset 5px 0 0 #FFB612;
+            box-shadow: inset 5px 0 0 #FFB612;
+}
+
+body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li:active {
+    background: #131313;
+}
+
+.blackyellow-theme #page-footer .block .header .title h2:before {
+    color: #FFB612;
+}
+
+.blackyellow-theme #page-footer2 {
+    background-color: #131313;
+}
+
+.blackyellow-theme #page-footer2 a {
+    color: #FFB612;
+}
+
+.blackyellow-theme #page-footer2 a:hover,
+.blackyellow-theme #page-footer2 a:focus,
+.blackyellow-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.blackyellow-theme .ui-state-default,
+.blackyellow-theme .ui-widget-header,
+.blackyellow-theme .ui-widget-header .ui-state-default,
+.blackyellow-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blackyellow-theme .ui-state-default:hover,
+.blackyellow-theme .ui-state-default:focus {
+    background: #ffb612;
+}
+
+.blackyellow-theme .ui-accordion .ui-accordion-header-active {
+    background: #ffb612;
+}
+
+.blackyellow-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blackyellow-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #ffb612;
+}
+
+.blackyellow-theme .sortableCols li,
+.blackyellow-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blackyellow-theme .sortableCols li:hover,
+.blackyellow-theme .do-multi-drop .ui-state-default:hover {
+    background: #ffb612;
+}
+
+.blackyellow-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blackyellow-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.bluegold-theme a,
+.bluegold-theme a:link,
+.bluegold-theme a:visited,
+.bluegold-theme .theme .moodle-actionmenu a {
+    color: #00274c;
+}
+
+.bluegold-theme a:hover,
+.bluegold-theme a:focus {
+    color: #333;
+}
+
+.bluegold-theme a:active {
+    color: #111;
+}
+
+.bluegold-theme ::selection {
+    background: #00274c;
+    color: #fff;
+}
+
+.bluegold-theme ::-moz-selection {
+    background: #00274c;
+    color: #fff;
+}
+
+.bluegold-theme button,
+.bluegold-theme input.form-submit,
+.bluegold-theme input[type="button"],
+.bluegold-theme input[type="submit"],
+.bluegold-theme input[type="reset"],
+.bluegold-theme input.form-submit,
+.bluegold-theme input#id_submitbutton,
+.bluegold-theme input#id_submitbutton2,
+.bluegold-theme .path-admin .buttons input[type="submit"],
+.bluegold-theme td.submit input,
+.bluegold-theme a.btn,
+.bluegold-theme .btn-theme,
+.bluegold-theme .theme .deepsight_filter_generator {
+    background: #00274c;
+}
+
+.bluegold-theme button:hover,
+.bluegold-theme button:focus,
+.bluegold-theme input.form-submit:hover,
+.bluegold-theme input[type="button"]:hover,
+.bluegold-theme input[type="submit"]:hover,
+.bluegold-theme input[type="reset"]:hover,
+.bluegold-theme input.form-submit:focus,
+.bluegold-theme input[type="button"]:focus,
+.bluegold-theme input[type="submit"]:focus,
+.bluegold-theme input[type="reset"]:focus,
+.bluegold-theme input#id_submitbutton:hover,
+.bluegold-theme input#id_submitbutton2:hover,
+.bluegold-theme .path-admin .buttons input[type="submit"]:hover,
+.bluegold-theme td.submit input:hover,
+.bluegold-theme input#id_submitbutton:focus,
+.bluegold-theme input#id_submitbutton2:focus,
+.bluegold-theme .path-admin .buttons input[type="submit"]:focus,
+.bluegold-theme td.submit input:focus,
+.bluegold-theme a.btn:hover,
+.bluegold-theme a.btn:focus,
+.bluegold-theme .btn-theme:hover,
+.bluegold-theme .btn-theme:focus,
+.bluegold-theme .theme .deepsight_filter_generator:hover,
+.bluegold-theme .theme .deepsight_filter_generator:focus {
+    background: #ffcb05;
+}
+
+.bluegold-theme button:active,
+.bluegold-theme input.form-submit:active,
+.bluegold-theme input[type="button"]:active,
+.bluegold-theme input[type="submit"]:active,
+.bluegold-theme input[type="reset"]:active,
+.bluegold-theme input.form-submit:active,
+.bluegold-theme input#id_submitbutton:active,
+.bluegold-theme input#id_submitbutton2:active,
+.bluegold-theme .path-admin .buttons input[type="submit"]:active,
+.bluegold-theme td.submit input:active,
+.bluegold-theme a.btn:active,
+.bluegold-theme .btn-theme:active,
+.bluegold-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.bluegold-theme #top-header-wrap {
+    background: #00274c;
+}
+
+.bluegold-theme .navbar .nav>li>a::after {
+    background: #ffcb05;
+}
+
+.bluegold-theme .navbar .nav>li>a:hover,
+.bluegold-theme .navbar .nav>li>a:focus {
+    color: #ffcb05;
+}
+
+.bluegold-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.bluegold-theme .navbar .nav li.dropdown>a:hover .caret,
+.bluegold-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #ffcb05;
+    border-bottom-color: #ffcb05;
+}
+
+.bluegold-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.bluegold-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.bluegold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #ffcb05;
+}
+
+.bluegold-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.bluegold-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.bluegold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #ffcb05;
+    border-bottom-color: #ffcb05;
+}
+
+.bluegold-theme .dropdown-menu {
+    background: #00274c;
+}
+
+.bluegold-theme .dropdown-menu>li>a:before {
+    color: #ffcb05;
+}
+
+.bluegold-theme .usermenu .login a,
+.bluegold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #ffcb05;
+}
+
+.bluegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #00274c;
+}
+
+.bluegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.bluegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.bluegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.bluegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.bluegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #ffcb05;
+}
+
+.bluegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #ffcb05;
+}
+
+.bluegold-theme #banner-title a .fa {
+    color: #ffcb05;
+}
+
+.bluegold-theme #banner-title a:hover,
+.bluegold-theme #banner-title a:focus {
+    color: #ffcb05;
+}
+
+.bluegold-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.bluegold-theme #action-blocks .block a h2:after {
+    background-color: #ffcb05;
+}
+
+.bluegold-theme #action-blocks a.action:hover button,
+.bluegold-theme #action-blocks a.action:active button,
+.bluegold-theme #action-blocks a.action:focus button {
+    background: #00274c;
+}
+
+.bluegold-theme #action-blocks .content button .fa {
+    color: #ffcb05;
+}
+
+.bluegold-theme #action-blocks a.action:hover button .fa,
+.bluegold-theme #action-blocks a.action:active button .fa,
+.bluegold-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.bluegold-theme .hi-icon-effect-1 .hi-icon {
+    background: #00274c;
+}
+
+.bluegold-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #ffcb05;
+}
+
+.bluegold-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #ffcb05;
+}
+
+.bluegold-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.bluegold-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.bluegold-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.bluegold-theme .block .header .title h2 {
+    background: #00274c;
+}
+
+.bluegold-theme .block .header .title h2:before {
+    color: #ffcb05;
+}
+
+.bluegold-theme .course_category_tree .category {
+    background-color: #00274c;
+    border-left: 5px solid #ffcb05;
+}
+
+.bluegold-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #00274c;
+}
+
+.bluegold-theme .course_category_tree .category:hover .categoryname a,
+.bluegold-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.bluegold-theme .course_category_tree .category:hover,
+.bluegold-theme .course_category_tree .category:focus {
+    background-color: #00274c;
+}
+
+.bluegold-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #00274c;
+}
+
+.bluegold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #00274c;
+}
+
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li {
+    background: #00274c;
+}
+
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.2);
+    color: #ffcb05;
+}
+
+body.altitude-settings-onetopictabs.bluegold-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.1);
+    color: #ffcb05;
+}
+
+body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #ffcb05;
+       -moz-box-shadow: inset 5px 0 0 #ffcb05;
+            box-shadow: inset 5px 0 0 #ffcb05;
+}
+
+body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li:active {
+    background: #00274c;
+}
+
+.bluegold-theme #page-footer .block .header .title h2 {
+    color: #00274c;
+}
+
+.bluegold-theme #page-footer .block .header .title h2:before {
+    color: #ffcb05;
+}
+
+.bluegold-theme #page-footer2 {
+    background-color: #00274c;
+}
+
+.bluegold-theme #page-footer2 a {
+    color: #ffcb05;
+}
+
+.bluegold-theme #page-footer2 a:hover,
+.bluegold-theme #page-footer2 a:focus,
+.bluegold-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.bluegold-theme .ui-state-default,
+.bluegold-theme .ui-widget-header,
+.bluegold-theme .ui-widget-header .ui-state-default,
+.bluegold-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.bluegold-theme .ui-state-default:hover,
+.bluegold-theme .ui-state-default:focus {
+    background: #ffcb05;
+}
+
+.bluegold-theme .ui-accordion .ui-accordion-header-active {
+    background: #ffcb05;
+}
+
+.bluegold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluegold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #ffcb05;
+}
+
+.bluegold-theme .sortableCols li,
+.bluegold-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.bluegold-theme .sortableCols li:hover,
+.bluegold-theme .do-multi-drop .ui-state-default:hover {
+    background: #ffcb05;
+}
+
+.bluegold-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.bluegold-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.greengold-theme a,
+.greengold-theme a:link,
+.greengold-theme a:visited,
+.greengold-theme .theme .moodle-actionmenu a {
+    color: #154733;
+}
+
+.greengold-theme a:hover,
+.greengold-theme a:focus {
+    color: #333;
+}
+
+.greengold-theme a:active {
+    color: #111;
+}
+
+.greengold-theme ::selection {
+    background: #154733;
+    color: #fff;
+}
+
+.greengold-theme ::-moz-selection {
+    background: #154733;
+    color: #fff;
+}
+
+.greengold-theme button,
+.greengold-theme input.form-submit,
+.greengold-theme input[type="button"],
+.greengold-theme input[type="submit"],
+.greengold-theme input[type="reset"],
+.greengold-theme input.form-submit,
+.greengold-theme input#id_submitbutton,
+.greengold-theme input#id_submitbutton2,
+.greengold-theme .path-admin .buttons input[type="submit"],
+.greengold-theme td.submit input,
+.greengold-theme a.btn,
+.greengold-theme .btn-theme,
+.greengold-theme .theme .deepsight_filter_generator {
+    background: #154733;
+}
+
+.greengold-theme button:hover,
+.greengold-theme button:focus,
+.greengold-theme input.form-submit:hover,
+.greengold-theme input[type="button"]:hover,
+.greengold-theme input[type="submit"]:hover,
+.greengold-theme input[type="reset"]:hover,
+.greengold-theme input.form-submit:focus,
+.greengold-theme input[type="button"]:focus,
+.greengold-theme input[type="submit"]:focus,
+.greengold-theme input[type="reset"]:focus,
+.greengold-theme input#id_submitbutton:hover,
+.greengold-theme input#id_submitbutton2:hover,
+.greengold-theme .path-admin .buttons input[type="submit"]:hover,
+.greengold-theme td.submit input:hover,
+.greengold-theme input#id_submitbutton:focus,
+.greengold-theme input#id_submitbutton2:focus,
+.greengold-theme .path-admin .buttons input[type="submit"]:focus,
+.greengold-theme td.submit input:focus,
+.greengold-theme a.btn:hover,
+.greengold-theme a.btn:focus,
+.greengold-theme .btn-theme:hover,
+.greengold-theme .btn-theme:focus,
+.greengold-theme .theme .deepsight_filter_generator:hover,
+.greengold-theme .theme .deepsight_filter_generator:focus {
+    background: #fee123;
+}
+
+.greengold-theme button:active,
+.greengold-theme input.form-submit:active,
+.greengold-theme input[type="button"]:active,
+.greengold-theme input[type="submit"]:active,
+.greengold-theme input[type="reset"]:active,
+.greengold-theme input.form-submit:active,
+.greengold-theme input#id_submitbutton:active,
+.greengold-theme input#id_submitbutton2:active,
+.greengold-theme .path-admin .buttons input[type="submit"]:active,
+.greengold-theme td.submit input:active,
+.greengold-theme a.btn:active,
+.greengold-theme .btn-theme:active,
+.greengold-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.greengold-theme #top-header-wrap {
+    background: #154733;
+}
+
+.greengold-theme .navbar .nav>li>a::after {
+    background: #fee123;
+}
+
+.greengold-theme .navbar .nav>li>a:hover,
+.greengold-theme .navbar .nav>li>a:focus {
+    color: #fee123;
+}
+
+.greengold-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.greengold-theme .navbar .nav li.dropdown>a:hover .caret,
+.greengold-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #fee123;
+    border-bottom-color: #fee123;
+}
+
+.greengold-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.greengold-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.greengold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #fee123;
+}
+
+.greengold-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.greengold-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.greengold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #fee123;
+    border-bottom-color: #fee123;
+}
+
+.greengold-theme .dropdown-menu {
+    background: #154733;
+}
+
+.greengold-theme .dropdown-menu>li>a:before {
+    color: #fee123;
+}
+
+.greengold-theme .usermenu .login a,
+.greengold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fee123;
+}
+
+.greengold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #154733;
+}
+
+.greengold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.greengold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.greengold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.greengold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.greengold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fee123;
+}
+
+.greengold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #fee123;
+}
+
+.greengold-theme #banner-title a .fa {
+    color: #fee123;
+}
+
+.greengold-theme #banner-title a:hover,
+.greengold-theme #banner-title a:focus {
+    color: #fee123;
+}
+
+.greengold-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.greengold-theme #action-blocks .block a h2:after {
+    background-color: #fee123;
+}
+
+.greengold-theme #action-blocks a.action:hover button,
+.greengold-theme #action-blocks a.action:active button,
+.greengold-theme #action-blocks a.action:focus button {
+    background: #154733;
+}
+
+.greengold-theme #action-blocks .content button .fa {
+    color: #fee123;
+}
+
+.greengold-theme #action-blocks a.action:hover button .fa,
+.greengold-theme #action-blocks a.action:active button .fa,
+.greengold-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.greengold-theme .hi-icon-effect-1 .hi-icon {
+    background: #154733;
+}
+
+.greengold-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #fee123;
+}
+
+.greengold-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fee123;
+}
+
+.greengold-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.greengold-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.greengold-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.greengold-theme .block .header .title h2 {
+    background: #154733;
+}
+
+.greengold-theme .block .header .title h2:before {
+    color: #fee123;
+}
+
+.greengold-theme .course_category_tree .category {
+    background-color: #154733;
+    border-left: 5px solid #fee123;
+}
+
+.greengold-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #154733;
+}
+
+.greengold-theme .course_category_tree .category:hover .categoryname a,
+.greengold-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.greengold-theme .course_category_tree .category:hover,
+.greengold-theme .course_category_tree .category:focus {
+    background-color: #154733;
+}
+
+.greengold-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #154733;
+}
+
+.greengold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #154733;
+}
+
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li {
+    background: #154733;
+}
+
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.1);
+    color: #fee123;
+}
+
+body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.2);
+    color: #fee123;
+}
+
+body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #fee123;
+       -moz-box-shadow: inset 5px 0 0 #fee123;
+            box-shadow: inset 5px 0 0 #fee123;
+}
+
+body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li:active {
+    background: #154733;
+}
+
+.greengold-theme #page-footer .block .header .title h2 {
+    color: #154733;
+}
+
+.greengold-theme #page-footer .block .header .title h2:before {
+    color: #fee123;
+}
+
+.greengold-theme #page-footer2 {
+    background-color: #154733;
+}
+
+.greengold-theme #page-footer2 a {
+    color: #fee123;
+}
+
+.greengold-theme #page-footer2 a:hover,
+.greengold-theme #page-footer2 a:focus,
+.greengold-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.greengold-theme .ui-state-default,
+.greengold-theme .ui-widget-header,
+.greengold-theme .ui-widget-header .ui-state-default,
+.greengold-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.greengold-theme .ui-state-default:hover,
+.greengold-theme .ui-state-default:focus {
+    background: #fee123;
+}
+
+.greengold-theme .ui-accordion .ui-accordion-header-active {
+    background: #fee123;
+}
+
+.greengold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.greengold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #fee123;
+}
+
+.greengold-theme .sortableCols li,
+.greengold-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.greengold-theme .sortableCols li:hover,
+.greengold-theme .do-multi-drop .ui-state-default:hover {
+    background: #fee123;
+}
+
+.greengold-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.greengold-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.bluered-theme a,
+.bluered-theme a:link,
+.bluered-theme a:visited,
+.bluered-theme .theme .moodle-actionmenu a {
+    color: #192f6b;
+}
+
+.bluered-theme a:hover,
+.bluered-theme a:focus {
+    color: #ca001a;
+}
+
+.bluered-theme a:active {
+    color: #333;
+}
+
+.bluered-theme ::selection {
+    background: #192f6b;
+    color: #fff;
+}
+
+.bluered-theme ::-moz-selection {
+    background: #192f6b;
+    color: #fff;
+}
+
+.bluered-theme button,
+.bluered-theme input.form-submit,
+.bluered-theme input[type="button"],
+.bluered-theme input[type="submit"],
+.bluered-theme input[type="reset"],
+.bluered-theme input.form-submit,
+.bluered-theme input#id_submitbutton,
+.bluered-theme input#id_submitbutton2,
+.bluered-theme .path-admin .buttons input[type="submit"],
+.bluered-theme td.submit input,
+.bluered-theme a.btn,
+.bluered-theme .btn-theme,
+.bluered-theme .theme .deepsight_filter_generator {
+    background: #192f6b;
+}
+
+.bluered-theme button:hover,
+.bluered-theme button:focus,
+.bluered-theme input.form-submit:hover,
+.bluered-theme input[type="button"]:hover,
+.bluered-theme input[type="submit"]:hover,
+.bluered-theme input[type="reset"]:hover,
+.bluered-theme input.form-submit:focus,
+.bluered-theme input[type="button"]:focus,
+.bluered-theme input[type="submit"]:focus,
+.bluered-theme input[type="reset"]:focus,
+.bluered-theme input#id_submitbutton:hover,
+.bluered-theme input#id_submitbutton2:hover,
+.bluered-theme .path-admin .buttons input[type="submit"]:hover,
+.bluered-theme td.submit input:hover,
+.bluered-theme input#id_submitbutton:focus,
+.bluered-theme input#id_submitbutton2:focus,
+.bluered-theme .path-admin .buttons input[type="submit"]:focus,
+.bluered-theme td.submit input:focus,
+.bluered-theme a.btn:hover,
+.bluered-theme a.btn:focus,
+.bluered-theme .btn-theme:hover,
+.bluered-theme .btn-theme:focus,
+.bluered-theme .theme .deepsight_filter_generator:hover,
+.bluered-theme .theme .deepsight_filter_generator:focus {
+    background: #ca001a;
+}
+
+.bluered-theme button:active,
+.bluered-theme input.form-submit:active,
+.bluered-theme input[type="button"]:active,
+.bluered-theme input[type="submit"]:active,
+.bluered-theme input[type="reset"]:active,
+.bluered-theme input.form-submit:active,
+.bluered-theme input#id_submitbutton:active,
+.bluered-theme input#id_submitbutton2:active,
+.bluered-theme .path-admin .buttons input[type="submit"]:active,
+.bluered-theme td.submit input:active,
+.bluered-theme a.btn:active,
+.bluered-theme .btn-theme:active,
+.bluered-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.bluered-theme #top-header-wrap {
+    background: #192f6b;
+}
+
+.bluered-theme .navbar .nav>li>a::after {
+    background: #ca001a;
+}
+
+.bluered-theme .navbar .nav>li>a:hover,
+.bluered-theme .navbar .nav>li>a:focus {
+    color: #ca001a;
+}
+
+.bluered-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.bluered-theme .navbar .nav li.dropdown>a:hover .caret,
+.bluered-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #ca001a;
+    border-bottom-color: #ca001a;
+}
+
+.bluered-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.bluered-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.bluered-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #ca001a;
+}
+
+.bluered-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.bluered-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.bluered-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #ca001a;
+    border-bottom-color: #ca001a;
+}
+
+.bluered-theme .dropdown-menu {
+    background: #192f6b;
+}
+
+.bluered-theme .dropdown-menu>li>a:before {
+    color: #ca001a;
+}
+
+.bluered-theme .usermenu .login a,
+.bluered-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.bluered-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:hover,
+.bluered-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:focus {
+    color: #ca001a;
+}
+
+.bluered-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #192f6b;
+}
+
+.bluered-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.bluered-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.bluered-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.bluered-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.bluered-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #ca001a;
+}
+
+.bluered-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #ca001a;
+}
+
+.bluered-theme #banner-title a .fa {
+    color: #ca001a;
+}
+
+.bluered-theme #banner-title a:hover,
+.bluered-theme #banner-title a:focus {
+    color: #ca001a;
+}
+
+.bluered-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.bluered-theme #action-blocks .block a h2:after {
+    background-color: #ca001a;
+}
+
+.bluered-theme #action-blocks a.action:hover button,
+.bluered-theme #action-blocks a.action:active button,
+.bluered-theme #action-blocks a.action:focus button {
+    background: #192f6b;
+}
+
+.bluered-theme #action-blocks .content button .fa {
+    color: #ca001a;
+}
+
+.bluered-theme #action-blocks a.action:hover button .fa,
+.bluered-theme #action-blocks a.action:active button .fa,
+.bluered-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.bluered-theme .hi-icon-effect-1 .hi-icon {
+    background: #192f6b;
+}
+
+.bluered-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #ca001a;
+}
+
+.bluered-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.bluered-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.bluered-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.bluered-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.bluered-theme .block .header .title h2 {
+    background: #192f6b;
+}
+
+.bluered-theme .block .header .title h2:before {
+    color: #ca001a;
+}
+
+.bluered-theme .course_category_tree .category {
+    background-color: #192f6b;
+    border-left: 5px solid #ca001a;
+}
+
+.bluered-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #192f6b;
+}
+
+.bluered-theme .course_category_tree .category:hover .categoryname a,
+.bluered-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.bluered-theme .course_category_tree .category:hover,
+.bluered-theme .course_category_tree .category:focus {
+    background-color: #192f6b;
+}
+
+.bluered-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #192f6b;
+}
+
+.bluered-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #192f6b;
+}
+
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li {
+    background: #192f6b;
+}
+
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.1);
+}
+
+body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.3);
+    color: #ca001a;
+}
+
+body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #ca001a;
+       -moz-box-shadow: inset 5px 0 0 #ca001a;
+            box-shadow: inset 5px 0 0 #ca001a;
+}
+
+body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li:active {
+    background: #192f6b;
+}
+
+.bluered-theme #page-footer .block .header .title h2 {
+    color: #192f6b;
+}
+
+.bluered-theme #page-footer .block .header .title h2:before {
+    color: #ca001a;
+}
+
+.bluered-theme #page-footer2 {
+    background-color: #192f6b;
+}
+
+.bluered-theme #page-footer2 a {
+    color: #ca001a;
+}
+
+.bluered-theme #page-footer2 a:hover,
+.bluered-theme #page-footer2 a:focus,
+.bluered-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.bluered-theme .ui-state-default,
+.bluered-theme .ui-widget-header,
+.bluered-theme .ui-widget-header .ui-state-default,
+.bluered-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.bluered-theme .ui-state-default:hover,
+.bluered-theme .ui-state-default:focus {
+    background: #192f6b;
+}
+
+.bluered-theme .ui-accordion .ui-accordion-header-active {
+    background: #192f6b;
+}
+
+.bluered-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluered-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #192f6b;
+}
+
+.bluered-theme .sortableCols li,
+.bluered-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.bluered-theme .sortableCols li:hover,
+.bluered-theme .do-multi-drop .ui-state-default:hover {
+    background: #192f6b;
+}
+
+.bluered-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.bluered-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+.blueorange-theme a,
+.blueorange-theme a:link,
+.blueorange-theme a:visited,
+.blueorange-theme .theme .moodle-actionmenu a {
+    color: #03244d;
+}
+
+.blueorange-theme a:hover,
+.blueorange-theme a:focus {
+    color: #dd550c;
+}
+
+.blueorange-theme a:active {
+    color: #333;
+}
+
+.blueorange-theme ::selection {
+    background: #03244d;
+    color: #fff;
+}
+
+.blueorange-theme ::-moz-selection {
+    background: #03244d;
+    color: #fff;
+}
+
+.blueorange-theme button,
+.blueorange-theme input.form-submit,
+.blueorange-theme input[type="button"],
+.blueorange-theme input[type="submit"],
+.blueorange-theme input[type="reset"],
+.blueorange-theme input.form-submit,
+.blueorange-theme input#id_submitbutton,
+.blueorange-theme input#id_submitbutton2,
+.blueorange-theme .path-admin .buttons input[type="submit"],
+.blueorange-theme td.submit input,
+.blueorange-theme a.btn,
+.blueorange-theme .btn-theme,
+.blueorange-theme .theme .deepsight_filter_generator {
+    background: #03244d;
+}
+
+.blueorange-theme button:hover,
+.blueorange-theme button:focus,
+.blueorange-theme input.form-submit:hover,
+.blueorange-theme input[type="button"]:hover,
+.blueorange-theme input[type="submit"]:hover,
+.blueorange-theme input[type="reset"]:hover,
+.blueorange-theme input.form-submit:focus,
+.blueorange-theme input[type="button"]:focus,
+.blueorange-theme input[type="submit"]:focus,
+.blueorange-theme input[type="reset"]:focus,
+.blueorange-theme input#id_submitbutton:hover,
+.blueorange-theme input#id_submitbutton2:hover,
+.blueorange-theme .path-admin .buttons input[type="submit"]:hover,
+.blueorange-theme td.submit input:hover,
+.blueorange-theme input#id_submitbutton:focus,
+.blueorange-theme input#id_submitbutton2:focus,
+.blueorange-theme .path-admin .buttons input[type="submit"]:focus,
+.blueorange-theme td.submit input:focus,
+.blueorange-theme a.btn:hover,
+.blueorange-theme a.btn:focus,
+.blueorange-theme .btn-theme:hover,
+.blueorange-theme .btn-theme:focus,
+.blueorange-theme .theme .deepsight_filter_generator:hover,
+.blueorange-theme .theme .deepsight_filter_generator:focus {
+    background: #dd550c;
+}
+
+.blueorange-theme button:active,
+.blueorange-theme input.form-submit:active,
+.blueorange-theme input[type="button"]:active,
+.blueorange-theme input[type="submit"]:active,
+.blueorange-theme input[type="reset"]:active,
+.blueorange-theme input.form-submit:active,
+.blueorange-theme input#id_submitbutton:active,
+.blueorange-theme input#id_submitbutton2:active,
+.blueorange-theme .path-admin .buttons input[type="submit"]:active,
+.blueorange-theme td.submit input:active,
+.blueorange-theme a.btn:active,
+.blueorange-theme .btn-theme:active,
+.blueorange-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.blueorange-theme #top-header-wrap {
+    background: #03244d;
+}
+
+.blueorange-theme .navbar .nav>li>a::after {
+    background: #dd550c;
+}
+
+.blueorange-theme .navbar .nav>li>a:hover,
+.blueorange-theme .navbar .nav>li>a:focus {
+    color: #dd550c;
+}
+
+.blueorange-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.blueorange-theme .navbar .nav li.dropdown>a:hover .caret,
+.blueorange-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #dd550c;
+    border-bottom-color: #dd550c;
+}
+
+.blueorange-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.blueorange-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.blueorange-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #dd550c;
+}
+
+.blueorange-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.blueorange-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.blueorange-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #dd550c;
+    border-bottom-color: #dd550c;
+}
+
+.blueorange-theme .dropdown-menu {
+    background: #03244d;
+}
+
+.blueorange-theme .dropdown-menu>li>a:before {
+    color: #dd550c;
+}
+
+.blueorange-theme .usermenu .login a,
+.blueorange-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.blueorange-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:hover,
+.blueorange-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:focus {
+    color: #dd550c;
+}
+
+.blueorange-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #03244d;
+}
+
+.blueorange-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.blueorange-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.blueorange-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.blueorange-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.blueorange-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #dd550c;
+}
+
+.blueorange-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #dd550c;
+}
+
+.blueorange-theme #banner-title a .fa {
+    color: #dd550c;
+}
+
+.blueorange-theme #banner-title a:hover,
+.blueorange-theme #banner-title a:focus {
+    color: #dd550c;
+}
+
+.blueorange-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.blueorange-theme #action-blocks .block a h2:after {
+    background-color: #dd550c;
+}
+
+.blueorange-theme #action-blocks a.action:hover button,
+.blueorange-theme #action-blocks a.action:active button,
+.blueorange-theme #action-blocks a.action:focus button {
+    background: #03244d;
+}
+
+.blueorange-theme #action-blocks .content button .fa {
+    color: #dd550c;
+}
+
+.blueorange-theme #action-blocks a.action:hover button .fa,
+.blueorange-theme #action-blocks a.action:active button .fa,
+.blueorange-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.blueorange-theme .hi-icon-effect-1 .hi-icon {
+    background: #dd550c;
+}
+
+.blueorange-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #03244d;
+}
+
+.blueorange-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blueorange-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.blueorange-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.blueorange-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.blueorange-theme .block .header .title h2 {
+    background: #03244d;
+}
+
+.blueorange-theme .block .header .title h2:before {
+    color: #dd550c;
+}
+
+.blueorange-theme .course_category_tree .category {
+    background-color: #03244d;
+    border-left: 5px solid #dd550c;
+}
+
+.blueorange-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #03244d;
+}
+
+.blueorange-theme .course_category_tree .category:hover .categoryname a,
+.blueorange-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.blueorange-theme .course_category_tree .category:hover,
+.blueorange-theme .course_category_tree .category:focus {
+    background-color: #03244d;
+}
+
+.blueorange-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #03244d;
+}
+
+.blueorange-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #03244d;
+}
+
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li {
+    background: #03244d;
+}
+
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.2);
+    color: #dd550c;
+}
+
+body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #dd550c;
+       -moz-box-shadow: inset 5px 0 0 #dd550c;
+            box-shadow: inset 5px 0 0 #dd550c;
+}
+
+body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li:active {
+    background: #03244d;
+}
+
+.blueorange-theme #page-footer .block .header .title h2 {
+    color: #03244d;
+}
+
+.blueorange-theme #page-footer .block .header .title h2:before {
+    color: #dd550c;
+}
+
+.blueorange-theme #page-footer2 {
+    background-color: #03244d;
+}
+
+.blueorange-theme #page-footer2 a {
+    color: #dd550c;
+}
+
+.blueorange-theme #page-footer2 a:hover,
+.blueorange-theme #page-footer2 a:focus,
+.blueorange-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.blueorange-theme .ui-state-default,
+.blueorange-theme .ui-widget-header,
+.blueorange-theme .ui-widget-header .ui-state-default,
+.blueorange-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.blueorange-theme .ui-state-default:hover,
+.blueorange-theme .ui-state-default:focus {
+    background: #03244d;
+}
+
+.blueorange-theme .ui-accordion .ui-accordion-header-active {
+    background: #03244d;
+}
+
+.blueorange-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blueorange-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #03244d;
+}
+
+.blueorange-theme .sortableCols li,
+.blueorange-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.blueorange-theme .sortableCols li:hover,
+.blueorange-theme .do-multi-drop .ui-state-default:hover {
+    background: #03244d;
+}
+
+.blueorange-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.blueorange-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+
+.bluewhite-theme a,
+.bluewhite-theme a:link,
+.bluewhite-theme a:visited,
+.bluewhite-theme .theme .moodle-actionmenu a {
+    color: #235d86;
+}
+
+.bluewhite-theme a:hover,
+.bluewhite-theme a:focus {
+    color: #56a0d3;
+}
+
+.bluewhite-theme a:active {
+    color: #333;
+}
+
+.bluewhite-theme ::selection {
+    background: #235d86;
+    color: #fff;
+}
+
+.bluewhite-theme ::-moz-selection {
+    background: #235d86;
+    color: #fff;
+}
+
+.bluewhite-theme button,
+.bluewhite-theme input.form-submit,
+.bluewhite-theme input[type="button"],
+.bluewhite-theme input[type="submit"],
+.bluewhite-theme input[type="reset"],
+.bluewhite-theme input.form-submit,
+.bluewhite-theme input#id_submitbutton,
+.bluewhite-theme input#id_submitbutton2,
+.bluewhite-theme .path-admin .buttons input[type="submit"],
+.bluewhite-theme td.submit input,
+.bluewhite-theme a.btn,
+.bluewhite-theme .btn-theme,
+.bluewhite-theme .theme .deepsight_filter_generator {
+    background: #235d86;
+}
+
+.bluewhite-theme button:hover,
+.bluewhite-theme button:focus,
+.bluewhite-theme input.form-submit:hover,
+.bluewhite-theme input[type="button"]:hover,
+.bluewhite-theme input[type="submit"]:hover,
+.bluewhite-theme input[type="reset"]:hover,
+.bluewhite-theme input.form-submit:focus,
+.bluewhite-theme input[type="button"]:focus,
+.bluewhite-theme input[type="submit"]:focus,
+.bluewhite-theme input[type="reset"]:focus,
+.bluewhite-theme input#id_submitbutton:hover,
+.bluewhite-theme input#id_submitbutton2:hover,
+.bluewhite-theme .path-admin .buttons input[type="submit"]:hover,
+.bluewhite-theme td.submit input:hover,
+.bluewhite-theme input#id_submitbutton:focus,
+.bluewhite-theme input#id_submitbutton2:focus,
+.bluewhite-theme .path-admin .buttons input[type="submit"]:focus,
+.bluewhite-theme td.submit input:focus,
+.bluewhite-theme a.btn:hover,
+.bluewhite-theme a.btn:focus,
+.bluewhite-theme .btn-theme:hover,
+.bluewhite-theme .btn-theme:focus,
+.bluewhite-theme .theme .deepsight_filter_generator:hover,
+.bluewhite-theme .theme .deepsight_filter_generator:focus {
+    background: #56a0d3;
+}
+
+.bluewhite-theme button:active,
+.bluewhite-theme input.form-submit:active,
+.bluewhite-theme input[type="button"]:active,
+.bluewhite-theme input[type="submit"]:active,
+.bluewhite-theme input[type="reset"]:active,
+.bluewhite-theme input.form-submit:active,
+.bluewhite-theme input#id_submitbutton:active,
+.bluewhite-theme input#id_submitbutton2:active,
+.bluewhite-theme .path-admin .buttons input[type="submit"]:active,
+.bluewhite-theme td.submit input:active,
+.bluewhite-theme a.btn:active,
+.bluewhite-theme .btn-theme:active,
+.bluewhite-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.bluewhite-theme #top-header-wrap {
+    background: #235d86;
+}
+
+.bluewhite-theme .navbar .nav>li>a::after {
+    background: #56a0d3;
+}
+
+.bluewhite-theme .navbar .nav>li>a:hover,
+.bluewhite-theme .navbar .nav>li>a:focus {
+    color: #56a0d3;
+}
+
+.bluewhite-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.bluewhite-theme .navbar .nav li.dropdown>a:hover .caret,
+.bluewhite-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #56a0d3;
+    border-bottom-color: #56a0d3;
+}
+
+.bluewhite-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.bluewhite-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.bluewhite-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #56a0d3;
+}
+
+.bluewhite-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.bluewhite-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.bluewhite-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #56a0d3;
+    border-bottom-color: #56a0d3;
+}
+
+.bluewhite-theme .dropdown-menu {
+    background: #235d86;
+}
+
+.bluewhite-theme .dropdown-menu>li>a:before {
+    color: #56a0d3;
+}
+
+.bluewhite-theme .usermenu .login a,
+.bluewhite-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.bluewhite-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:hover,
+.bluewhite-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:focus {
+    color: #56a0d3;
+}
+
+.bluewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #235d86;
+}
+
+.bluewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.bluewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(0,0,0,.2);
+}
+
+.bluewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.bluewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.bluewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #56a0d3;
+}
+
+.bluewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #banner-title a .fa {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #banner-title a:hover,
+.bluewhite-theme #banner-title a:focus {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.bluewhite-theme #action-blocks .block a h2:after {
+    background-color: #56a0d3;
+}
+
+.bluewhite-theme #action-blocks a.action:hover button,
+.bluewhite-theme #action-blocks a.action:active button,
+.bluewhite-theme #action-blocks a.action:focus button {
+    background: #235d86;
+}
+
+.bluewhite-theme #action-blocks .content button .fa {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #action-blocks a.action:hover button .fa,
+.bluewhite-theme #action-blocks a.action:active button .fa,
+.bluewhite-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.bluewhite-theme .hi-icon-effect-1 .hi-icon {
+    background: #56a0d3;
+}
+
+.bluewhite-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #235d86;
+}
+
+.bluewhite-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.bluewhite-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.bluewhite-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.bluewhite-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.bluewhite-theme .block .header .title h2 {
+    background: #235d86;
+}
+
+.bluewhite-theme .block .header .title h2:before {
+    color: #56a0d3;
+}
+
+.bluewhite-theme .course_category_tree .category {
+    background-color: #235d86;
+    border-left: 5px solid #56a0d3;
+}
+
+.bluewhite-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #235d86;
+}
+
+.bluewhite-theme .course_category_tree .category:hover .categoryname a,
+.bluewhite-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.bluewhite-theme .course_category_tree .category:hover,
+.bluewhite-theme .course_category_tree .category:focus {
+    background-color: #235d86;
+}
+
+.bluewhite-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #235d86;
+}
+
+.bluewhite-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #235d86;
+}
+
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li {
+    background: #235d86;
+}
+
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: #56a0d3;
+}
+
+body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.4);
+}
+
+body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #56a0d3;
+       -moz-box-shadow: inset 5px 0 0 #56a0d3;
+            box-shadow: inset 5px 0 0 #56a0d3;
+}
+
+body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li:active {
+    background: #235d86;
+}
+
+.bluewhite-theme #page-footer .block .header .title h2 {
+    color: #235d86;
+}
+
+.bluewhite-theme #page-footer .block .header .title h2:before {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #page-footer2 {
+    background-color: #235d86;
+}
+
+.bluewhite-theme #page-footer2 a {
+    color: #56a0d3;
+}
+
+.bluewhite-theme #page-footer2 a:hover,
+.bluewhite-theme #page-footer2 a:focus,
+.bluewhite-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.bluewhite-theme .ui-state-default,
+.bluewhite-theme .ui-widget-header,
+.bluewhite-theme .ui-widget-header .ui-state-default,
+.bluewhite-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.bluewhite-theme .ui-state-default:hover,
+.bluewhite-theme .ui-state-default:focus {
+    background: #235d86;
+}
+
+.bluewhite-theme .ui-accordion .ui-accordion-header-active {
+    background: #235d86;
+}
+
+.bluewhite-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluewhite-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #235d86;
+}
+
+.bluewhite-theme .sortableCols li,
+.bluewhite-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.bluewhite-theme .sortableCols li:hover,
+.bluewhite-theme .do-multi-drop .ui-state-default:hover {
+    background: #235d86;
+}
+
+.bluewhite-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.bluewhite-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+.purplegold-theme a,
+.purplegold-theme a:link,
+.purplegold-theme a:visited,
+.purplegold-theme .theme .moodle-actionmenu a {
+    color: #461d7c;
+}
+
+.purplegold-theme a:hover,
+.purplegold-theme a:focus {
+    color: #333;
+}
+
+.purplegold-theme a:active {
+    color: #111;
+}
+
+.purplegold-theme ::selection {
+    background: #461d7c;
+    color: #fff;
+}
+
+.purplegold-theme ::-moz-selection {
+    background: #461d7c;
+    color: #fff;
+}
+
+.purplegold-theme button,
+.purplegold-theme input.form-submit,
+.purplegold-theme input[type="button"],
+.purplegold-theme input[type="submit"],
+.purplegold-theme input[type="reset"],
+.purplegold-theme input.form-submit,
+.purplegold-theme input#id_submitbutton,
+.purplegold-theme input#id_submitbutton2,
+.purplegold-theme .path-admin .buttons input[type="submit"],
+.purplegold-theme td.submit input,
+.purplegold-theme a.btn,
+.purplegold-theme .btn-theme,
+.purplegold-theme .theme .deepsight_filter_generator {
+    background: #461d7c;
+}
+
+.purplegold-theme button:hover,
+.purplegold-theme button:focus,
+.purplegold-theme input.form-submit:hover,
+.purplegold-theme input[type="button"]:hover,
+.purplegold-theme input[type="submit"]:hover,
+.purplegold-theme input[type="reset"]:hover,
+.purplegold-theme input.form-submit:focus,
+.purplegold-theme input[type="button"]:focus,
+.purplegold-theme input[type="submit"]:focus,
+.purplegold-theme input[type="reset"]:focus,
+.purplegold-theme input#id_submitbutton:hover,
+.purplegold-theme input#id_submitbutton2:hover,
+.purplegold-theme .path-admin .buttons input[type="submit"]:hover,
+.purplegold-theme td.submit input:hover,
+.purplegold-theme input#id_submitbutton:focus,
+.purplegold-theme input#id_submitbutton2:focus,
+.purplegold-theme .path-admin .buttons input[type="submit"]:focus,
+.purplegold-theme td.submit input:focus,
+.purplegold-theme a.btn:hover,
+.purplegold-theme a.btn:focus,
+.purplegold-theme .btn-theme:hover,
+.purplegold-theme .btn-theme:focus,
+.purplegold-theme .theme .deepsight_filter_generator:hover,
+.purplegold-theme .theme .deepsight_filter_generator:focus {
+    background: #fdd023;
+}
+
+.purplegold-theme button:active,
+.purplegold-theme input.form-submit:active,
+.purplegold-theme input[type="button"]:active,
+.purplegold-theme input[type="submit"]:active,
+.purplegold-theme input[type="reset"]:active,
+.purplegold-theme input.form-submit:active,
+.purplegold-theme input#id_submitbutton:active,
+.purplegold-theme input#id_submitbutton2:active,
+.purplegold-theme .path-admin .buttons input[type="submit"]:active,
+.purplegold-theme td.submit input:active,
+.purplegold-theme a.btn:active,
+.purplegold-theme .btn-theme:active,
+.purplegold-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.purplegold-theme #top-header-wrap {
+    background: #461d7c;
+}
+
+.purplegold-theme .navbar .nav>li>a::after {
+    background: #fdd023;
+}
+
+.purplegold-theme .navbar .nav>li>a:hover,
+.purplegold-theme .navbar .nav>li>a:focus {
+    color: #461D7C;
+}
+
+.purplegold-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.purplegold-theme .navbar .nav li.dropdown>a:hover .caret,
+.purplegold-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #fdd023;
+    border-bottom-color: #fdd023;
+}
+
+.purplegold-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.purplegold-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.purplegold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #fdd023;
+}
+
+.purplegold-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.purplegold-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.purplegold-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #fdd023;
+    border-bottom-color: #fdd023;
+}
+
+.purplegold-theme .dropdown-menu {
+    background: #461d7c;
+}
+
+.purplegold-theme .dropdown-menu>li>a:before {
+    color: #fdd023;
+}
+
+.purplegold-theme .usermenu .login a,
+.purplegold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fdd023;
+}
+
+.purplegold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:hover,
+.purplegold-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:focus {
+    color: #fff;
+}
+
+.purplegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #461d7c;
+}
+
+.purplegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.purplegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(0,0,0,.2);
+}
+
+.purplegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.purplegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.purplegold-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fdd023;
+}
+
+.purplegold-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #fdd023;
+}
+
+.purplegold-theme #banner-title a .fa {
+    color: #fdd023;
+}
+
+.purplegold-theme #banner-title a:hover,
+.purplegold-theme #banner-title a:focus {
+    color: #fdd023;
+}
+
+.purplegold-theme #action-blocks .block a h2 {
+    color: #461d7c;
+}
+
+.purplegold-theme #action-blocks .block a h2:after {
+    background-color: #fdd023;
+}
+
+.purplegold-theme #action-blocks a.action:hover button,
+.purplegold-theme #action-blocks a.action:active button,
+.purplegold-theme #action-blocks a.action:focus button {
+    background: #461d7c;
+}
+
+.purplegold-theme #action-blocks .content button .fa {
+    color: #fdd023;
+}
+
+.purplegold-theme #action-blocks a.action:hover button .fa,
+.purplegold-theme #action-blocks a.action:active button .fa,
+.purplegold-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.purplegold-theme .hi-icon-effect-1 .hi-icon {
+    background: #461d7c;
+}
+
+.purplegold-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #fdd023;
+}
+
+.purplegold-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fdd023;
+}
+
+.purplegold-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.purplegold-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.purplegold-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.purplegold-theme .block .header .title h2 {
+    background: #461d7c;
+}
+
+.purplegold-theme .block .header .title h2:before {
+    color: #fdd023;
+}
+
+.purplegold-theme .course_category_tree .category {
+    background-color: #461d7c;
+    border-left: 5px solid #fdd023;
+}
+
+.purplegold-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #461d7c;
+}
+
+.purplegold-theme .course_category_tree .category:hover .categoryname a,
+.purplegold-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.purplegold-theme .course_category_tree .category:hover,
+.purplegold-theme .course_category_tree .category:focus {
+    background-color: #461d7c;
+}
+
+.purplegold-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #461d7c;
+}
+
+.purplegold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #461d7c;
+}
+
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li {
+    background: #461d7c;
+}
+
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.1);
+    color: #fdd023;
+}
+
+body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.4);
+}
+
+body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #fdd023;
+       -moz-box-shadow: inset 5px 0 0 #fdd023;
+            box-shadow: inset 5px 0 0 #fdd023;
+}
+
+body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li:active {
+    background: #461d7c;
+}
+
+.purplegold-theme #page-footer .block .header .title h2 {
+    color: #461d7c;
+}
+
+.purplegold-theme #page-footer .block .header .title h2:before {
+    color: #fdd023;
+}
+
+.purplegold-theme #page-footer2 {
+    background-color: #461d7c;
+}
+
+.purplegold-theme #page-footer2 a {
+    color: #fdd023;
+}
+
+.purplegold-theme #page-footer2 a:hover,
+.purplegold-theme #page-footer2 a:focus,
+.purplegold-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.purplegold-theme .ui-state-default,
+.purplegold-theme .ui-widget-header,
+.purplegold-theme .ui-widget-header .ui-state-default,
+.purplegold-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.purplegold-theme .ui-state-default:hover,
+.purplegold-theme .ui-state-default:focus {
+    background: #461d7c;
+}
+
+.purplegold-theme .ui-accordion .ui-accordion-header-active {
+    background: #461d7c;
+}
+
+.purplegold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.purplegold-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #461d7c;
+}
+
+.purplegold-theme .sortableCols li,
+.purplegold-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.purplegold-theme .sortableCols li:hover,
+.purplegold-theme .do-multi-drop .ui-state-default:hover {
+    background: #461d7c;
+}
+
+.purplegold-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.purplegold-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+#admin-themecolor.form-item.purplewhite-theme .form-description:after {
+    background: linear-gradient(to right, #4d015c 0%, #4d015c 50%, #000000 50%, #fff 50%, #fff 100%);
+}
+
+.purplewhite-theme a,
+.purplewhite-theme a:link,
+.purplewhite-theme a:visited,
+.purplewhite-theme .theme .moodle-actionmenu a {
+    color: #4d015c;
+}
+
+.purplewhite-theme a:hover,
+.purplewhite-theme a:focus {
+    color: #333;
+}
+
+.purplewhite-theme a:active {
+    color: #111;
+}
+
+.purplewhite-theme ::selection {
+    background: #4d015c;
+}
+
+.purplewhite-theme ::-moz-selection {
+    background: #4d015c;
+}
+
+.purplewhite-theme button,
+.purplewhite-theme input.form-submit,
+.purplewhite-theme input[type="button"],
+.purplewhite-theme input[type="submit"],
+.purplewhite-theme input[type="reset"],
+.purplewhite-theme input.form-submit,
+.purplewhite-theme input#id_submitbutton,
+.purplewhite-theme input#id_submitbutton2,
+.purplewhite-theme .path-admin .buttons input[type="submit"],
+.purplewhite-theme td.submit input,
+.purplewhite-theme a.btn,
+.purplewhite-theme .btn-theme,
+.purplewhite-theme .theme .deepsight_filter_generator {
+    background: #4d015c;
+}
+
+.purplewhite-theme button:hover,
+.purplewhite-theme button:focus,
+.purplewhite-theme input.form-submit:hover,
+.purplewhite-theme input[type="button"]:hover,
+.purplewhite-theme input[type="submit"]:hover,
+.purplewhite-theme input[type="reset"]:hover,
+.purplewhite-theme input.form-submit:focus,
+.purplewhite-theme input[type="button"]:focus,
+.purplewhite-theme input[type="submit"]:focus,
+.purplewhite-theme input[type="reset"]:focus,
+.purplewhite-theme input#id_submitbutton:hover,
+.purplewhite-theme input#id_submitbutton2:hover,
+.purplewhite-theme .path-admin .buttons input[type="submit"]:hover,
+.purplewhite-theme td.submit input:hover,
+.purplewhite-theme input#id_submitbutton:focus,
+.purplewhite-theme input#id_submitbutton2:focus,
+.purplewhite-theme .path-admin .buttons input[type="submit"]:focus,
+.purplewhite-theme td.submit input:focus,
+.purplewhite-theme a.btn:hover,
+.purplewhite-theme a.btn:focus,
+.purplewhite-theme .btn-theme:hover,
+.purplewhite-theme .btn-theme:focus,
+.purplewhite-theme .theme .deepsight_filter_generator:hover,
+.purplewhite-theme .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.purplewhite-theme button:active,
+.purplewhite-theme input.form-submit:active,
+.purplewhite-theme input[type="button"]:active,
+.purplewhite-theme input[type="submit"]:active,
+.purplewhite-theme input[type="reset"]:active,
+.purplewhite-theme input.form-submit:active,
+.purplewhite-theme input#id_submitbutton:active,
+.purplewhite-theme input#id_submitbutton2:active,
+.purplewhite-theme .path-admin .buttons input[type="submit"]:active,
+.purplewhite-theme td.submit input:active,
+.purplewhite-theme a.btn:active,
+.purplewhite-theme .btn-theme:active,
+.purplewhite-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.purplewhite-theme #top-header-wrap {
+    background: #4d015c;
+}
+
+.purplewhite-theme .navbar .nav>li>a::after {
+    background: #4d015c;
+}
+
+.purplewhite-theme .navbar .nav>li>a:hover,
+.purplewhite-theme .navbar .nav>li>a:focus {
+    color: #4d015c;
+}
+
+.purplewhite-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.purplewhite-theme .navbar .nav li.dropdown>a:hover .caret,
+.purplewhite-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #4d015c;
+    border-bottom-color: #4d015c;
+}
+
+.purplewhite-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.purplewhite-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.purplewhite-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #4d015c;
+}
+
+.purplewhite-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.purplewhite-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.purplewhite-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #4d015c;
+    border-bottom-color: #4d015c;
+}
+
+.purplewhite-theme .dropdown-menu {
+    background: #4d015c;
+}
+
+.purplewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #4d015c;
+}
+
+.purplewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.purplewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.purplewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.purplewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.purplewhite-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.purplewhite-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #fff;
+}
+
+.purplewhite-theme #banner-title a .fa {
+    color: #4d015c;
+}
+
+.purplewhite-theme #banner-title a:hover,
+.purplewhite-theme #banner-title a:focus {
+    color: #4d015c;
+}
+
+.purplewhite-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.purplewhite-theme #action-blocks .block a h2:after {
+    background-color: #4d015c;
+}
+
+.purplewhite-theme #action-blocks a.action:hover button,
+.purplewhite-theme #action-blocks a.action:active button,
+.purplewhite-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.purplewhite-theme #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.purplewhite-theme #action-blocks a.action:hover button .fa,
+.purplewhite-theme #action-blocks a.action:active button .fa,
+.purplewhite-theme #action-blocks a.action:focus button .fa {
+    color: #4d015c;
+}
+
+.purplewhite-theme .hi-icon-effect-1 .hi-icon {
+    background: #4d015c;
+}
+
+.purplewhite-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.purplewhite-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.purplewhite-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.purplewhite-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.purplewhite-theme .block .header .title h2 {
+    background: #4d015c;
+}
+
+.purplewhite-theme .course_category_tree .category {
+    background-color: #4d015c;
+    border-left: 5px solid #4d015c;
+}
+
+.purplewhite-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #4d015c;
+}
+
+.purplewhite-theme .course_category_tree .category:hover .categoryname a,
+.purplewhite-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.purplewhite-theme .course_category_tree .category:hover,
+.purplewhite-theme .course_category_tree .category:focus {
+    background-color: #4d015c;
+}
+
+.purplewhite-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #4d015c;
+}
+
+.purplewhite-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #4d015c;
+}
+
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li {
+    background: #4d015c;
+}
+
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(255,255,255,.3);
+}
+
+body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(0,0,0,.4);
+}
+
+body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #4d015c;
+       -moz-box-shadow: inset 5px 0 0 #4d015c;
+            box-shadow: inset 5px 0 0 #4d015c;
+}
+
+body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li:active {
+    background: #4d015c;
+}
+
+.purplewhite-theme #page-footer .block .header .title h2:before {
+    color: #4d015c;
+}
+
+.purplewhite-theme #page-footer2 {
+    background-color: #4d015c;
+}
+
+.purplewhite-theme #page-footer2 a {
+    color: #fff;
+    color: rgba(255,255,255,.75);
+}
+
+.purplewhite-theme #page-footer2 a:hover,
+.purplewhite-theme #page-footer2 a:focus,
+.purplewhite-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.purplewhite-theme .ui-state-default,
+.purplewhite-theme .ui-widget-header,
+.purplewhite-theme .ui-widget-header .ui-state-default,
+.purplewhite-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.purplewhite-theme .ui-state-default:hover,
+.purplewhite-theme .ui-state-default:focus {
+    background: #4d015c;
+}
+
+.purplewhite-theme .ui-accordion .ui-accordion-header-active {
+    background: #4d015c;
+}
+
+.purplewhite-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.purplewhite-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #4d015c;
+}
+
+.purplewhite-theme .sortableCols li,
+.purplewhite-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.purplewhite-theme .sortableCols li:hover,
+.purplewhite-theme .do-multi-drop .ui-state-default:hover {
+    background: #4d015c;
+}
+
+.purplewhite-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.purplewhite-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+
+
+.redblack-theme a,
+.redblack-theme a:link,
+.redblack-theme a:visited,
+.redblack-theme .theme .moodle-actionmenu a {
+    color: #333;
+    font-weight: bold;
+}
+
+.redblack-theme a:hover,
+.redblack-theme a:focus {
+    color: #cc0000;
+}
+
+.redblack-theme a:active {
+    color: #cc0000;
+}
+
+.redblack-theme ::selection {
+    background: #333;
+    color: #cc0000;
+}
+
+.redblack-theme ::-moz-selection {
+    background: #333;
+    color: #cc0000;
+}
+
+.redblack-theme button,
+.redblack-theme input.form-submit,
+.redblack-theme input[type="button"],
+.redblack-theme input[type="submit"],
+.redblack-theme input[type="reset"],
+.redblack-theme input.form-submit,
+.redblack-theme input#id_submitbutton,
+.redblack-theme input#id_submitbutton2,
+.redblack-theme .path-admin .buttons input[type="submit"],
+.redblack-theme td.submit input,
+.redblack-theme a.btn,
+.redblack-theme .btn-theme,
+.redblack-theme .theme .deepsight_filter_generator {
+    background: #333;
+}
+
+.redblack-theme button:hover,
+.redblack-theme button:focus,
+.redblack-theme input.form-submit:hover,
+.redblack-theme input[type="button"]:hover,
+.redblack-theme input[type="submit"]:hover,
+.redblack-theme input[type="reset"]:hover,
+.redblack-theme input.form-submit:focus,
+.redblack-theme input[type="button"]:focus,
+.redblack-theme input[type="submit"]:focus,
+.redblack-theme input[type="reset"]:focus,
+.redblack-theme input#id_submitbutton:hover,
+.redblack-theme input#id_submitbutton2:hover,
+.redblack-theme .path-admin .buttons input[type="submit"]:hover,
+.redblack-theme td.submit input:hover,
+.redblack-theme input#id_submitbutton:focus,
+.redblack-theme input#id_submitbutton2:focus,
+.redblack-theme .path-admin .buttons input[type="submit"]:focus,
+.redblack-theme td.submit input:focus,
+.redblack-theme a.btn:hover,
+.redblack-theme a.btn:focus,
+.redblack-theme .btn-theme:hover,
+.redblack-theme .btn-theme:focus,
+.redblack-theme .theme .deepsight_filter_generator:hover,
+.redblack-theme .theme .deepsight_filter_generator:focus {
+    background: #cc0000;
+}
+
+.redblack-theme button:active,
+.redblack-theme input.form-submit:active,
+.redblack-theme input[type="button"]:active,
+.redblack-theme input[type="submit"]:active,
+.redblack-theme input[type="reset"]:active,
+.redblack-theme input.form-submit:active,
+.redblack-theme input#id_submitbutton:active,
+.redblack-theme input#id_submitbutton2:active,
+.redblack-theme .path-admin .buttons input[type="submit"]:active,
+.redblack-theme td.submit input:active,
+.redblack-theme a.btn:active,
+.redblack-theme .btn-theme:active,
+.redblack-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.redblack-theme #top-header-wrap {
+    background: #333;
+}
+
+.redblack-theme .navbar .nav>li>a::after {
+    background: #cc0000;
+}
+
+.redblack-theme .navbar .nav>li>a:hover,
+.redblack-theme .navbar .nav>li>a:focus {
+    color: #cc0000;
+}
+
+.redblack-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.redblack-theme .navbar .nav li.dropdown>a:hover .caret,
+.redblack-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #cc0000;
+    border-bottom-color: #cc0000;
+}
+
+.redblack-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.redblack-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.redblack-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #cc0000;
+}
+
+.redblack-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.redblack-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.redblack-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #cc0000;
+    border-bottom-color: #cc0000;
+}
+
+.redblack-theme .dropdown-menu {
+    background: #cc0000;
+}
+
+.redblack-theme .usermenu .login a,
+.redblack-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.redblack-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #333;
+}
+
+.redblack-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.redblack-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.redblack-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.redblack-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.redblack-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #cc0000;
+}
+
+.redblack-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #cc0000;
+}
+
+.redblack-theme #banner-title a .fa {
+    color: #cc0000;
+}
+
+.redblack-theme #banner-title a:hover,
+.redblack-theme #banner-title a:focus {
+    color: #cc0000;
+}
+
+.redblack-theme #action-blocks .block a h2 {
+    color: #333;
+}
+
+.redblack-theme #action-blocks .block a h2:after {
+    background-color: #cc0000;
+}
+
+.redblack-theme #action-blocks a.action:hover button,
+.redblack-theme #action-blocks a.action:active button,
+.redblack-theme #action-blocks a.action:focus button {
+    background: #333;
+}
+
+.redblack-theme #action-blocks .content button .fa {
+    color: #cc0000;
+}
+
+.redblack-theme #action-blocks a.action:hover button .fa,
+.redblack-theme #action-blocks a.action:active button .fa,
+.redblack-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.redblack-theme .hi-icon-effect-1 .hi-icon {
+    background: #cc0000;
+}
+
+.redblack-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #333;
+}
+
+.redblack-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.redblack-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.redblack-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.redblack-theme .block .header .title h2 {
+    background: #333;
+}
+
+.redblack-theme .block .header .title h2:before {
+    color: #cc0000;
+}
+
+.redblack-theme .course_category_tree .category {
+    background-color: #333;
+    border-left: 5px solid #cc0000;
+}
+
+.redblack-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #333;
+}
+
+.redblack-theme .course_category_tree .category:hover .categoryname a,
+.redblack-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.redblack-theme .course_category_tree .category:hover,
+.redblack-theme .course_category_tree .category:focus {
+    background-color: #333;
+}
+
+.redblack-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #333;
+}
+
+.redblack-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #333;
+}
+
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li {
+    background: #333;
+}
+
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: #131313;
+    color: #cc0000;
+}
+
+body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li:hover a {
+    background: rgba(255,255,255,.2);
+    color: #fff;
+}
+
+body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #cc0000;
+       -moz-box-shadow: inset 5px 0 0 #cc0000;
+            box-shadow: inset 5px 0 0 #cc0000;
+}
+
+body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li:active {
+    background: #333;
+}
+
+.redblack-theme #page-footer .block .header .title h2:before {
+    color: #cc0000;
+}
+
+.redblack-theme #page-footer2 {
+    background-color: #333;
+}
+
+.redblack-theme #page-footer2 a:hover,
+.redblack-theme #page-footer2 a:focus,
+.redblack-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.redblack-theme .ui-state-default,
+.redblack-theme .ui-widget-header,
+.redblack-theme .ui-widget-header .ui-state-default,
+.redblack-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.redblack-theme .ui-state-default:hover,
+.redblack-theme .ui-state-default:focus {
+    background: #cc0000;
+}
+
+.redblack-theme .ui-accordion .ui-accordion-header-active {
+    background: #cc0000;
+}
+
+.redblack-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.redblack-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #cc0000;
+}
+
+.redblack-theme .sortableCols li,
+.redblack-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.redblack-theme .sortableCols li:hover,
+.redblack-theme .do-multi-drop .ui-state-default:hover {
+    background: #cc0000;
+}
+
+.redblack-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.redblack-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+
+
+.maroongray-theme a,
+.maroongray-theme a:link,
+.maroongray-theme a:visited,
+.maroongray-theme .theme .moodle-actionmenu a {
+    color: #500000;
+}
+
+.maroongray-theme a:hover,
+.maroongray-theme a:focus {
+    color: #332c2c;
+}
+
+.maroongray-theme a:active {
+    color: #111;
+}
+
+.maroongray-theme ::selection {
+    background: #500000;
+}
+
+.maroongray-theme ::-moz-selection {
+    background: #500000;
+}
+
+.maroongray-theme button,
+.maroongray-theme input.form-submit,
+.maroongray-theme input[type="button"],
+.maroongray-theme input[type="submit"],
+.maroongray-theme input[type="reset"],
+.maroongray-theme input.form-submit,
+.maroongray-theme input#id_submitbutton,
+.maroongray-theme input#id_submitbutton2,
+.maroongray-theme .path-admin .buttons input[type="submit"],
+.maroongray-theme td.submit input,
+.maroongray-theme a.btn,
+.maroongray-theme .btn-theme,
+.maroongray-theme .theme .deepsight_filter_generator {
+    background: #500000;
+}
+
+.maroongray-theme button:hover,
+.maroongray-theme button:focus,
+.maroongray-theme input.form-submit:hover,
+.maroongray-theme input[type="button"]:hover,
+.maroongray-theme input[type="submit"]:hover,
+.maroongray-theme input[type="reset"]:hover,
+.maroongray-theme input.form-submit:focus,
+.maroongray-theme input[type="button"]:focus,
+.maroongray-theme input[type="submit"]:focus,
+.maroongray-theme input[type="reset"]:focus,
+.maroongray-theme input#id_submitbutton:hover,
+.maroongray-theme input#id_submitbutton2:hover,
+.maroongray-theme .path-admin .buttons input[type="submit"]:hover,
+.maroongray-theme td.submit input:hover,
+.maroongray-theme input#id_submitbutton:focus,
+.maroongray-theme input#id_submitbutton2:focus,
+.maroongray-theme .path-admin .buttons input[type="submit"]:focus,
+.maroongray-theme td.submit input:focus,
+.maroongray-theme a.btn:hover,
+.maroongray-theme a.btn:focus,
+.maroongray-theme .btn-theme:hover,
+.maroongray-theme .btn-theme:focus,
+.maroongray-theme .theme .deepsight_filter_generator:hover,
+.maroongray-theme .theme .deepsight_filter_generator:focus {
+    background: #555;
+}
+
+.maroongray-theme button:active,
+.maroongray-theme input.form-submit:active,
+.maroongray-theme input[type="button"]:active,
+.maroongray-theme input[type="submit"]:active,
+.maroongray-theme input[type="reset"]:active,
+.maroongray-theme input.form-submit:active,
+.maroongray-theme input#id_submitbutton:active,
+.maroongray-theme input#id_submitbutton2:active,
+.maroongray-theme .path-admin .buttons input[type="submit"]:active,
+.maroongray-theme td.submit input:active,
+.maroongray-theme a.btn:active,
+.maroongray-theme .btn-theme:active,
+.maroongray-theme .theme .deepsight_filter_generator:active {
+    background: #332c2c;
+}
+
+.maroongray-theme #top-header-wrap {
+    background: #500000;
+}
+
+.maroongray-theme .navbar .nav>li>a::after {
+    background: #500000;
+}
+
+.maroongray-theme .navbar .nav>li>a:hover,
+.maroongray-theme .navbar .nav>li>a:focus {
+    color: #500000;
+}
+
+.maroongray-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.maroongray-theme .navbar .nav li.dropdown>a:hover .caret,
+.maroongray-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #500000;
+    border-bottom-color: #500000;
+}
+
+.maroongray-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.maroongray-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.maroongray-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #500000;
+}
+
+.maroongray-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.maroongray-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.maroongray-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #500000;
+    border-bottom-color: #500000;
+}
+
+.maroongray-theme .dropdown-menu {
+    background: #500000;
+}
+
+.maroongray-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #500000;
+}
+
+.maroongray-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.maroongray-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: #333;
+}
+
+.maroongray-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.maroongray-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.maroongray-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #fff;
+}
+
+.maroongray-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #fff;
+}
+
+.maroongray-theme #banner-title a .fa {
+    color: #500000;
+}
+
+.maroongray-theme #banner-title a:hover,
+.maroongray-theme #banner-title a:focus {
+    color: #500000;
+}
+
+.maroongray-theme #action-blocks .block a h2 {
+    color: #332c2c;
+}
+
+.maroongray-theme #action-blocks .block a h2:after {
+    background-color: #500000;
+}
+
+.maroongray-theme #action-blocks a.action:hover button,
+.maroongray-theme #action-blocks a.action:active button,
+.maroongray-theme #action-blocks a.action:focus button {
+    background: #332c2c;
+}
+
+.maroongray-theme #action-blocks .content button .fa {
+    color: #fff;
+}
+
+.maroongray-theme #action-blocks a.action:hover button .fa,
+.maroongray-theme #action-blocks a.action:active button .fa,
+.maroongray-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.maroongray-theme .hi-icon-effect-1 .hi-icon {
+    background: #500000;
+}
+
+.maroongray-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #332c2c;
+}
+
+.maroongray-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.maroongray-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.maroongray-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.maroongray-theme .block .header .title h2 {
+    background: #333;
+}
+
+.maroongray-theme .course_category_tree .category {
+    background-color: #333;
+    border-left: 5px solid #500000;
+}
+
+.maroongray-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #333;
+}
+
+.maroongray-theme .course_category_tree .category:hover .categoryname a,
+.maroongray-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.maroongray-theme .course_category_tree .category:hover,
+.maroongray-theme .course_category_tree .category:focus {
+    background-color: #333;
+}
+
+.maroongray-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #333;
+}
+
+.maroongray-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #333;
+}
+
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li {
+    background: #333;
+}
+
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: #500000;
+    color: #fff;
+}
+
+body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li:hover a {
+    background: #500000;
+}
+
+body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #500000;
+       -moz-box-shadow: inset 5px 0 0 #500000;
+            box-shadow: inset 5px 0 0 #500000;
+}
+
+body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li:active {
+    background: #333;
+}
+
+.maroongray-theme #page-footer .block .header .title h2:before {
+    color: #500000;
+}
+
+.maroongray-theme #page-footer2 {
+    background-color: #500000;
+    color: rgba(255,255,255,.5);
+}
+
+.maroongray-theme #page-footer2 a {
+    color: #fff;
+    color: rgba(255,255,255,.85);
+}
+
+.maroongray-theme #page-footer2 a:hover,
+.maroongray-theme #page-footer2 a:focus,
+.maroongray-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.maroongray-theme .ui-state-default,
+.maroongray-theme .ui-widget-header,
+.maroongray-theme .ui-widget-header .ui-state-default,
+.maroongray-theme .ui-widget-content .ui-state-default {
+    background: #332c2c;
+}
+
+.maroongray-theme .ui-state-default:hover,
+.maroongray-theme .ui-state-default:focus {
+    background: #500000;
+}
+
+.maroongray-theme .ui-accordion .ui-accordion-header-active {
+    background: #500000;
+}
+
+.maroongray-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.maroongray-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #500000;
+}
+
+.maroongray-theme .sortableCols li,
+.maroongray-theme .do-multi-drop .ui-state-default {
+    background: #332c2c;
+}
+
+.maroongray-theme .sortableCols li:hover,
+.maroongray-theme .do-multi-drop .ui-state-default:hover {
+    background: #500000;
+}
+
+.maroongray-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #332c2c;
+}
+
+.maroongray-theme .do-stepwise .arrow {
+    border-color: #332c2c transparent transparent transparent;
+}
+
+
+
+
+.training-theme a,
+.training-theme a:link,
+.training-theme a:visited,
+.training-theme .theme .moodle-actionmenu a {
+    color: #03244d;
+}
+
+.training-theme a:hover,
+.training-theme a:focus {
+    color: #dd550c;
+}
+
+.training-theme a:active {
+    color: #dd550c;
+}
+
+.training-theme ::selection {
+    background: #03244d;
+    color: #fff;
+}
+
+.training-theme ::-moz-selection {
+    background: #03244d;
+    color: #fff;
+}
+
+.training-theme h1,
+.training-theme h2,
+.training-theme h3,
+.training-theme h4,
+.training-theme h5,
+.training-theme h6 {
+    color: #03244d;
+}
+
+.training-theme button,
+.training-theme input.form-submit,
+.training-theme input[type="button"],
+.training-theme input[type="submit"],
+.training-theme input[type="reset"],
+.training-theme input.form-submit,
+.training-theme input#id_submitbutton,
+.training-theme input#id_submitbutton2,
+.training-theme .path-admin .buttons input[type="submit"],
+.training-theme td.submit input,
+.training-theme a.btn,
+.training-theme .btn-theme,
+.training-theme .theme .deepsight_filter_generator {
+    background: #03244d;
+}
+
+.training-theme button:hover,
+.training-theme button:focus,
+.training-theme input.form-submit:hover,
+.training-theme input[type="button"]:hover,
+.training-theme input[type="submit"]:hover,
+.training-theme input[type="reset"]:hover,
+.training-theme input.form-submit:focus,
+.training-theme input[type="button"]:focus,
+.training-theme input[type="submit"]:focus,
+.training-theme input[type="reset"]:focus,
+.training-theme input#id_submitbutton:hover,
+.training-theme input#id_submitbutton2:hover,
+.training-theme .path-admin .buttons input[type="submit"]:hover,
+.training-theme td.submit input:hover,
+.training-theme input#id_submitbutton:focus,
+.training-theme input#id_submitbutton2:focus,
+.training-theme .path-admin .buttons input[type="submit"]:focus,
+.training-theme td.submit input:focus,
+.training-theme a.btn:hover,
+.training-theme a.btn:focus,
+.training-theme .btn-theme:hover,
+.training-theme .btn-theme:focus,
+.training-theme .theme .deepsight_filter_generator:hover,
+.training-theme .theme .deepsight_filter_generator:focus {
+    background: #dd550c;
+}
+
+.training-theme button:active,
+.training-theme input.form-submit:active,
+.training-theme input[type="button"]:active,
+.training-theme input[type="submit"]:active,
+.training-theme input[type="reset"]:active,
+.training-theme input.form-submit:active,
+.training-theme input#id_submitbutton:active,
+.training-theme input#id_submitbutton2:active,
+.training-theme .path-admin .buttons input[type="submit"]:active,
+.training-theme td.submit input:active,
+.training-theme a.btn:active,
+.training-theme .btn-theme:active,
+.training-theme .theme .deepsight_filter_generator:active {
+    background: #333;
+}
+
+.training-theme #top-header-wrap {
+    background: #03244d;
+}
+
+.training-theme .navbar .nav>li>a::after {
+    background: #dd550c;
+}
+
+.training-theme .navbar .nav>li>a:hover,
+.training-theme .navbar .nav>li>a:focus {
+    color: #dd550c;
+}
+
+.training-theme .navbar .nav li.dropdown>.dropdown-toggle .caret,
+.training-theme .navbar .nav li.dropdown>a:hover .caret,
+.training-theme .navbar .nav li.dropdown>a:focus .caret {
+    border-top-color: #dd550c;
+    border-bottom-color: #dd550c;
+}
+
+.training-theme .navbar .nav li.dropdown.open>.dropdown-toggle,
+.training-theme .navbar .nav li.dropdown.active>.dropdown-toggle,
+.training-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: #dd550c;
+}
+
+.training-theme .navbar .nav li.dropdown.open>.dropdown-toggle .caret,
+.training-theme .navbar .nav li.dropdown.active>.dropdown-toggle .caret,
+.training-theme .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-top-color: #dd550c;
+    border-bottom-color: #dd550c;
+}
+
+.training-theme .dropdown-menu {
+    background: #03244d;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+                0 3px 1px -2px rgba(0,0,0,.2),
+                0 1px 5px 0 rgba(0,0,0,.12),
+                inset 0 4px 0 #dd550c;
+}
+
+.training-theme .dropdown-menu>li>a:before {
+    color: #dd550c;
+}
+
+.training-theme .usermenu .login a,
+.training-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #fff;
+}
+
+.training-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:hover,
+.training-theme .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext:focus {
+    color: #dd550c;
+}
+
+.training-theme.jsenabled .usermenu .moodle-actionmenu.show .menu {
+    background: #03244d;
+}
+
+.training-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover,
+.training-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:focus {
+    background-color: rgba(255,255,255,.2);
+}
+
+.training-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret,
+.training-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:hover,
+.training-theme.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #dd550c;
+}
+
+.training-theme.jsenabled .usermenu .moodle-actionmenu.show .menu a:before {
+    color: #dd550c;
+}
+
+.training-theme #banner-title a .fa {
+    color: #dd550c;
+}
+
+.training-theme #banner-title a:hover,
+.training-theme #banner-title a:focus {
+    color: #dd550c;
+}
+
+.training-theme #action-blocks .block a h2:after {
+    background-color: #dd550c;
+}
+
+.training-theme #action-blocks a.action:hover button,
+.training-theme #action-blocks a.action:active button,
+.training-theme #action-blocks a.action:focus button {
+    background: #03244d;
+}
+
+.training-theme #action-blocks .content button .fa {
+    color: #dd550c;
+}
+
+.training-theme #action-blocks a.action:hover button .fa,
+.training-theme #action-blocks a.action:active button .fa,
+.training-theme #action-blocks a.action:focus button .fa {
+    color: #fff;
+}
+
+.training-theme .hi-icon-effect-1 .hi-icon {
+    background: #dd550c;
+}
+
+.training-theme .hi-icon-effect-1 .hi-icon:after {
+    box-shadow: 0 0 0 3px #03244d;
+}
+
+.training-theme .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.training-theme a.action:hover .hi-icon-effect-1a .hi-icon .fa,
+.training-theme a.action:focus .hi-icon-effect-1a .hi-icon .fa,
+.training-theme a.action:active .hi-icon-effect-1a .hi-icon .fa {
+    color: #fff;
+}
+
+.training-theme .block .header .title h2 {
+    background: #03244d;
+}
+
+.training-theme .block .header .title h2:before {
+    color: #dd550c;
+}
+
+.training-theme .course_category_tree .category {
+    background-color: #03244d;
+    border-left: 5px solid #dd550c;
+}
+
+.training-theme .course_category_tree .category.collapsed .categoryname a {
+    color: #03244d;
+}
+
+.training-theme .course_category_tree .category:hover .categoryname a,
+.training-theme .course_category_tree .category:focus .categoryname a {
+    color: #fff;
+}
+
+.training-theme .course_category_tree .category:hover,
+.training-theme .course_category_tree .category:focus {
+    background-color: #03244d;
+}
+
+.training-theme .course_category_tree .category .category .info > .categoryname a {
+    color: #03244d;
+}
+
+.training-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
+    color: #03244d;
+}
+
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li {
+    background: #03244d;
+}
+
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li:hover a,
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li.active a,
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li.active:hover a,
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li.active:focus a {
+    background: rgba(0,0,0,.3);
+    color: #dd550c;
+}
+
+body.altitude-settings-onetopictabs.training-theme .onetopic ul.nav-tabs li:hover a {
+    background: #03244d;
+    color: #dd550c;
+}
+
+body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li {
+    -webkit-box-shadow: inset 5px 0 0 #dd550c;
+       -moz-box-shadow: inset 5px 0 0 #dd550c;
+            box-shadow: inset 5px 0 0 #dd550c;
+}
+
+body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li:hover,
+body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li:focus,
+body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li.active,
+body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li:active {
+    background: #03244d;
+}
+
+.training-theme #page-footer .block .header .title h2 {
+    color: #03244d;
+}
+
+.training-theme #page-footer .block .header .title h2:before {
+    color: #dd550c;
+}
+
+.training-theme #page-footer2 {
+    background-color: #03244d;
+}
+
+.training-theme #page-footer2 a {
+    color: #dd550c;
+}
+
+.training-theme #page-footer2 a:hover,
+.training-theme #page-footer2 a:focus,
+.training-theme #page-footer2 a:active {
+    color: #fff;
+}
+
+/*rein colors*/
+.training-theme .ui-state-default,
+.training-theme .ui-widget-header,
+.training-theme .ui-widget-header .ui-state-default,
+.training-theme .ui-widget-content .ui-state-default {
+    background: #333;
+}
+
+.training-theme .ui-state-default:hover,
+.training-theme .ui-state-default:focus {
+    background: #03244d;
+}
+
+.training-theme .ui-accordion .ui-accordion-header-active {
+    background: #03244d;
+}
+
+.training-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.training-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #03244d;
+}
+
+.training-theme .sortableCols li,
+.training-theme .do-multi-drop .ui-state-default {
+    background: #333;
+}
+
+.training-theme .sortableCols li:hover,
+.training-theme .do-multi-drop .ui-state-default:hover {
+    background: #03244d;
+}
+
+.training-theme .do-multi-drop .ui-droppable {
+    border: solid 10px #333;
+}
+
+.training-theme .do-stepwise .arrow {
+    border-color: #333 transparent transparent transparent;
+}
+
+
+.debuggingmessage {
+    display: none;
+}
+
+/* BEGIN custom grid styles - (.custom-theme class needed to override plugin cascade) */
+
+/* Begin Grid Reset */
+/* remove stupid cursor icon from grid plugin */
+.training-theme .course-content .gridicon_link {
+    cursor: inherit;
+}
+
+/* remove default grid padding on li */
+.training-theme #gridiconcontainer ul.gridicons li {
+    padding: 0;
+}
+
+/* remove default grid plugin bg color */
+.training-theme .course-content ul.gridicons li.currentselected {
+    background-color: #fff;
+}
+
+/* remove default grid element styles */
+.training-theme .course-content ul.gridicons li .image_holder,
+.training-theme .course-content ul.gridicons li:hover .image_holder,
+.training-theme .course-content ul.gridicons li:focus .image_holder {
+    border: none;
+    background: transparent;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+}
+
+/* wtf is this for? */
+.training-theme .course-content ul.gridicons li.currentselected {
+    filter: none;
+    -moz-opacity: 1;
+    opacity: 1;
+}`
+
+/* switch box model to border-box for all elements inside grid */
+.training-theme .course-content ul.gridicons * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* remove new activity ribbon from grid elements */
+.training-theme .course-content ul.gridicons img.new_activity {
+    display: none;
+}
+
+/* fix z-index conflict with fixed top nav bar */
+.training-theme div#gridshadebox_overlay {
+    z-index: 9999;
+}
+
+/* fix z-index conflict with fixed top nav bar */
+.training-theme #gridshadebox_content {
+    z-index: 9999;
+}
+
+/* End Grid Reset */
+
+.training-theme .course-content ul.gridicons li {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+       -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding: .5em;
+    margin: 0 1.5em 1.5em 0;
+}
+
+.training-theme .course-content ul.gridicons li:hover,
+.training-theme .course-content ul.gridicons li:focus {
+    cursor: pointer;
+}
+
+.training-theme .course-content ul.gridicons li p.icon_content {
+    background: #03244D;
+    color: #fff;
+    padding: 0.5em;
+    height: auto;
+    font-size: 1em;
+    white-space: normal;
+    font-family: 'Oswald',sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.training-theme .course-content ul.gridicons li .image_holder {
+    width: auto;
+    position: relative;
+}
+
+.training-theme .course-content ul.gridicons li .image_holder:after {
+    content: "Access This Lesson";
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 1.4em;
+    background: rgba(3,36,77,.75);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.training-theme .course-content ul.gridicons li:hover .image_holder:after {
+    top: 50%;
+}
+
+.training-theme .course-content ul.gridicons li img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* grid popup box styles */
+.training-theme #gridshadebox_content {
+    border: none;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    margin-top: -150px; /* helps with placement of grid popup box */
+    padding: 2em;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* END custom grid styles */
