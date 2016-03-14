@@ -237,6 +237,15 @@ body.altitude-settings-onetopicvertical.red-theme .onetopic .nav-tabs li:active 
     background: #ad111e;
 }
 
+body.altitude-settings-gridenhanced.red-theme .course-content ul.gridicons li p.icon_content {
+    background: #ad111e;
+}
+
+body.altitude-settings-gridenhanced.red-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(173,17,30,.75);
+}
+
+
 .red-theme #page-footer .block .header .title h2:before {
     color: #ad111e;
 }
@@ -526,6 +535,14 @@ body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li:focus,
 body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.blue-theme .onetopic .nav-tabs li:active {
     background: #3b5998;
+}
+
+body.altitude-settings-gridenhanced.blue-theme .course-content ul.gridicons li p.icon_content {
+    background: #3b5998;
+}
+
+body.altitude-settings-gridenhanced.blue-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(59,89,152,.75);
 }
 
 .blue-theme #page-footer .block .header .title h2:before {
@@ -824,6 +841,14 @@ body.altitude-settings-onetopicvertical.blue-theme-2 .onetopic .nav-tabs li:acti
     background: #0078b9;
 }
 
+body.altitude-settings-gridenhanced.blue-theme-2 .course-content ul.gridicons li p.icon_content {
+    background: #0078b9;
+}
+
+body.altitude-settings-gridenhanced.blue-theme-2 .course-content ul.gridicons li .image_holder:after {
+    background: rgba(0,120,185,.75);
+}
+
 .blue-theme-2 #page-footer .block .header .title h2:before {
     color: #0078b9;
 }
@@ -1114,6 +1139,14 @@ body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li:focu
 body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.blue-theme-3 .onetopic .nav-tabs li:active {
     background: #00274c;
+}
+
+body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li p.icon_content {
+    background: #00274c;
+}
+
+body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li .image_holder:after {
+    background: rgba(0,39,76,.75);
 }
 
 .blue-theme-3 #page-footer .block .header .title h2:before {
@@ -1408,6 +1441,14 @@ body.altitude-settings-onetopicvertical.green-theme .onetopic .nav-tabs li:activ
     background: #00674b;
 }
 
+body.altitude-settings-gridenhanced.green-theme .course-content ul.gridicons li p.icon_content {
+    background: #00674b;
+}
+
+body.altitude-settings-gridenhanced.green-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(00,103,75,.75);
+}
+
 .green-theme #page-footer .block .header .title h2:before {
     color: #00674b;
 }
@@ -1700,6 +1741,14 @@ body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li:foc
 body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.green-theme-2 .onetopic .nav-tabs li:active {
     background: #169A5A;
+}
+
+body.altitude-settings-gridenhanced.green-theme-2 .course-content ul.gridicons li p.icon_content {
+    background: #169A5A;
+}
+
+body.altitude-settings-gridenhanced.green-theme-2 .course-content ul.gridicons li .image_holder:after {
+    background: rgba(22,154,90,.75);
 }
 
 .green-theme-2 #page-footer .block .header .title h2:before {
@@ -2020,6 +2069,14 @@ body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li:f
 body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.blackgold-theme .onetopic .nav-tabs li:active {
     background: #333;
+}
+
+body.altitude-settings-gridenhanced.blackgold-theme .course-content ul.gridicons li p.icon_content {
+    background: #333;
+}
+
+body.altitude-settings-gridenhanced.blackgold-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(51,51,51,.75);
 }
 
 .blackgold-theme #page-footer .block .header .title h2:before {
@@ -2347,6 +2404,14 @@ body.altitude-settings-onetopicvertical.blackyellow-theme .onetopic .nav-tabs li
     background: #131313;
 }
 
+body.altitude-settings-gridenhanced.blackyellow-theme .course-content ul.gridicons li p.icon_content {
+    background: #131313;
+}
+
+body.altitude-settings-gridenhanced.blackyellow-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(19,19,19,.75);
+}
+
 .blackyellow-theme #page-footer .block .header .title h2:before {
     color: #FFB612;
 }
@@ -2672,6 +2737,14 @@ body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li:fo
 body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.bluegold-theme .onetopic .nav-tabs li:active {
     background: #00274c;
+}
+
+body.altitude-settings-gridenhanced.bluegold-theme .course-content ul.gridicons li p.icon_content {
+    background: #00274c;
+}
+
+body.altitude-settings-gridenhanced.bluegold-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(0,39,76,.75);
 }
 
 .bluegold-theme #page-footer .block .header .title h2 {
@@ -3003,6 +3076,14 @@ body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li:f
 body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.greengold-theme .onetopic .nav-tabs li:active {
     background: #154733;
+}
+
+body.altitude-settings-gridenhanced.greengold-theme .course-content ul.gridicons li p.icon_content {
+    background: #154733;
+}
+
+body.altitude-settings-gridenhanced.greengold-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(21,71,51,.75);
 }
 
 .greengold-theme #page-footer .block .header .title h2 {
@@ -3338,6 +3419,14 @@ body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li:foc
 body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.bluered-theme .onetopic .nav-tabs li:active {
     background: #192f6b;
+}
+
+body.altitude-settings-gridenhanced.bluered-theme .course-content ul.gridicons li p.icon_content {
+    background: #192f6b;
+}
+
+body.altitude-settings-gridenhanced.bluered-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(25,47,107,.75);
 }
 
 .bluered-theme #page-footer .block .header .title h2 {
@@ -3676,6 +3765,14 @@ body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li:
     background: #03244d;
 }
 
+body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicons li p.icon_content {
+    background: #03244D;
+}
+
+body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(3,36,77,.75);
+}
+
 .blueorange-theme #page-footer .block .header .title h2 {
     color: #03244d;
 }
@@ -4010,6 +4107,14 @@ body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li:f
 body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.bluewhite-theme .onetopic .nav-tabs li:active {
     background: #235d86;
+}
+
+body.altitude-settings-gridenhanced.bluewhite-theme .course-content ul.gridicons li p.icon_content {
+    background: #235d86;
+}
+
+body.altitude-settings-gridenhanced.bluewhite-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(35,93,134,.75);
 }
 
 .bluewhite-theme #page-footer .block .header .title h2 {
@@ -4348,6 +4453,14 @@ body.altitude-settings-onetopicvertical.purplegold-theme .onetopic .nav-tabs li:
     background: #461d7c;
 }
 
+body.altitude-settings-gridenhanced.purplegold-theme .course-content ul.gridicons li p.icon_content {
+    background: #461d7c;
+}
+
+body.altitude-settings-gridenhanced.purplegold-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(70,29,124,.75);
+}
+
 .purplegold-theme #page-footer .block .header .title h2 {
     color: #461d7c;
 }
@@ -4660,6 +4773,14 @@ body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li
 body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.purplewhite-theme .onetopic .nav-tabs li:active {
     background: #4d015c;
+}
+
+body.altitude-settings-gridenhanced.purplewhite-theme .course-content ul.gridicons li p.icon_content {
+    background: #4d015c;
+}
+
+body.altitude-settings-gridenhanced.purplewhite-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(77,1,92,.75);
 }
 
 .purplewhite-theme #page-footer .block .header .title h2:before {
@@ -4985,6 +5106,14 @@ body.altitude-settings-onetopicvertical.redblack-theme .onetopic .nav-tabs li:ac
     background: #333;
 }
 
+body.altitude-settings-gridenhanced.redblack-theme .course-content ul.gridicons li p.icon_content {
+    background: #333;
+}
+
+body.altitude-settings-gridenhanced.redblack-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(51,51,51,.75);
+}
+
 .redblack-theme #page-footer .block .header .title h2:before {
     color: #cc0000;
 }
@@ -5286,6 +5415,14 @@ body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li:
 body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li.active,
 body.altitude-settings-onetopicvertical.maroongray-theme .onetopic .nav-tabs li:active {
     background: #333;
+}
+
+body.altitude-settings-gridenhanced.maroongray-theme .course-content ul.gridicons li p.icon_content {
+    background: #333;
+}
+
+body.altitude-settings-gridenhanced.maroongray-theme .course-content ul.gridicons li .image_holder:after {
+    background: rgba(51,51,51,.75);
 }
 
 .maroongray-theme #page-footer .block .header .title h2:before {

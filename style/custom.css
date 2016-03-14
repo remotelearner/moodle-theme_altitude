@@ -1758,6 +1758,144 @@ body.altitude-settings-onetopicvertical.format-onetopic .tab_content {
 }
 /* end onetopic 2.9 fix */
 
+/* BEGIN custom grid styles */
+
+/* Begin Grid Reset */
+/* remove stupid cursor icon from grid plugin */
+body.altitude-settings-gridenhanced .course-content .gridicon_link {
+    cursor: inherit;
+}
+
+/* remove default grid padding on li */
+body.altitude-settings-gridenhanced #gridiconcontainer ul.gridicons li {
+    padding: 0;
+}
+
+/* remove default grid plugin bg color */
+body.altitude-settings-gridenhanced .course-content ul.gridicons li.currentselected {
+    background-color: #fff;
+}
+
+/* remove default grid element styles */
+body.altitude-settings-gridenhanced .course-content ul.gridicons li .image_holder,
+body.altitude-settings-gridenhanced .course-content ul.gridicons li:hover .image_holder,
+body.altitude-settings-gridenhanced .course-content ul.gridicons li:focus .image_holder {
+    border: none;
+    background: transparent;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+}
+
+/* remove filter/opacity settings from current selected grid item. */
+body.altitude-settings-gridenhanced .course-content ul.gridicons li.currentselected {
+    filter: none;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+/* switch box model to border-box for all elements inside grid */
+body.altitude-settings-gridenhanced .course-content ul.gridicons * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* remove new activity ribbon from grid elements */
+body.altitude-settings-gridenhanced .course-content ul.gridicons img.new_activity {
+    display: none;
+}
+
+/* fix z-index conflict with fixed top nav bar */
+body.altitude-settings-gridenhanced div#gridshadebox_overlay {
+    z-index: 9999;
+}
+
+/* fix z-index conflict with fixed top nav bar */
+body.altitude-settings-gridenhanced #gridshadebox_content {
+    z-index: 9999;
+}
+
+/* End Grid Reset */
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+       -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding: .5em;
+    margin: 0 1.5em 1.5em 0;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li:hover,
+body.altitude-settings-gridenhanced .course-content ul.gridicons li:focus {
+    cursor: pointer;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li p.icon_content {
+    background: #00477F;
+    color: #fff;
+    padding: 0.5em;
+    height: auto;
+    font-size: 1em;
+    white-space: normal;
+    font-family: 'Oswald',sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li .image_holder {
+    width: auto;
+    position: relative;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li .image_holder:after {
+    content: "[[language:enhancedgridhovertext]]";
+    color: #fff;
+    background: rgba(0,71,127,.75);
+    text-align: center;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 1.4em;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li:hover .image_holder:after {
+    top: 50%;
+}
+
+body.altitude-settings-gridenhanced .course-content ul.gridicons li img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* grid popup box styles */
+body.altitude-settings-gridenhanced #gridshadebox_content {
+    border: none;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    padding: 2em;
+    -webkit-transform: translateY(-120px);
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* END custom grid styles */
+
 
 .path-course-view .section .summary {
     line-height: inherit;
