@@ -371,6 +371,14 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
 
+        // Grid course format enhanced style setting.
+        $name = 'theme_altitude/gridstyle';
+        $title = get_string('gridstyle', 'theme_altitude');
+        $description = get_string('gridstyledesc', 'theme_altitude');
+        $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
     } else if ($tab == THEME_ALTITUDE_TAB_ADVANCED) {
 
         // Advanced section heading.
