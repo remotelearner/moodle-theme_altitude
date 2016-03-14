@@ -158,6 +158,10 @@ $string['onetopicstylenone'] = 'None';
 $string['onetopicstyleenhanced'] = 'Enhanced Tabs';
 $string['onetopicstylevertical'] = 'Vertical';
 
+$string['gridstyle'] = 'Grid Enhanced Style';
+$string['gridstyledesc'] = 'The enhanced styles adds color settings to the grid course format consistent with the color palette selection made in the design settings area.';
+$string['enhancedgridhovertext'] = 'Access This Lesson';
+
 $string['videobackgroundmp4'] = 'Video Background mp4';
 $string['videobackgroundmp4_desc'] = 'URL to the mp4 file for video background';
 $string['videobackgroundwebm'] = 'Video Background webm';

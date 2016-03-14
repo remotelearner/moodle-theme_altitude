@@ -40,6 +40,14 @@ function theme_altitude_process_css($css, $theme) {
     } else {
         $customcss = null;
     }
+    // Add enhanced grid language string.
+    $tag = '[[language:enhancedgridhovertext]]';
+    $replacement = get_string('enhancedgridhovertext', 'theme_altitude');
+    if (is_null($replacement)) {
+        $replacement = '';
+    }
+    $css = str_replace($tag, $replacement, $css);
+
     $css = theme_altitude_set_customcss($css, $customcss);
 
     return $css;
@@ -138,6 +146,14 @@ function theme_altitude_fetch_bodyclass_settings($settings) {
         $settingsclass = ' altitude-settings-'.$settings->onetopicstyle;
         // Add body class to the bodyclasses.
         $bodyclasses .= $settingsclass;
+    }
+    if (!empty($settings->gridstyle)) {
+        if ($settings->gridstyle == 1) {
+            // Fabricate settings class string.
+            $settingsclass = ' altitude-settings-gridenhanced';
+            // Add body class to the bodyclasses.
+            $bodyclasses .= $settingsclass;
+        }
     }
     // Return classes.
     return $bodyclasses;
