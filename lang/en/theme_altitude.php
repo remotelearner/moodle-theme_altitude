@@ -95,6 +95,9 @@ $string['logo'] = 'Logo';
 $string['logodesc'] = 'Upload your logo file here. Please note that the maximum width should be no more than 300px and the maximum height for your logo should be no more than 150px.<br><br>Remember to add the links you want in the header <a href="'.$CFG->wwwroot.'/admin/settings.php?section=themesettings">here</a>.';
 $string['logoalt'] = 'Logo';
 
+$string['favicon'] = 'Favicon';
+$string['favicondesc'] = 'Upload a custom favicon (.ico) file here. A Favicon is an icon associated with your site that is displayed in a browser\'s address bar/tab or next to the site name in a bookmark list.';
+
 for ($i = 1; $i <= 4; $i++) {
     $string['sliderheading'.$i] = '';
     $string['sliderheading'.$i.'desc'] = '<strong>Banner '.$i.'</strong> (<a class="keytoggle" href="#bannerkeyimage'.$i.'">?</a>) <div class="keyimage closed" id="bannerkeyimage'.$i.'"></div>';

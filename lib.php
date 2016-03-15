@@ -160,6 +160,25 @@ function theme_altitude_fetch_bodyclass_settings($settings) {
 }
 
 /**
+ * Returns the favicon markup.
+ * If a custom favicon is not uploaded in the settings area, the default favicon in the theme is used.
+ *
+ * @param object $settings The theme settings object
+ * @return string String of html that sets the favicon used in the html head.
+ */
+function theme_altitude_fetch_favicon($settings) {
+    global $OUTPUT;
+    $themefiles = theme_altitude_setting_files($settings);
+    if (isset($themefiles['favicon'])) {
+        $faviconhtml = '<link rel="shortcut icon" href="'.$themefiles['favicon'].'" />';
+    } else {
+        $faviconhtml = '<link rel="shortcut icon" href="'.$OUTPUT->favicon().'" />';
+    }
+    // Return favicon html.
+    return $faviconhtml;
+}
+
+/**
  * Returns sidebar toggle button html.
  *
  * @param string $alignment The alignment of the button
