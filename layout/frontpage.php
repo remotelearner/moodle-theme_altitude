@@ -57,7 +57,7 @@ echo $OUTPUT->doctype() ?>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $OUTPUT->page_title(); ?></title>
-    <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
+    <?php echo theme_altitude_fetch_favicon($PAGE->theme->settings); ?>
     <?php echo $OUTPUT->standard_head_html() ?>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
