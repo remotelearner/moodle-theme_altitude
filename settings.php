@@ -105,7 +105,15 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
 
-        // Custom CSS overrides.
+        // Favicon file setting.
+        $name = 'theme_altitude/favicon';
+        $title = get_string('favicon', 'theme_altitude');
+        $description = get_string('favicondesc', 'theme_altitude');
+        $setting = new admin_setting_configstoredfile($name, $title, $description, 'favicon');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Social media icons textarea.
         $name = 'theme_altitude/socialmediaicons';
         $title = get_string('socialmediaicons', 'theme_altitude');
         $description = get_string('socialmediaiconsdesc', 'theme_altitude');
