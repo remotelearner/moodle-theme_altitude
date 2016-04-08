@@ -98,6 +98,11 @@ $string['logoalt'] = 'Logo';
 $string['favicon'] = 'Favicon';
 $string['favicondesc'] = 'Upload a custom favicon (.ico) file here. A Favicon is an icon associated with your site that is displayed in a browser\'s address bar/tab or next to the site name in a bookmark list.';
 
+$string['demomode'] = 'Demo Mode';
+$string['demomodedesc'] = 'Demo mode displays default content on the front page. Turn it off to configure your own content using the front page settings.';
+$string['demomodeon'] = 'On';
+$string['demomodeoff'] = 'Off';
+
 for ($i = 1; $i <= 4; $i++) {
     $string['sliderheading'.$i] = '';
     $string['sliderheading'.$i.'desc'] = '<strong>Banner '.$i.'</strong> (<a class="keytoggle" href="#bannerkeyimage'.$i.'">?</a>) <div class="keyimage closed" id="bannerkeyimage'.$i.'"></div>';
