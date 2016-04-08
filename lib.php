@@ -62,13 +62,24 @@ function theme_altitude_process_css($css, $theme) {
  */
 function theme_altitude_set_customcss($css, $customcss) {
     $tag = '[[setting:overridecss]]';
-    $replacement = $customcss;
+    $replacement = "";
+    // Load custom CSS file contents if it exists.
+    $context = context_system::instance();
+    $fs = get_file_storage();
+    $files = $fs->get_area_files($context->id, 'theme_altitude', 'overridecssfile');
+    foreach ($files as $file) {
+        $file = $fs->get_file($file->get_contextid(), $file->get_component(), $file->get_filearea(),
+            $file->get_itemid(), $file->get_filepath(), $file->get_filename());
+        if ($file) {
+            $replacement .= $file->get_content();
+        }
+    }
+    // Add in custom css entered in text area.
+    $replacement .= $customcss;
     if (is_null($replacement)) {
         $replacement = '';
     }
-
     $css = str_replace($tag, $replacement, $css);
-
     return $css;
 }
 
