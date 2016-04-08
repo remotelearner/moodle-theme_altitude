@@ -221,16 +221,33 @@ function theme_altitude_fetch_sidebar_toggle_button($alignment) {
  * @return string String of HTML to be written to frontpage.php.
  */
 function theme_altitude_fetch_banner($settings) {
+    $themeimages = theme_altitude_setting_files($settings);
     // Declare var for banner html content.
     $bannerhtml = '';
+
+    // Set demo settings if demomode is on.
+    if (!isset($settings->demomode) || $settings->demomode == 'on') {
+        global $OUTPUT;
+        $themeimages['sliderimage1'] = $OUTPUT->pix_url('demo-slide1', 'theme');
+        $settings->sliderheader1 = "Welcome to ALTITUDE";
+        $settings->slidertext1 = "ALTITUDE is a modern Moodle® theme designed by Remote-Learner for Remote-Learner clients.";
+        $settings->sliderbuttonlink1 = "http://www.remote-learner.net/welcome-to-altitude";
+        $settings->sliderbuttonlabel1 = "Learn More";
+
+        $themeimages['sliderimage2'] = $OUTPUT->pix_url('demo-slide2', 'theme');
+        $settings->sliderheader2 = "Welcome to ALTITUDE";
+        $settings->sliderbuttonlink2 = "http://www.remote-learner.net/altitude";
+        $settings->slidertext2 = "ALTITUDE is a modern Moodle® theme designed by Remote-Learner for Remote-Learner clients.";
+        $settings->sliderbuttonlabel2 = "Learn More";
+    }
+
     // Mp4 setting and length.
     $mp4 = '';
-    if (isset($settings->videobackgroundmp4)) {
+    if (isset($settings->videobackgroundmp4) && isset($settings->demomode) && $settings->demomode == 'off') {
         $mp4 = $settings->videobackgroundmp4;
     }
     $mp4length = strlen($mp4);
     // Vid background image.
-    $themeimages = theme_altitude_setting_files($settings);
     if (isset($themeimages['videoimage'])) {
         $videoimage = $themeimages['videoimage'];
     }
@@ -327,6 +344,27 @@ function theme_altitude_fetch_banner($settings) {
 function theme_altitude_fetch_subbanner($settings) {
     $numsections = 0;
     $subbannerhtml = '';
+
+    // Set demo settings if demomode is on.
+    if (!isset($settings->demomode) || $settings->demomode == 'on') {
+        $settings->subsectiontitle1 = "Explore";
+        $settings->subsectionlink1 = "http://www.remote-learner.net/explore-altitude";
+        $settings->subsectionicon1 = "map-o";
+        $settings->subsectiondescription1 = "Explore the features of the ALTITUDE theme.";
+        $settings->subsectionlabel1 = "Click Here";
+
+        $settings->subsectiontitle2 = "Customize";
+        $settings->subsectionlink2 = "http://www.remote-learner.net/configure-altitude";
+        $settings->subsectionicon2 = "map-marker";
+        $settings->subsectiondescription2 = "Learn how to customize the ALTITUDE theme.";
+        $settings->subsectionlabel2 = "Click Here";
+
+        $settings->subsectiontitle3 = "Innovate";
+        $settings->subsectionlink3 = "http://www.remote-learner.net/gallery/";
+        $settings->subsectionicon3 = "map-signs";
+        $settings->subsectiondescription3 = "Find inspiration in the RL themes gallery.";
+        $settings->subsectionlabel3 = "Click Here";
+    }
 
     // Determine the number of sections.
     for ($i = 1; $i <= 3; $i++) {

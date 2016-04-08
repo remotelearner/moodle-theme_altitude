@@ -74,7 +74,7 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/themecolor';
         $title = get_string('themecolor', 'theme_altitude');
         $description = get_string('themecolordesc', 'theme_altitude');
-        $setting = new admin_setting_configselect($name, $title, $description, ' ', array(
+        $setting = new admin_setting_configselect($name, $title, $description, 'blueorange-theme', array(
             ' ' => get_string('themecolor-default', 'theme_altitude'),
             'red-theme' => get_string('themecolor-red', 'theme_altitude'),
             'blue-theme' => get_string('themecolor-blue', 'theme_altitude'),
@@ -117,8 +117,11 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/socialmediaicons';
         $title = get_string('socialmediaicons', 'theme_altitude');
         $description = get_string('socialmediaiconsdesc', 'theme_altitude');
-        $default = "facebook|#facebooklink\n";
-        $default .= "twitter|#twitterlink";
+        $default = "facebook|http://www.facebook.com/pages/Remote-Learner+US+Inc/1607948926102685\n";
+        $default .= "twitter|http://twitter.com/remotelearner\n";
+        $default .= "vimeo|https://vimeo.com/user16783620\n";
+        $default .= "linkedin|http://www.linkedin.com/company/1014793\n";
+        $default .= "rss|http://www.remote-learner.net/feed";
         $setting = new admin_setting_configtextarea($name, $title, $description, $default);
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
@@ -310,6 +313,17 @@ if ($ADMIN->fulltree) {
             $settings->add($setting);
 
         }
+
+        // Front page demo mode.
+        $name = 'theme_altitude/demomode';
+        $title = get_string('demomode', 'theme_altitude');
+        $description = get_string('demomodedesc', 'theme_altitude');
+        $setting = new admin_setting_configselect($name, $title, $description, 'on', array(
+            'on' => get_string('demomodeon', 'theme_altitude'),
+            'off' => get_string('demomodeoff', 'theme_altitude'),
+            ));
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
 
     } else if ($tab == THEME_ALTITUDE_TAB_UI) {
 

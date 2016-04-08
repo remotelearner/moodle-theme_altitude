@@ -26,4 +26,19 @@ jQuery(document).ready(function($) {
             event.preventDefault();
         });
     }
+
+    /* Show/hide front page settings based on demo mode settings. */
+    if ($("#id_s_theme_altitude_demomode").length > 0) {
+        function toggleFrontPageSettings() {
+            var curval = $("#id_s_theme_altitude_demomode").val();
+            if (curval == 'on') {
+                $(".form-item, .formsettingheading").hide();
+                $("#id_s_theme_altitude_demomode").closest(".form-item").show();
+            } else {
+                $(".form-item, .formsettingheading").show();
+            }
+        }
+        toggleFrontPageSettings();
+        $("#id_s_theme_altitude_demomode").change(toggleFrontPageSettings);
+    }
 });
