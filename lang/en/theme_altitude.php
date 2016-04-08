@@ -178,5 +178,8 @@ $string['videoheader_desc'] = 'The text for the header that overlays the video b
 $string['videotext'] = 'Video Paragraph Text';
 $string['videotext_desc'] = 'The text for the description that overlays the video background';
 
+$string['overridecssfile'] = 'Custom CSS File';
+$string['overridecssfiledesc'] = 'Whatever CSS rules you add to a CSS file uploaded here will be reflected in every page, making for easier customization of this theme.';
+
 $string['overridecss'] = 'Custom CSS';
 $string['overridecssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
