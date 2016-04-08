@@ -396,6 +396,14 @@ if ($ADMIN->fulltree) {
         $setting = new admin_setting_heading($name, $title, $description);
         $settings->add($setting);
 
+        // Custom CSS file overrides
+        $name = 'theme_altitude/overridecssfile';
+        $title = get_string('overridecssfile', 'theme_altitude');
+        $description = get_string('overridecssfiledesc', 'theme_altitude');
+        $setting = new admin_setting_configstoredfile($name, $title, $description, 'overridecssfile');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
         // Custom CSS overrides.
         $name = 'theme_altitude/overridecss';
         $title = get_string('overridecss', 'theme_altitude');
