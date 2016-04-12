@@ -35,62 +35,62 @@ $THEME->layouts = array(
     // Standard layout with blocks, this is recommended for most pages with general information.
     'standard' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // Main course page.
     'course' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
         'options' => array('langmenu' => true),
     ),
     'coursecategory' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // part of course, typical for modules - default page layout if $cm specified in require_login()
     'incourse' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // The site home page.
     'frontpage' => array(
         'file' => 'frontpage.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block',  'action-one', 'action-two', 'action-three', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'action-one', 'action-two', 'action-three', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // Server administration scripts.
     'admin' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // My dashboard page.
     'mydashboard' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
         'options' => array('langmenu' => true),
     ),
     // My public page.
     'mypublic' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // The pagelayout used for reports.
     'report' => array(
         'file' => 'columns2.php',
-        'regions' => array('side-pre', 'sidebar-block', 'social-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'sidebar-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
     // Custom login page layout.
     'login' => array(
         'file' => 'login.php',
-        'regions' => array('side-pre', 'social-block', 'login-block', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
+        'regions' => array('side-pre', 'footer-one', 'footer-two', 'footer-three', 'footer-four'),
         'defaultregion' => 'side-pre',
     ),
 );

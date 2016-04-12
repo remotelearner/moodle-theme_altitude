@@ -38,7 +38,6 @@ $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
 
 $string['region-sidebar-block'] = 'sidebar-block';
-$string['region-social-block'] = 'social-block';
 $string['region-action-one'] = 'action-one';
 $string['region-action-two'] = 'action-two';
 $string['region-action-three'] = 'action-three';
