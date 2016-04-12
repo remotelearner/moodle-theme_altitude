@@ -4,6 +4,11 @@ medium blue #00477F
 dark blue #132251
 */
 
+html,
+body {
+    overflow: visible;
+}
+
 body,
 p,
 ul,
