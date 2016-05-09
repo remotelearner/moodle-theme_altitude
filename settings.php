@@ -218,7 +218,7 @@ if ($ADMIN->fulltree) {
         // Video banner source ogg.
         $name = 'theme_altitude/videobackgroundogg';
         $title = get_string('videobackgroundogg', 'theme_altitude');
-        $description = html_writer::empty_tag('hr').get_string('videobackgroundogg_desc', 'theme_altitude');
+        $description = get_string('videobackgroundogg_desc', 'theme_altitude');
         $default = '';
         $setting = new admin_setting_configtext($name, $title, $description, $default);
         $setting->set_updatedcallback('theme_reset_all_caches');
