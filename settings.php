@@ -401,6 +401,14 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
 
+        // Add my courses menu
+        $name = 'theme_altitude/mycourses';
+        $title = get_string('mycourses', 'theme_altitude');
+        $description = get_string('mycoursesdesc', 'theme_altitude');
+        $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
     } else if ($tab == THEME_ALTITUDE_TAB_ADVANCED) {
 
         // Advanced section heading.

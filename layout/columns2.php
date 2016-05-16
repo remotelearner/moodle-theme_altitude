@@ -83,7 +83,6 @@ echo $OUTPUT->doctype() ?>
             </div>
         </div>
     </nav>
-
     <div id="top-header-wrap">
         <div id="top-header" class="container-fluid">
             <?php echo theme_altitude_fetch_sidebar_toggle_button('left'); ?>
