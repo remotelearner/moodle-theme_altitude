@@ -24,9 +24,21 @@
  */
 
 class theme_altitude_core_renderer extends theme_bootstrapbase_core_renderer {
-
     protected function render_custom_menu(custom_menu $menu) {
-        global $PAGE;
+        global $PAGE,$CFG;
+        if (isloggedin()) {
+            if (!empty($PAGE->theme->settings->mycourses) && $PAGE->theme->settings->mycourses == true) {
+                $branch = $menu->add(get_string('mycourses'), null, null, 9900);
+                if ($courses = enrol_get_my_courses(NULL,'visible DESC,fullname ASC')) {
+                    foreach ($courses as $course) {
+                        if ($course->id == SITEID) {
+                           continue;
+                        }
+                        $branch->add($course->shortname, new moodle_url('/course/view.php', array('id' => $course->id)), $course->fullname);
+                    }
+                }
+            }
+        }
         if (!empty($PAGE->theme->settings->sidebarblockregion)
                 && $PAGE->theme->settings->sidebarblockregion == true
                 && $PAGE->theme->settings->sidebarblockregionalignment == 'right') {
@@ -38,5 +50,4 @@ class theme_altitude_core_renderer extends theme_bootstrapbase_core_renderer {
         }
         return parent::render_custom_menu($menu);
     }
-
 }

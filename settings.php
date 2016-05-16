@@ -219,6 +219,7 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/videobackgroundogg';
         $title = get_string('videobackgroundogg', 'theme_altitude');
         $description = get_string('videobackgroundogg_desc', 'theme_altitude');
+
         $default = '';
         $setting = new admin_setting_configtext($name, $title, $description, $default);
         $setting->set_updatedcallback('theme_reset_all_caches');
@@ -397,6 +398,14 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/gridstyle';
         $title = get_string('gridstyle', 'theme_altitude');
         $description = get_string('gridstyledesc', 'theme_altitude');
+        $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Add my courses menu
+        $name = 'theme_altitude/mycourses';
+        $title = get_string('mycourses', 'theme_altitude');
+        $description = get_string('mycoursesdesc', 'theme_altitude');
         $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);

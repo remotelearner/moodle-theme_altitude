@@ -97,6 +97,9 @@ $string['logoalt'] = 'Logo';
 $string['favicon'] = 'Favicon';
 $string['favicondesc'] = 'Upload a custom favicon (.ico) file here. A Favicon is an icon associated with your site that is displayed in a browser\'s address bar/tab or next to the site name in a bookmark list.';
 
+$string['mycourses'] = 'My Courses Menu';
+$string['mycoursesdesc'] = 'Display a menu item in the main menu that shows a user&#39;s enrolled courses.';
+
 $string['demomode'] = 'Demo Mode';
 $string['demomodedesc'] = 'Demo mode displays default content on the front page. Turn it off to configure your own content using the front page settings.';
 $string['demomodeon'] = 'On';
