@@ -33,6 +33,7 @@ echo $OUTPUT->doctype() ?>
 
 <body <?php echo $OUTPUT->body_attributes(); ?>>
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
+
 <div id="page">
     <div id="page-content" class="clearfix">
         <?php echo $OUTPUT->main_content(); ?>
