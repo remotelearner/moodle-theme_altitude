@@ -3038,6 +3038,13 @@ body.altitude-settings-fixedquizui .sb-slide.transform-override {
 .block_elisadmin [class*='elisicon-']:before {
     color: inherit;
 }
+/* Atto Editor full screen */
+body.atto-fullscreen .sb-slide {
+   -webkit-transform: none;
+      -moz-transform: none;
+        -o-transform: none;
+           transform: none;
+}
 
 /* Override CSS Settings
 -------------------------*/
