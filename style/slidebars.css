@@ -33,9 +33,12 @@ html, body, #sb-site, .sb-site-container, .sb-slidebar {
 
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Stops horizontal scrolling. */
 }
 
+html.sb-active,
+html.sb-active body {
+    overflow-x: hidden;
+}
 html {
     height: 100%; /* Site is as tall as device. */
 }
