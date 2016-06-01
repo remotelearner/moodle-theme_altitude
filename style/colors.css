@@ -5833,3 +5833,7 @@ body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li:ac
 .debuggingmessage {
     display: none;
 }
+
+.yui3-dd-draggable {
+    z-index: 4031;
+}
