@@ -44,6 +44,10 @@ if (!defined('THEME_ALTITUDE_TAB_DESIGN')) {
      * THEME_ALTITUDE_TAB_ADVANCED - Order/link reference for advanced tab.
      */
     define('THEME_ALTITUDE_TAB_ADVANCED', 3);
+    /**
+     * THEME_ALTITUDE_TAB_ALERTS - Order/link reference for alert tab.
+     */
+    define('THEME_ALTITUDE_TAB_ALERTS', 4);
 }
 
 if ($ADMIN->fulltree) {
@@ -56,6 +60,7 @@ if ($ADMIN->fulltree) {
     $tabs->addtab(THEME_ALTITUDE_TAB_FRONTPAGE, get_string('tab-frontpage', $themename));
     $tabs->addtab(THEME_ALTITUDE_TAB_UI, get_string('tab-ui', $themename));
     $tabs->addtab(THEME_ALTITUDE_TAB_ADVANCED, get_string('tab-advanced', $themename));
+    $tabs->addtab(THEME_ALTITUDE_TAB_ALERTS, get_string('tab-alerts', $themename));
 
     $settings->add($tabs);
 
@@ -325,6 +330,14 @@ if ($ADMIN->fulltree) {
             ));
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
+        $information = get_string('alertinfodesc', 'theme_altitude');
+        // This is the descriptor for alert one.
+        $name = 'theme_altitude/alert1info';
+        $heading = get_string('alert1', 'theme_altitude');
+        $setting = new admin_setting_heading($name, $heading, $information);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
 
     } else if ($tab == THEME_ALTITUDE_TAB_UI) {
 
@@ -431,6 +444,155 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/overridecss';
         $title = get_string('overridecss', 'theme_altitude');
         $description = get_string('overridecssdesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtextarea($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+    } else if ($tab == THEME_ALTITUDE_TAB_ALERTS) {
+        // Alerts section heading.
+        $name = $themename .'/alertstabheading';
+        $title = get_string('tab-alert-title', 'theme_altitude');
+        $description = get_string('alertsdesc', 'theme_altitude');
+
+        $setting = new admin_setting_heading($name, $title, $description);
+        $settings->add($setting);
+
+        $information = get_string('alertinfodesc', 'theme_altitude');
+        // This is the descriptor for alert one.
+        $name = 'theme_altitude/alert1info';
+        $heading = get_string('alert1', 'theme_altitude');
+        $setting = new admin_setting_heading($name, $heading, $information);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Enable alert.
+        $name = 'theme_altitude/enablealert';
+        $title = get_string('enablealert', 'theme_altitude');
+        $description = get_string('enablealertdesc', 'theme_altitude');
+        $default = false;
+        $setting = new admin_setting_configcheckbox($name, $title, $description, $default, true, false);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert type.
+        $name = 'theme_altitude/alert1type';
+        $title = get_string('alerttype', 'theme_altitude');
+        $description = get_string('alerttypedesc', 'theme_altitude');
+        $alertinfo = get_string('alert_info', 'theme_altitude');
+        $alertwarning = get_string('alert_warning', 'theme_altitude');
+        $alertgeneral = get_string('alert_general', 'theme_altitude');
+        $default = 'info';
+        $choices = array('info' => $alertinfo, 'error' => $alertwarning, 'success' => $alertgeneral);
+        $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert title.
+        $name = 'theme_altitude/alert1title';
+        $title = get_string('alerttitle', 'theme_altitude');
+        $description = get_string('alerttitledesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtext($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert text.
+        $name = 'theme_altitude/alert1text';
+        $title = get_string('alerttext', 'theme_altitude');
+        $description = get_string('alerttextdesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtextarea($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // This is the descriptor for alert two.
+        $name = 'theme_altitude/alert2info';
+        $heading = get_string('alert2', 'theme_altitude');
+        $setting = new admin_setting_heading($name, $heading, $information);
+        $settings->add($setting);
+
+        // Enable alert.
+        $name = 'theme_altitude/enable2alert';
+        $title = get_string('enablealert', 'theme_altitude');
+        $description = get_string('enablealertdesc', 'theme_altitude');
+        $default = false;
+        $setting = new admin_setting_configcheckbox($name, $title, $description, $default, true, false);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert type.
+        $name = 'theme_altitude/alert2type';
+        $title = get_string('alerttype', 'theme_altitude');
+        $description = get_string('alerttypedesc', 'theme_altitude');
+        $alertinfo = get_string('alert_info', 'theme_altitude');
+        $alertwarning = get_string('alert_warning', 'theme_altitude');
+        $alertgeneral = get_string('alert_general', 'theme_altitude');
+        $default = 'info';
+        $choices = array('info' => $alertinfo, 'error' => $alertwarning, 'success' => $alertgeneral);
+        $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert title.
+        $name = 'theme_altitude/alert2title';
+        $title = get_string('alerttitle', 'theme_altitude');
+        $description = get_string('alerttitledesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtext($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert text.
+        $name = 'theme_altitude/alert2text';
+        $title = get_string('alerttext', 'theme_altitude');
+        $description = get_string('alerttextdesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtextarea($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // This is the descriptor for alert three.
+        $name = 'theme_altitude/alert3info';
+        $heading = get_string('alert3', 'theme_altitude');
+        $setting = new admin_setting_heading($name, $heading, $information);
+        $settings->add($setting);
+
+        // Enable alert.
+        $name = 'theme_altitude/enable3alert';
+        $title = get_string('enablealert', 'theme_altitude');
+        $description = get_string('enablealertdesc', 'theme_altitude');
+        $default = false;
+        $setting = new admin_setting_configcheckbox($name, $title, $description, $default, true, false);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert type.
+        $name = 'theme_altitude/alert3type';
+        $title = get_string('alerttype', 'theme_altitude');
+        $description = get_string('alerttypedesc', 'theme_altitude');
+        $alertinfo = get_string('alert_info', 'theme_altitude');
+        $alertwarning = get_string('alert_warning', 'theme_altitude');
+        $alertgeneral = get_string('alert_general', 'theme_altitude');
+        $default = 'info';
+        $choices = array('info' => $alertinfo, 'error' => $alertwarning, 'success' => $alertgeneral);
+        $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert title.
+        $name = 'theme_altitude/alert3title';
+        $title = get_string('alerttitle', 'theme_altitude');
+        $description = get_string('alerttitledesc', 'theme_altitude');
+        $default = '';
+        $setting = new admin_setting_configtext($name, $title, $description, $default);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $settings->add($setting);
+
+        // Alert text.
+        $name = 'theme_altitude/alert3text';
+        $title = get_string('alerttext', 'theme_altitude');
+        $description = get_string('alerttextdesc', 'theme_altitude');
         $default = '';
         $setting = new admin_setting_configtextarea($name, $title, $description, $default);
         $setting->set_updatedcallback('theme_reset_all_caches');
