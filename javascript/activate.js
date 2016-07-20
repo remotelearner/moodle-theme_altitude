@@ -3,6 +3,13 @@ jQuery(document).ready(function($) {
     // Initialize slidebar functionality.
     $.slidebars();
 
+    // Handle close functionality of user alerts.
+    $(".useralerts.alert a.close").unbind("click");
+    $(".useralerts.alert a.close").click(function(e) {
+        $(this).closest('.alert').hide();
+        e.preventDefault();
+    });
+
     // Handle front page background video if present.
     if ($('.jquery-background-video').length >= 1) {
         $('.jquery-background-video').bgVideo({
