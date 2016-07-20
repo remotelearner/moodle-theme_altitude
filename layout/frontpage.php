@@ -51,6 +51,24 @@ $banner = theme_altitude_fetch_banner($PAGE->theme->settings);
 
 // Fetch HTML for sub-banner.
 $subbanner = theme_altitude_fetch_subbanner($PAGE->theme->settings);
+$enable1alert = 0;
+$enable2alert = 0;
+$enable3alert = 0;
+
+if (isset($PAGE->theme->settings->enablealert)  && $PAGE->theme->settings->enablealert == 1) {
+    $enable1alert =1;
+}
+if (isset($PAGE->theme->settings->enable2alert)  && $PAGE->theme->settings->enable2alert == 1) {
+    $enable2alert =1;
+}
+if (isset($PAGE->theme->settings->enable3alert)  && $PAGE->theme->settings->enable3alert == 1) {
+    $enable3alert =1;
+}
+if ($enable1alert || $enable2alert || $enable3alert) {
+    $alertinfo = '<span class="fa-stack"><span aria-hidden="true" class="fa fa-info fa-stack-1x "></span></span>';
+    $alerterror = '<span class="fa-stack"><span aria-hidden="true" class="fa fa-warning fa-stack-1x "></span></span>';
+    $alertsuccess = '<span class="fa-stack"><span aria-hidden="true" class="fa fa-bullhorn fa-stack-1x "></span></span>';
+}
 
 echo $OUTPUT->doctype() ?>
 <html <?php echo $OUTPUT->htmlattributes(); ?>>
@@ -114,8 +132,47 @@ echo $OUTPUT->doctype() ?>
     <section id="action-blocks">
         <div class="container">
             <div class="row-fluid">
+            <?php
+            //Start Alerts
+            //Alert #1
+            if ($enable1alert) { ?>
+                <div class="useralerts alert alert-<?php echo $PAGE->theme->settings->alert1type; ?>">
+                <a class="close" data-dismiss="alert" href="#"><span aria-hidden="true" class="fa fa-times-circle"></a>
+                <?php
+                $alert1icon = 'alert' . $PAGE->theme->settings->alert1type;
+                echo $$alert1icon.'<span class="title"><b>'. $PAGE->theme->settings->alert1title;
+                echo '</b> </span><p>'.$PAGE->theme->settings->alert1text. '</p>';?>
+                </div>
+                <?php
+            }
+            //Alert #2 -->
+            if ($enable2alert) { ?>
+                <div class="useralerts alert alert-<?php echo $PAGE->theme->settings->alert2type; ?>">
+                <a class="close" data-dismiss="alert" href="#"><span aria-hidden="true" class="fa fa-times-circle"></span></a>
+                <?php
+                $alert2icon = 'alert' . $PAGE->theme->settings->alert2type;
+                echo $$alert2icon.'<span class="title"><b>'. $PAGE->theme->settings->alert2title;
+                echo '</b> </span><p>'.$PAGE->theme->settings->alert2text .'</p>';?>
+                </div>
+                <?php
+            }
+            //Alert #3
+            if ($enable3alert) { ?>
+                <div class="useralerts alert alert-<?php echo $PAGE->theme->settings->alert3type; ?>">
+                <a class="close" data-dismiss="alert" href="#"><span aria-hidden="true" class="fa fa-times-circle"></span></a>
+                <?php
+                $alert3icon = 'alert' . $PAGE->theme->settings->alert3type;
+                echo $$alert3icon.'<span class="title"><b>'. $PAGE->theme->settings->alert3title;
+                echo '</b> </span><p>' . $PAGE->theme->settings->alert3text.'</p>'; ?>
+                </div>
+                <?php
+             }
+            ?>
+            </div>
+            <div class="row-fluid">
                 <?php echo $subbanner ?>
             </div>
+
             <div class="row-fluid">
                 <?php echo $OUTPUT->blocks('action-one', 'span4'); ?>
                 <?php echo $OUTPUT->blocks('action-two', 'span4'); ?>
@@ -129,6 +186,7 @@ echo $OUTPUT->doctype() ?>
             <section id="region-main" class="<?php echo $regionmain; ?>">
                 <?php
                 echo $OUTPUT->course_content_header();
+                
                 echo $OUTPUT->main_content();
                 echo $OUTPUT->course_content_footer();
                 ?>
