@@ -3292,6 +3292,11 @@ a.dimmed, a.dimmed:link {
     color: #999 !important;
 }
 
+/* Fix for assignment grader module */
+body#page-mod-assign-grader {
+    position: static !important;
+}
+
 /* Override CSS Settings
 -------------------------*/
 [[setting:overridecss]]
