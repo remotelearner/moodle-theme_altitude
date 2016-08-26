@@ -197,18 +197,35 @@ function theme_altitude_fetch_favicon($settings) {
  */
 function theme_altitude_fetch_sidebar_toggle_button($alignment) {
     global $PAGE;
-    $button = "";
+    $button = '';
     if (!empty($PAGE->theme->settings->sidebarblockregion)
             && $PAGE->theme->settings->sidebarblockregion == true
             && $PAGE->theme->settings->sidebarblockregionalignment == $alignment) {
-        $button = '<span class="sb-toggle-'.$alignment.'">';
-        if ($PAGE->theme->settings->sidebarblockregionbuttontype == 'icon' || $PAGE->theme->settings->sidebarblockregionbuttontype == 'icontext') {
-            $button .= '<span class="fa fa-bars"></span> ';
+        $id = 'side-panel-button';
+        $button .= '<a id="'.$id.'" name="'.$id.'" tabindex="0" class="sb-toggle-'.$alignment.'" href="#">';
+        if ($PAGE->theme->settings->sidebarblockregionbuttontype == 'icon' ||
+                $PAGE->theme->settings->sidebarblockregionbuttontype == 'icontext') {
+            $button .= '
+                <div id="hamburger">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="screen-reader-text">'
+                        .get_string('sidebarblockaccess', 'theme_altitude').
+                    '</span>
+                </div>';
         }
-        if ($PAGE->theme->settings->sidebarblockregionbuttontype == 'text' || $PAGE->theme->settings->sidebarblockregionbuttontype == 'icontext') {
-            $button .= get_string('sidebarblockregiontogglelabel', 'theme_altitude');
+        if ($PAGE->theme->settings->sidebarblockregionbuttontype == 'text' ||
+                $PAGE->theme->settings->sidebarblockregionbuttontype == 'icontext') {
+            $button .= '
+                <div href="#" class="optional-display-text">
+                    <span>'
+                        .get_string('sidebarblockregiontogglelabel', 'theme_altitude').
+                    '</span>
+                </div>';
         }
-        $button .= "</span>";
+        $button .= '</a>';
     }
     return $button;
 }
@@ -442,4 +459,43 @@ function theme_altitude_fetch_socialicons($settings) {
 
     // Return html.
     return $socialiconshtml;
+}
+
+/**
+ * Returns skiplink markup.
+ *
+ * @param string $target The id attribute of the target of the link.
+ * @return string String of HTML to be written to layout files.
+ */
+function theme_altitude_fetch_skiplink($target) {
+    $skiplink = '';
+    $desc = '';
+    if ($target === 'maincontent'){
+        $desc = get_string('tocontent', 'access');
+    } else {
+        $desc = get_string('sidebarblockskipto', 'theme_altitude');
+    }
+    $skiplink .= '
+        <a class="skip" id="return-to-sb-btn" href="#'.$target.'">'
+            .$desc.
+        '</a>';
+    // Return markup.
+    return $skiplink;
+}
+
+/**
+ * Returns slidebars hidden accessibility handle markup.
+ *
+ * @return string String of HTML to be written to layout files.
+ */
+function theme_altitude_fetch_slidebars_tabhandle() {
+    $tabhandle = '';
+    $desc = get_string('sidebarblockentrymarker', 'theme_altitude');
+    $id = 'access-slidebar-blocks';
+    $tabhandle .= '
+        <a class="skip" id="'.$id.'" name="'.$id.'" tabindex="-1">
+            <span class="screen-reader-text">'.$desc.'</span>
+        </a>';
+    // Return markup.
+    return $tabhandle;
 }

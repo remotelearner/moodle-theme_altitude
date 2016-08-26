@@ -246,14 +246,13 @@ table.flexible tbody>tr:nth-child(odd)>th,
 
 #top-header-wrap {
     background: #00477F;
-    padding: .3em 0 .2em;
+    padding: 0em 0 .2em;
     font-size: .8em;
     min-height: 24px;
 }
 
 .usermenu {
-    float: right;
-    margin: .1em .75em 0 0;
+    margin: .5em .75em 0 0;
 }
 
 .usermenu .logininfo {
@@ -419,15 +418,17 @@ table.flexible tbody>tr:nth-child(odd)>th,
 
 .navbar .nav {
     float: right;
-    clear: right;
+    display: inline-block;
     margin-bottom: 0;
 }
 
-.navbar .nav:first-child {
+.navbar .nav:first-child,
+header.navbar .menus {
     min-height: 88px;
 }
 
-.navbar .nav>li>a {
+.navbar .nav>li>a,
+.sb-toggle-right {
     font-size: 1em;
     font-weight: 800;
     color: #555;
@@ -463,14 +464,20 @@ table.flexible tbody>tr:nth-child(odd)>th,
 }
 
 .navbar .nav>li>a:hover,
-.navbar .nav>li>a:focus {
+.navbar .nav>li>a:focus,
+.sb-toggle-right:hover,
+.sb-toggle-right:focus {
     color: #7BAFD4;
 }
 
 .navbar .nav>li>a:hover::before,
 .navbar .nav>li>a:focus::before,
 .navbar .nav>li>a:hover::after,
-.navbar .nav>li>a:focus::after {
+.navbar .nav>li>a:focus::after,
+.sb-toggle-right:hover::before,
+.sb-toggle-right:focus::before,
+.sb-toggle-right:hover::after,
+.sb-toggle-right:focus::after {
     opacity: 1;
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
@@ -616,6 +623,7 @@ table.flexible tbody>tr:nth-child(odd)>th,
 
 #top-header-info {
     float: right;
+    margin: .5em .25em 0 0;
 }
 
 .social-links a {
@@ -3000,6 +3008,7 @@ body.altitude-settings-fixedquizui .sb-slide.transform-override {
     padding: 1em;
 }
 
+
 .sb-toggle-left {
     cursor: pointer;
     color: #fff;
@@ -3032,6 +3041,233 @@ body.altitude-settings-fixedquizui .sb-slide.transform-override {
 .empty-region-sidebar-block.editing .sb-toggle-right,
 .empty-region-sidebar-block.editing .sb-toggle-left {
     display: inline;
+}
+
+/* side panel styles */
+#side-panel-button {
+    margin-right: 1em;
+}
+
+#hamburger,
+#hamburger * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#hamburger {
+    display: block;
+    width: 46px;
+    height: 36px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+@media (max-width: 767px) {
+    .sb-toggle-left {
+        margin-left: 0;
+    }
+}
+
+#hamburger span.icon-bar {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    left: 8px;
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.sb-active #hamburger span.icon-bar {
+    -webkit-transition-delay: .3s;
+            transition-delay: .3s;
+}
+
+#hamburger span.icon-bar:nth-child(1) {
+    top: 11.5px;
+}
+
+#hamburger span.icon-bar:nth-child(2),
+#hamburger span.icon-bar:nth-child(3) {
+    top: 17px;
+}
+
+#hamburger span.icon-bar:nth-child(4) {
+    top: 23px;
+}
+
+.sb-active #hamburger span.icon-bar:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.sb-active #hamburger span.icon-bar:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.sb-active #hamburger span.icon-bar:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.sb-active #hamburger span.icon-bar:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+#hamburger span.screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute!important;
+    height: 1px!important;
+    width: 1px!important;
+    overflow: hidden;
+}
+
+/*styles for optional menu text*/
+.optional-display-text {
+    float: left;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Montserrat','Open Sans',Arial,sans-serif !important;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0 8px 0;
+    background: transparent;
+    margin-right: 1em;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.sb-toggle-right .optional-display-text {
+    float: left;
+    font-weight: 800;
+    font-size: 1em;
+    font-family: 'Open Sans',Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif !important;/*'Montserrat','Open Sans',Arial,sans-serif !important;*/
+    text-transform: uppercase;
+    padding: 0;
+    background: transparent;
+    margin-right: 1em;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+    color: #555;
+    margin: 0;
+    text-shadow: none;
+    position: relative;
+    -webkit-transition: color 0.3s;
+       -moz-transition: color 0.3s;
+            transition: color 0.3s;
+}
+
+.sb-toggle-right #hamburger {
+    width: 38px;
+    height: 18px;
+}
+
+.sb-toggle-right #hamburger span.icon-bar {
+    background: #555;
+    height: 2.5px;
+    width: 22px;
+}
+
+.sb-toggle-right #hamburger span.icon-bar:nth-child(1) {
+    top: 2.5px;
+}
+
+.sb-toggle-right #hamburger span.icon-bar:nth-child(2),
+.sb-toggle-right #hamburger span.icon-bar:nth-child(3) {
+    top: 9px;
+}
+
+.sb-toggle-right #hamburger span.icon-bar:nth-child(4) {
+    top: 15px;
+}
+
+.optional-display-text:hover,
+.optional-display-text:focus {
+    text-decoration: none;
+}
+
+.sb-toggle-left .optional-display-text {
+    line-height: 1;
+}
+
+.sb-toggle-left #hamburger span.icon-bar {
+    background: rgba(255,255,255,.75) !important;
+}
+
+.sb-toggle-left #hamburger span.icon-bar,
+.sb-toggle-left .optional-display-text {
+    color: #fff !important;
+    color: rgba(255,255,255,.75) !important;
+}
+
+/* Target coloration for left-side hamburger transparency issue. */
+.sb-toggle-left #hamburger span.icon-bar:nth-of-type(2) {
+    background: transparent !important;
+}
+
+.sb-active-left #hamburger span.icon-bar:nth-of-type(2) {
+    background: rgba(255,255,255,.75) !important;
+}
+
+/* Fix "stuck" state on sidebar display. */
+.sb-active-right .sb-toggle-right:focus:after {
+    display: none;
+}
+
+/* Slidebars menu button */
+.sb-toggle-right {
+    float: right;
+    clear: right;
+    display: inline-block;
+}
+
+/* Remove transition delay for right side menu. */
+.sb-active-right:hover #hamburger span.icon-bar,
+.sb-active-left:hover #hamburger span.icon-bar {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+}
+
+/* Hover color change for left side menu. */
+.sb-toggle-left:hover #hamburger span.icon-bar {
+    background: white !important;
+}
+
+.sb-toggle-left:hover .optional-display-text {
+    color: white !important;
+}
+
+/* Don't display the handle for tabbing into the sb block region */
+#access-slidebar-blocks .screen-reader-text {
+    height: 0px !important;
+    width: 0px !important;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    position: absolute!important;
 }
 
 /* Make ELIS icon styles inherit color.*/

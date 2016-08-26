@@ -294,6 +294,15 @@ body.altitude-settings-gridenhanced.red-theme .course-content ul.gridicons li .i
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.red-theme .sb-toggle-right:hover .optional-display-text {
+    color: #ad111e;
+}
+
+.red-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #ad111e;
+}
+
 
 .blue-theme a,
 .blue-theme a:link,
@@ -592,6 +601,14 @@ body.altitude-settings-gridenhanced.blue-theme .course-content ul.gridicons li .
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.blue-theme .sb-toggle-right:hover .optional-display-text {
+    color: #3b5998;
+}
+
+.blue-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #3b5998;
+}
 
 
 
@@ -896,6 +913,15 @@ body.altitude-settings-gridenhanced.blue-theme-2 .course-content ul.gridicons li
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.blue-theme-2 .sb-toggle-right:hover .optional-display-text {
+    color: #0078b9;
+}
+
+.blue-theme-2 .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #0078b9;
+}
+
 
 
 
@@ -1196,6 +1222,14 @@ body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.blue-theme-3 .sb-toggle-right:hover .optional-display-text {
+    color: #00274c;
+}
+
+.blue-theme-3 .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #00274c;
+}
 
 
 
@@ -1497,6 +1531,14 @@ body.altitude-settings-gridenhanced.green-theme .course-content ul.gridicons li 
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.green-theme .sb-toggle-right:hover .optional-display-text {
+    color: #00674b;
+}
+
+.green-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #00674b;
+}
 
 
 
@@ -1799,7 +1841,14 @@ body.altitude-settings-gridenhanced.green-theme-2 .course-content ul.gridicons l
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.green-theme-2 .sb-toggle-right:hover .optional-display-text {
+    color: #169A5A;
+}
 
+.green-theme-2 .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #169A5A;
+}
 
 
 
@@ -2136,7 +2185,14 @@ body.altitude-settings-gridenhanced.blackgold-theme .course-content ul.gridicons
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.blackgold-theme .sb-toggle-right:hover .optional-display-text {
+    color: #d2b887;
+}
 
+.blackgold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #d2b887;
+}
 
 
 
@@ -2467,6 +2523,15 @@ body.altitude-settings-gridenhanced.blackyellow-theme .course-content ul.gridico
 
 .blackyellow-theme .do-stepwise .arrow {
     border-color: #333 transparent transparent transparent;
+}
+
+/* slidebars menu */
+.blackyellow-theme .sb-toggle-right:hover .optional-display-text {
+    color: #ffb612;
+}
+
+.blackyellow-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #ffb612;
 }
 
 
@@ -2808,6 +2873,15 @@ body.altitude-settings-gridenhanced.bluegold-theme .course-content ul.gridicons 
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.bluegold-theme .sb-toggle-right:hover .optional-display-text {
+    color: #ffcb05;
+}
+
+.bluegold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #ffcb05;
+}
+
 
 
 
@@ -3145,6 +3219,15 @@ body.altitude-settings-gridenhanced.greengold-theme .course-content ul.gridicons
 
 .greengold-theme .do-stepwise .arrow {
     border-color: #333 transparent transparent transparent;
+}
+
+/* slidebars menu */
+.greengold-theme .sb-toggle-right:hover .optional-display-text {
+    color: #fee123;
+}
+
+.greengold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #fee123;
 }
 
 
@@ -3490,6 +3573,14 @@ body.altitude-settings-gridenhanced.bluered-theme .course-content ul.gridicons l
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.bluered-theme .sb-toggle-right:hover .optional-display-text {
+    color: #ca001a;
+}
+
+.bluered-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #ca001a;
+}
 
 
 
@@ -3834,8 +3925,14 @@ body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicon
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.blueorange-theme .sb-toggle-right:hover .optional-display-text {
+    color: #dd550c;
+}
 
-
+.blueorange-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #dd550c;
+}
 
 
 
@@ -4178,6 +4275,14 @@ body.altitude-settings-gridenhanced.bluewhite-theme .course-content ul.gridicons
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.bluewhite-theme .sb-toggle-right:hover .optional-display-text {
+    color: #56a0d3;
+}
+
+.bluewhite-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #56a0d3;
+}
 
 
 
@@ -4522,6 +4627,15 @@ body.altitude-settings-gridenhanced.purplegold-theme .course-content ul.gridicon
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.purplegold-theme .sb-toggle-right:hover .optional-display-text {
+    color: #461d7c;
+}
+
+.purplegold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #461d7c;
+}
+
 
 
 
@@ -4839,6 +4953,15 @@ body.altitude-settings-gridenhanced.purplewhite-theme .course-content ul.gridico
 
 .purplewhite-theme .do-stepwise .arrow {
     border-color: #333 transparent transparent transparent;
+}
+
+/* slidebars menu */
+.purplewhite-theme .sb-toggle-right:hover .optional-display-text {
+    color: #4d015c;
+}
+
+.purplewhite-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #4d015c;
 }
 
 
@@ -5167,6 +5290,15 @@ body.altitude-settings-gridenhanced.redblack-theme .course-content ul.gridicons 
     border-color: #333 transparent transparent transparent;
 }
 
+/* slidebars menu */
+.redblack-theme .sb-toggle-right:hover .optional-display-text {
+    color: #cc0000;
+}
+
+.redblack-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #cc0000;
+}
+
 
 
 
@@ -5482,6 +5614,15 @@ body.altitude-settings-gridenhanced.maroongray-theme .course-content ul.gridicon
 
 .maroongray-theme .do-stepwise .arrow {
     border-color: #332c2c transparent transparent transparent;
+}
+
+/* slidebars menu */
+.maroongray-theme .sb-toggle-right:hover .optional-display-text {
+    color: #500000;
+}
+
+.maroongray-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #500000;
 }
 
 
@@ -5836,4 +5977,13 @@ body.altitude-settings-onetopicvertical.training-theme .onetopic .nav-tabs li:ac
 
 .yui3-dd-draggable {
     z-index: 4031;
+}
+
+/* slidebars menu */
+.training-theme .sb-toggle-right:hover .optional-display-text {
+    color: #03244d;
+}
+
+.training-theme .sb-toggle-right:hover #hamburger span.icon-bar {
+    background: #03244d;
 }

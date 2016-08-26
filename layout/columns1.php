@@ -66,7 +66,8 @@ echo $OUTPUT->doctype() ?>
                     <?php } ?>
                 </a>
             </div>
-            <div>
+            <div class="menus">
+                <?php echo theme_altitude_fetch_sidebar_toggle_button('right'); ?>
                 <?php echo $OUTPUT->custom_menu(); ?>
                 <ul class="nav pull-right">
                     <li><?php echo $OUTPUT->page_heading_menu(); ?></li>
@@ -143,7 +144,9 @@ echo $OUTPUT->doctype() ?>
 </div>
 
 <div id="sidebar-block" class="sb-slidebar sb-<?php echo $PAGE->theme->settings->sidebarblockregionalignment; ?> sb-style-push">
+    <?php echo theme_altitude_fetch_slidebars_tabhandle(); ?>
     <?php echo $OUTPUT->blocks('sidebar-block', 'sidebar-block'); ?>
+    <?php echo theme_altitude_fetch_skiplink('side-panel-button'); ?>
 </div>
 
 <?php echo $OUTPUT->standard_end_of_body_html() ?>
