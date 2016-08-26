@@ -162,6 +162,9 @@ $string['sidebarblockregionbuttontypeicontext'] = 'Icon and text';
 $string['sidebarblockregionbuttontypeicon'] = 'Icon';
 $string['sidebarblockregionbuttontypetext'] = 'Text';
 $string['sidebarblockregiontogglelabel'] = 'Menu';
+$string['sidebarblockskipto'] = 'Exit hidden sidebar block region.';
+$string['sidebarblockaccess'] = 'Access hidden sidebar block region.';
+$string['sidebarblockentrymarker'] = 'Hidden sidebar block region';
 
 $string['onetopicstyle'] = 'One Topic Enhanced Style';
 $string['onetopicstyledesc'] = 'Select the desired enhanced one topic course format style. (<a class="keytoggle" href="#onetopickeyimage">?</a>) <div class="keyimage closed" id="onetopickeyimage"></div>';

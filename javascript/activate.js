@@ -3,6 +3,53 @@ jQuery(document).ready(function($) {
     // Initialize slidebar functionality.
     $.slidebars();
 
+    var $sbButton = $('#side-panel-button');
+    var $slidebar = $('#sidebar-block');
+    var $sbTabHandle = $('#access-slidebar-blocks');
+    var $sbTabReturn = $('#return-to-sb-btn');
+    $sbButton.click(function() {
+        function toggleKeydownListeners(enable) {
+            if (enable) {
+                $sbTabHandle.keydown(function(e) {
+                    if (e.shiftKey && e.keyCode == 9) {
+                        // Simulate a click.
+                        $sbTabHandle.unbind('keydown');
+                        $sbTabReturn.unbind('keydown');
+                        $sbButton.click();
+                    }
+                });
+                $sbTabReturn.keydown(function(e) {
+                    if (e.which == 13) {
+                        $sbTabReturn.unbind('keydown');
+                        $sbTabHandle.unbind('keydown');
+                        $sbButton.click();
+                    }
+                });
+            } else {
+                $sbTabReturn.unbind('keydown');
+                $sbTabHandle.unbind('keydown');
+            }
+        }
+        // Wait a sec for slidebar to manipulate classes,
+        // then alter the focus so keyboard users can tab.
+        // tabindex of 0 allows for keyboard tabbing.
+        // tabindex of -1 allows javascript to set focus.
+        setTimeout(function() {
+            if (!$slidebar.hasClass('sb-active')) {
+                // Sidebar not active, move focus to button.
+                $sbButton.focus().attr('tabindex', '0');
+                $sbTabHandle.attr('tabindex', '-1');
+                toggleKeydownListeners(false);
+            } else {
+                // Sidebar active, move focus to tab handle,
+                // and listen for shift+tab to move back out.
+                $sbTabHandle.focus().attr('tabindex', '0');
+                $sbButton.attr('tabindex', '-1');
+                toggleKeydownListeners(true);
+            }
+        }, 500);
+    });
+
     // Handle close functionality of user alerts.
     $(".useralerts.alert a.close").unbind("click");
     $(".useralerts.alert a.close").click(function(e) {
