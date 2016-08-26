@@ -39,15 +39,6 @@ class theme_altitude_core_renderer extends theme_bootstrapbase_core_renderer {
                 }
             }
         }
-        if (!empty($PAGE->theme->settings->sidebarblockregion)
-                && $PAGE->theme->settings->sidebarblockregion == true
-                && $PAGE->theme->settings->sidebarblockregionalignment == 'right') {
-            $branchlabel = theme_altitude_fetch_sidebar_toggle_button('right');
-            $branchurl   = new moodle_url('#sidebar');
-            $branchtitle = get_string('sidebarblockregiontogglelabel', 'theme_altitude');
-            $branchsort  = 10000;
-            $menu->add($branchlabel, $branchurl, $branchtitle, $branchsort);
-        }
         return parent::render_custom_menu($menu);
     }
 }
