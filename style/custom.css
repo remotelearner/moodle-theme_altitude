@@ -3052,6 +3052,9 @@ body.atto-fullscreen .sb-slide {
            transform: none;
 }
 
+a.dimmed, a.dimmed:link {
+    color: #999 !important;
+}
 
 /* Override CSS Settings
 -------------------------*/
