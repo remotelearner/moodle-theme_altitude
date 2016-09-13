@@ -545,6 +545,10 @@ header.navbar .menus {
             transition: all 0.2s ease;
 }
 
+.dropdown-menu.tool-lp-sub-menu {
+    height: auto; /* Ensures admin edit dropdown visibility, see AMT-42. */
+}
+
 .open>.dropdown-menu {
     height: auto;
     padding: 1em;
