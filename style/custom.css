@@ -3110,7 +3110,7 @@ body.altitude-settings-fixedquizui .sb-slide.transform-override {
 }
 
 #hamburger span.icon-bar:nth-child(1) {
-    top: 11.5px;
+    top: 10.5px;
 }
 
 #hamburger span.icon-bar:nth-child(2),
@@ -3203,7 +3203,7 @@ body.altitude-settings-fixedquizui .sb-slide.transform-override {
 }
 
 .sb-toggle-right #hamburger span.icon-bar:nth-child(1) {
-    top: 2.5px;
+    top: 3px;
 }
 
 .sb-toggle-right #hamburger span.icon-bar:nth-child(2),
