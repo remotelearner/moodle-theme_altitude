@@ -330,16 +330,18 @@ function theme_altitude_fetch_banner($settings) {
                 }
                 $bannerhtml .= '<div class="slide'.$i.$current.'">';
                 $bannerhtml .= html_writer::empty_tag('img', array('alt' => 'Banner'.$i, 'src' => $themeimages['sliderimage'.$i]));
-                $bannerhtml .= '<div id="banner-title">';
-                $bannerhtml .= '<div class="banner-title-text">';
-                $bannerhtml .= '<h1>'.$settings->{"sliderheader".$i}.'</h1>';
-                $bannerhtml .= '<p>'.$settings->{'slidertext'.$i}.'</p>';
-                $bannerhtml .= '<a href="'.$settings->{'sliderbuttonlink'.$i}.'">';
-                $bannerhtml .= '<span class="fa fa-chevron-circle-right"></span> ';
-                $bannerhtml .= $settings->{'sliderbuttonlabel'.$i};
-                $bannerhtml .= '</a>';
-                $bannerhtml .= '</div>';
-                $bannerhtml .= '</div>';
+                if (strlen ($settings->{'slidertext'.$i}) > 0) {
+                    $bannerhtml .= '<div id="banner-title">';
+                    $bannerhtml .= '<div class="banner-title-text">';
+                    $bannerhtml .= '<h1>'.$settings->{"sliderheader".$i}.'</h1>';
+                    $bannerhtml .= '<p>'.$settings->{'slidertext'.$i}.'</p>';
+                    $bannerhtml .= '<a href="'.$settings->{'sliderbuttonlink'.$i}.'">';
+                    $bannerhtml .= '<span class="fa fa-chevron-circle-right"></span> ';
+                    $bannerhtml .= $settings->{'sliderbuttonlabel'.$i};
+                    $bannerhtml .= '</a>';
+                    $bannerhtml .= '</div>';
+                    $bannerhtml .= '</div>';
+                }
                 $bannerhtml .= '</div>';
             }
         }
