@@ -3293,6 +3293,15 @@ a.dimmed, a.dimmed:link {
     color: #999 !important;
 }
 
+/* Display collapse icon in blocks in slide out menu */
+#sidebar-block .block_action {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    float: none;
+    display: block;
+}
+
 /* Override CSS Settings
 -------------------------*/
 [[setting:overridecss]]
