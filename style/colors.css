@@ -219,6 +219,37 @@
 .red-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #ad111e;
 }
+.red-theme.custom-theme .ui-tabs-nav li .fa {
+    color: rgba(255,255,255,.5);
+}
+.red-theme.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #fff;
+}
+.red-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.red-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #6e2222;
+}
+.red-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #ab3434;
+}
+.red-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #ab3434 !important;
+}
+.red-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #6e2222 !important;
+}
+.red-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #6e2222 !important;
+}
+.red-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #ab3434 !important;
+}
+.red-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #6e2222 !important;
+}
+.red-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #6e2222 !important;
+}
 
 body.altitude-settings-onetopictabs.red-theme .onetopic ul.nav-tabs li {
     background: #333;
@@ -828,6 +859,39 @@ body.altitude-settings-gridenhanced.blue-theme .course-content ul.gridicons li .
 .blue-theme-2 .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #0078b9;
 }
+/* Rein tab colors */
+.blue-theme-2.custom-theme .ui-tabs-nav li .fa {
+    color: rgba(255,255,255,.5);
+}
+.blue-theme-2.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #333;
+}
+.blue-theme-2.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blue-theme-2.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #0078b9;
+}
+.blue-theme-2.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #0078b9;
+}
+.blue-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #0078b9 !important;
+}
+.blue-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #0088d7 !important;
+}
+.blue-theme-2.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #0088D7 !important;
+}
+.blue-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #0078b9 !important;
+}
+.blue-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #0088d7 !important;
+}
+.blue-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #0088D7 !important;
+}
+
 
 body.altitude-settings-onetopictabs.blue-theme-2 .onetopic ul.nav-tabs li {
     background: #0078b9;
@@ -1230,7 +1294,40 @@ body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li
 .blue-theme-3 .sb-toggle-right:hover #hamburger span.icon-bar {
     background: #00274c;
 }
-
+/* Rein tab colors */
+.blue-theme-3.custom-theme .ui-tabs-nav li .fa {
+    color: rgba(255,255,255,.5);
+}
+.blue-theme-3.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #333;
+}
+.blue-theme-3.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blue-theme-3.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00274c;
+}
+.blue-theme-3.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #00274c;
+}
+.blue-theme-3.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #00274c !important;
+}
+.blue-theme-3.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #bfc8d2 !important;
+    color: #00274c;
+}
+.blue-theme-3.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #bfc8d2 !important;
+    color: #00274c;
+}
+.blue-theme-3.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #00274c !important;
+}
+.blue-theme-3.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #bfc8d2 !important;
+}
+.blue-theme-3.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #bfc8d2 !important;
+}
 
 
 .green-theme a,
@@ -1424,6 +1521,12 @@ body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li
     border-left: 5px solid #00674b;
 }
 
+.green-theme.custom-theme .ui-state-default,
+.green-theme.custom-theme .ui-state-active,
+.green-theme.custom-theme .ui-widget-content .ui-state-default,
+.green-theme.custom-theme .ui-widget-content .ui-state-active {
+    background:  #15804d;
+}
 .green-theme .course_category_tree .category.collapsed .categoryname a {
     color: #00674b;
 }
@@ -1445,7 +1548,32 @@ body.altitude-settings-gridenhanced.blue-theme-3 .course-content ul.gridicons li
 .green-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #00674b;
 }
-
+/* Rein tab colors */
+.green-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #15804d;
+}
+.green-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #15804d !important;
+}
+.green-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #006639 !important;
+}
+.green-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.green-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00674b;
+}
+.green-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #00674b !important;
+}
+.green-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #15804d !important;
+}
+.green-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #00674b !important;
+}
+.green-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #00674b !important;
+}
 body.altitude-settings-onetopictabs.green-theme .onetopic ul.nav-tabs li {
     background: #00674b;
 }
@@ -1754,6 +1882,32 @@ body.altitude-settings-gridenhanced.green-theme .course-content ul.gridicons li 
 
 .green-theme-2 .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #169A5A;
+}
+/* Rein tab colors */
+.green-theme-2.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #15804d;
+}
+.green-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #15804d !important;
+}
+.green-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #006639 !important;
+}
+.green-theme-2.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.green-theme-2.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #169A5A;
+}
+.green-theme-2.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #00674b !important;
+}
+.green-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #15804d !important;
+}
+.green-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #006639 !important;
+}
+.green-theme-2.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #00674b !important;
 }
 
 body.altitude-settings-onetopictabs.green-theme-2 .onetopic ul.nav-tabs li {
@@ -2193,7 +2347,58 @@ body.altitude-settings-gridenhanced.blackgold-theme .course-content ul.gridicons
 .blackgold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
     background: #d2b887;
 }
-
+.blackgold-theme.custom-theme .ui-state-default a:hover {
+    background: rgba(255,255,255,.1);
+}
+.blackgold-theme.custom-theme .ui-state-default a:focus,
+.blackgold-theme.custom-theme .ui-state-default a:active {
+    background: rgba(0,0,0,.3);
+}
+.blackgold-theme.custom-theme .ui-state-active a,
+.blackgold-theme.custom-theme .ui-state-active a:link,
+.blackgold-theme.custom-theme .ui-state-active a:visited,
+.blackgold-theme.custom-theme .ui-state-active a:hover,
+.blackgold-theme.custom-theme .ui-state-active a:focus {
+    background: #d2b887;
+    color: #fff;
+}
+/* Rein tab colors */
+.blackgold-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #d2b887;
+}
+.blackgold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active a.ui-tabs-anchor {
+    color: #2f2f2f;
+}
+.blackgold-theme.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #2f2f2f;
+}
+.blackgold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blackgold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #2f2f2f;
+}
+.blackgold-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #2f2f2f;
+}
+.blackgold-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #2f2f2f !important;
+}
+.blackgold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #d2b887 !important;
+    color: #333;
+}
+.blackgold-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #d2b887 !important;
+    color: #2f2f2f;
+}
+.blackgold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #2f2f2f !important;
+}
+.blackgold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #d2b887 !important;
+}
+.blackgold-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #d2b887 !important;
+}
 
 
 
@@ -2431,6 +2636,43 @@ body.altitude-settings-gridenhanced.blackgold-theme .course-content ul.gridicons
 
 body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li {
     background: #131313;
+}
+/* Rein tab colors */
+.blackyellow-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #ffb612;
+}
+.blackyellow-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active a.ui-tabs-anchor {
+    color: #2f2f2f;
+}
+.blackyellow-theme.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #2f2f2f;
+}
+.blackyellow-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blackyellow-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #2f2f2f;
+}
+.blackyellow-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #2f2f2f;
+}
+.blackyellow-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #2f2f2f !important;
+}
+.blackyellow-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #ffb612 !important;
+    color: #333;
+}
+.blackyellow-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #ffb612 !important;
+    color: #2f2f2f;
+}
+.blackyellow-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #2f2f2f !important;
+}
+.blackyellow-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #ffb612 !important;
+}
+.blackyellow-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #ffb612 !important;
 }
 
 body.altitude-settings-onetopictabs.blackyellow-theme .onetopic ul.nav-tabs li:hover a,
@@ -2881,7 +3123,43 @@ body.altitude-settings-gridenhanced.bluegold-theme .course-content ul.gridicons 
 .bluegold-theme .sb-toggle-right:hover #hamburger span.icon-bar {
     background: #ffcb05;
 }
-
+/* Rein tab colors */
+.bluegold-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #ffcb05;
+}
+.bluegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00274c;
+}
+.bluegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #ffcb05;
+}
+.bluegold-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #00274c;
+}
+.bluegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #00274c !important;
+}
+.bluegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #ffcb05 !important;
+    color: #00274c;
+}
+.bluegold-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #ffcb05 !important;
+    color: #00274c;
+}
+.bluegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #00274c !important;
+}
+.bluegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #ffcb05 !important;
+}
+.bluegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #ffcb05 !important;
+}
+.bluegold-theme.custom-theme .doAccordion h3.ui-accordion-header a {
+    color: #fff;
+}
 
 
 
@@ -3119,6 +3397,40 @@ body.altitude-settings-gridenhanced.bluegold-theme .course-content ul.gridicons 
 
 .greengold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #154733;
+}
+/* Rein tab colors */
+.greengold-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #ffc425;
+}
+.greengold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.greengold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #17674f;
+}
+.greengold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #ffc425;
+}
+.greengold-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #17674f;
+}
+.greengold-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #17674f !important;
+}
+.greengold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #ffc425 !important;
+    color: #17674f;
+}
+.greengold-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #ffc425 !important;
+    color: #17674f;
+}
+.greengold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #17674f !important;
+}
+.greengold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #ffc425 !important;
+}
+.greengold-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #ffc425 !important;
 }
 
 body.altitude-settings-onetopictabs.greengold-theme .onetopic ul.nav-tabs li {
@@ -3473,6 +3785,37 @@ body.altitude-settings-gridenhanced.greengold-theme .course-content ul.gridicons
 .bluered-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #192f6b;
 }
+/* Rein tab colors */
+.bluered-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluered-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00477f;
+}
+.bluered-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #ab3434;
+}
+.bluered-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #00477f;
+}
+.bluered-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #00477f !important;
+}
+.bluered-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #ab3434 !important;
+}
+.bluered-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #ab3434 !important;
+    color: #fff;
+}
+.bluered-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #00477f !important;
+}
+.bluered-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #ab3434 !important;
+}
+.bluered-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #ab3434 !important;
+}
+
 
 body.altitude-settings-onetopictabs.bluered-theme .onetopic ul.nav-tabs li {
     background: #192f6b;
@@ -3825,6 +4168,52 @@ body.altitude-settings-gridenhanced.bluered-theme .course-content ul.gridicons l
 .blueorange-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #03244d;
 }
+.blueorange-theme.custom-theme .ui-state-default a:hover {
+    background: rgba(255,255,255,.1);
+}
+.blueorange-theme.custom-theme .ui-state-default a:focus,
+.blueorange-theme.custom-theme .ui-state-default a:active {
+    background: rgba(0,0,0,.3);
+}
+.blueorange-theme.custom-theme .ui-state-active a,
+.blueorange-theme.custom-theme .ui-state-active a:link,
+.blueorange-theme.custom-theme .ui-state-active a:visited {
+    background: rgba(0,0,0,.3);
+}
+.blueorange-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #da712d;
+}
+/* Rein tab colors */
+.blueorange-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.blueorange-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00274c;
+}
+.blueorange-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #da712d;
+}
+.blueorange-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #00274c;
+}
+.blueorange-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #00274c !important;
+}
+.blueorange-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #da712d !important;
+}
+.blueorange-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #da712d !important;
+    color: #00274c;
+}
+.blueorange-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #00274c !important;
+}
+.blueorange-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #da712d !important;
+}
+.blueorange-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #da712d !important;
+}
+
 
 body.altitude-settings-onetopictabs.blueorange-theme .onetopic ul.nav-tabs li {
     background: #03244d;
@@ -3858,7 +4247,7 @@ body.altitude-settings-onetopicvertical.blueorange-theme .onetopic .nav-tabs li:
 body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicons li p.icon_content {
     background: #03244D;
 }
-
+op
 body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicons li .image_holder:after {
     background: rgba(3,36,77,.75);
 }
@@ -4175,6 +4564,39 @@ body.altitude-settings-gridenhanced.blueorange-theme .course-content ul.gridicon
 
 .bluewhite-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #235d86;
+}
+/* Rein tab colors */
+.bluewhite-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #ab3434;
+}
+.bluewhite-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.bluewhite-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #00477f;
+}
+.bluewhite-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #ab3434;
+}
+.bluewhite-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #00477f;
+}
+.bluewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #00477f !important;
+}
+.bluewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #56a0d3 !important;
+}
+.bluewhite-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #56a0d3 !important;
+    color: #fff;
+}
+.bluewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #00477f !important;
+}
+.bluewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #56a0d3 !important;
+}
+.bluewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #56a0d3 !important;
 }
 
 body.altitude-settings-onetopictabs.bluewhite-theme .onetopic ul.nav-tabs li {
@@ -4527,6 +4949,41 @@ body.altitude-settings-gridenhanced.bluewhite-theme .course-content ul.gridicons
 .purplegold-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #461d7c;
 }
+/* Rein tab colors */
+.purplegold-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #fdd023;
+}
+.purplegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.purplegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #461d7c;
+}
+.purplegold-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #fdd023;
+}
+.purplegold-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #461d7c;
+}
+.purplegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #461d7c !important;
+}
+.purplegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #fdd023 !important;
+    color: #461d7c;
+}
+.purplegold-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #fdd023 !important;
+    color: #461d7c;
+}
+.purplegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #461d7c !important;
+}
+.purplegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #fdd023 !important;
+}
+.purplegold-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #fdd023 !important;
+}
+
 
 body.altitude-settings-onetopictabs.purplegold-theme .onetopic ul.nav-tabs li {
     background: #461d7c;
@@ -4859,7 +5316,32 @@ body.altitude-settings-gridenhanced.purplegold-theme .course-content ul.gridicon
 .purplewhite-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #4d015c;
 }
-
+/* Rein tab colors */
+.purplewhite-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #58068C;
+}
+.purplewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #58068C !important;
+}
+.purplewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #B5A9C4 !important;
+}
+.purplewhite-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.purplewhite-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #58068C;
+}
+.purplewhite-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #B5A9C4 !important;
+}
+.purplewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #58068C !important;
+}
+.purplewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #b5a9c4 !important;
+}
+.purplewhite-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #B5A9C4 !important;
+}
 body.altitude-settings-onetopictabs.purplewhite-theme .onetopic ul.nav-tabs li {
     background: #4d015c;
 }
@@ -5197,7 +5679,38 @@ body.altitude-settings-gridenhanced.purplewhite-theme .course-content ul.gridico
 .redblack-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #333;
 }
-
+/* rein tab colors */
+.redblack-theme.custom-theme .ui-tabs-nav li .fa {
+    color: rgba(255,255,255,.5);
+}
+.redblack-theme.custom-theme .ui-tabs-nav li.ui-state-active .fa {
+    color: #fff;
+}
+.redblack-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.redblack-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #cc0000;
+}
+.redblack-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #cc0000;
+}
+.redblack-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #070707 !important;
+}
+.redblack-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #cc0000 !important;
+}
+.redblack-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #cc0000 !important;
+}
+.redblack-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #070707 !important;
+}
+.redblack-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #cc0000 !important;
+}
+.redblack-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #cc0000 !important;
+}
 body.altitude-settings-onetopictabs.redblack-theme .onetopic ul.nav-tabs li {
     background: #333;
 }
@@ -5517,6 +6030,40 @@ body.altitude-settings-gridenhanced.redblack-theme .course-content ul.gridicons 
 
 .maroongray-theme .course_category_tree .category.collapsed .info > h3.categoryname:before {
     color: #333;
+}
+
+/* Rein tab colors */
+.maroongray-theme.custom-theme .ui-tabs-nav li .fa {
+    color: #ffcc33;
+}
+.maroongray-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.maroongray-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #7a0019;
+}
+.maroongray-theme.custom-theme .ui-tabs .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    color: #333;
+}
+.maroongray-theme.custom-theme .tabs-vertical ul.ui-tabs-nav:before {
+    background: #333;
+}
+.maroongray-theme.custom-theme .tabs-arrows .ui-tabs-nav li {
+    background: #333 !important;
+}
+.maroongray-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover {
+    background: #7a0019 !important;
+}
+.maroongray-theme.custom-theme .ui-tabs.tabs-arrows .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor {
+    background: #7a0019 !important;
+    color: #fff;
+}
+.maroongray-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:after {
+    border-left-color: #333 !important;
+}
+.maroongray-theme.custom-theme .tabs-arrows .ui-tabs-nav li a:hover:after {
+    border-left-color: #7a0019 !important;
+}
+.maroongray-theme.custom-theme .tabs-arrows .ui-tabs-nav li.ui-tabs-active a:after {
+    border-left-color: #7a0019 !important;
 }
 
 body.altitude-settings-onetopictabs.maroongray-theme .onetopic ul.nav-tabs li {
