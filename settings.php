@@ -79,7 +79,7 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/themecolor';
         $title = get_string('themecolor', 'theme_altitude');
         $description = get_string('themecolordesc', 'theme_altitude');
-        $setting = new admin_setting_configselect($name, $title, $description, 'blueorange-theme', array(
+        $setting = new admin_setting_configselect($name, $title, $description, '', array(
             ' ' => get_string('themecolor-default', 'theme_altitude'),
             'red-theme' => get_string('themecolor-red', 'theme_altitude'),
             'blue-theme' => get_string('themecolor-blue', 'theme_altitude'),
@@ -330,13 +330,6 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
         $information = get_string('alertinfodesc', 'theme_altitude');
-        // This is the descriptor for alert one.
-        $name = 'theme_altitude/alert1info';
-        $heading = get_string('alert1', 'theme_altitude');
-        $setting = new admin_setting_heading($name, $heading, $information);
-        $setting->set_updatedcallback('theme_reset_all_caches');
-        $settings->add($setting);
-
 
     } else if ($tab == THEME_ALTITUDE_TAB_UI) {
 
@@ -367,7 +360,7 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/sidebarblockregion';
         $title = get_string('sidebarblockregion', 'theme_altitude');
         $description = get_string('sidebarblockregiondesc', 'theme_altitude');
-        $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
+        $setting = new admin_setting_configcheckbox($name, $title, $description, 1);
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
 
@@ -375,9 +368,9 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/sidebarblockregionalignment';
         $title = get_string('sidebarblockregionalignment', 'theme_altitude');
         $description = get_string('sidebarblockregionalignmentdesc', 'theme_altitude');
-        $setting = new admin_setting_configselect($name, $title, $description, 'right', array(
-            'right' => get_string('sidebarblockregionalignmentright', 'theme_altitude'),
-            'left' => get_string('sidebarblockregionalignmentleft', 'theme_altitude')
+        $setting = new admin_setting_configselect($name, $title, $description, 'left', array(
+            'left' => get_string('sidebarblockregionalignmentleft', 'theme_altitude'),
+            'right' => get_string('sidebarblockregionalignmentright', 'theme_altitude')
         ));
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
@@ -418,7 +411,7 @@ if ($ADMIN->fulltree) {
         $name = 'theme_altitude/mycourses';
         $title = get_string('mycourses', 'theme_altitude');
         $description = get_string('mycoursesdesc', 'theme_altitude');
-        $setting = new admin_setting_configcheckbox($name, $title, $description, 0);
+        $setting = new admin_setting_configcheckbox($name, $title, $description, 1);
         $setting->set_updatedcallback('theme_reset_all_caches');
         $settings->add($setting);
 

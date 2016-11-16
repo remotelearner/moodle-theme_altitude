@@ -18,7 +18,7 @@
  * Admin setttings objects for component 'theme_altitude'
  *
  * @package   theme-altitude
- * @author    Eric Bjella <eric.bjella@remote-learne.net>
+ * @author    Eric Bjella <eric.bjella@remote-learner.net>
  * @copyright 2016 Remote Learner  http://www.remote-learner.net/
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
