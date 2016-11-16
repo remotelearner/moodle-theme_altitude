@@ -198,9 +198,17 @@ function theme_altitude_fetch_favicon($settings) {
 function theme_altitude_fetch_sidebar_toggle_button($alignment) {
     global $PAGE;
     $button = '';
-    if (!empty($PAGE->theme->settings->sidebarblockregion)
-            && $PAGE->theme->settings->sidebarblockregion == true
-            && $PAGE->theme->settings->sidebarblockregionalignment == $alignment) {
+    // Ensure defaults are set.
+    if (empty($PAGE->theme->settings->sidebarblockregion)) {
+        $PAGE->theme->settings->sidebarblockregion = true;
+    }
+    if (empty($PAGE->theme->settings->sidebarblockregionalignment)) {
+        $PAGE->theme->settings->sidebarblockregionalignment = 'left';
+    }
+    if (empty($PAGE->theme->settings->sidebarblockregionbuttontype)) {
+        $PAGE->theme->settings->sidebarblockregionbuttontype = 'icontext';
+    }
+    if ($PAGE->theme->settings->sidebarblockregion == true && $PAGE->theme->settings->sidebarblockregionalignment == $alignment) {
         $id = 'side-panel-button';
         $button .= '<a id="'.$id.'" name="'.$id.'" tabindex="0" class="sb-toggle-'.$alignment.'" href="#">';
         if ($PAGE->theme->settings->sidebarblockregionbuttontype == 'icon' ||
@@ -244,18 +252,24 @@ function theme_altitude_fetch_banner($settings) {
 
     // Set demo settings if demomode is on.
     if (!isset($settings->demomode) || $settings->demomode == 'on') {
-        global $OUTPUT;
-        $themeimages['sliderimage1'] = $OUTPUT->pix_url('demo-slide1', 'theme');
-        $settings->sliderheader1 = "Welcome to ALTITUDE";
-        $settings->slidertext1 = "ALTITUDE is a modern Moodle® theme designed by Remote-Learner for Remote-Learner clients.";
-        $settings->sliderbuttonlink1 = "http://www.remote-learner.net/welcome-to-altitude";
-        $settings->sliderbuttonlabel1 = "Learn More";
+        global $OUTPUT, $SITE, $CFG;
+        $themeimages['sliderimage1'] = $OUTPUT->pix_url('snowy-mountains', 'theme');
+        $settings->sliderheader1 = get_string('demowelcome', 'theme_altitude', $SITE->fullname); //"Welcome to ".$SITE->fullname;
+        $settings->slidertext1 = "";
+        $settings->sliderbuttonlink1 = $CFG->wwwroot."/my";
+        $settings->sliderbuttonlabel1 = get_string('demowelcomelink', 'theme_altitude');
 
-        $themeimages['sliderimage2'] = $OUTPUT->pix_url('demo-slide2', 'theme');
-        $settings->sliderheader2 = "Welcome to ALTITUDE";
-        $settings->sliderbuttonlink2 = "http://www.remote-learner.net/altitude";
-        $settings->slidertext2 = "ALTITUDE is a modern Moodle® theme designed by Remote-Learner for Remote-Learner clients.";
-        $settings->sliderbuttonlabel2 = "Learn More";
+        $themeimages['sliderimage2'] = $OUTPUT->pix_url('skyscrapers', 'theme');
+        $settings->sliderheader2 = get_string('demowelcome', 'theme_altitude', $SITE->fullname);
+        $settings->sliderbuttonlink2 = $CFG->wwwroot."/my";
+        $settings->slidertext2 = "";
+        $settings->sliderbuttonlabel2 = get_string('demowelcomelink', 'theme_altitude');
+
+        $themeimages['sliderimage3'] = $OUTPUT->pix_url('mountain-sunset', 'theme');
+        $settings->sliderheader3 = get_string('demowelcome', 'theme_altitude', $SITE->fullname);
+        $settings->sliderbuttonlink3 = $CFG->wwwroot."/my";
+        $settings->slidertext3 = "";
+        $settings->sliderbuttonlabel3 = get_string('demowelcomelink', 'theme_altitude');
     }
 
     // Mp4 setting and length.
@@ -366,23 +380,25 @@ function theme_altitude_fetch_subbanner($settings) {
 
     // Set demo settings if demomode is on.
     if (!isset($settings->demomode) || $settings->demomode == 'on') {
-        $settings->subsectiontitle1 = "Explore";
-        $settings->subsectionlink1 = "http://www.remote-learner.net/explore-altitude";
-        $settings->subsectionicon1 = "map-o";
-        $settings->subsectiondescription1 = "Explore the features of the ALTITUDE theme.";
-        $settings->subsectionlabel1 = "Click Here";
+        global $CFG;
 
-        $settings->subsectiontitle2 = "Customize";
-        $settings->subsectionlink2 = "http://www.remote-learner.net/configure-altitude";
-        $settings->subsectionicon2 = "map-marker";
-        $settings->subsectiondescription2 = "Learn how to customize the ALTITUDE theme.";
-        $settings->subsectionlabel2 = "Click Here";
+        $settings->subsectiontitle1 = get_string('demosubsectiontitle1', 'theme_altitude');
+        $settings->subsectionlink1 = $CFG->wwwroot."/course/index.php";
+        $settings->subsectionicon1 = "book";
+        $settings->subsectiondescription1 = get_string('demosubsectiondescription1', 'theme_altitude');
+        $settings->subsectionlabel1 = get_string('demosubsectionlabel', 'theme_altitude');
 
-        $settings->subsectiontitle3 = "Innovate";
-        $settings->subsectionlink3 = "http://www.remote-learner.net/gallery/";
-        $settings->subsectionicon3 = "map-signs";
-        $settings->subsectiondescription3 = "Find inspiration in the RL themes gallery.";
-        $settings->subsectionlabel3 = "Click Here";
+        $settings->subsectiontitle2 = get_string('demosubsectiontitle2', 'theme_altitude');
+        $settings->subsectionlink2 = $CFG->wwwroot."/my";
+        $settings->subsectionicon2 = "tachometer";
+        $settings->subsectiondescription2 = get_string('demosubsectiondescription2', 'theme_altitude');
+        $settings->subsectionlabel2 = get_string('demosubsectionlabel', 'theme_altitude');
+
+        $settings->subsectiontitle3 = get_string('demosubsectiontitle3', 'theme_altitude');
+        $settings->subsectionlink3 = $CFG->wwwroot."/user/profile.php";
+        $settings->subsectionicon3 = "user";
+        $settings->subsectiondescription3 = get_string('demosubsectiondescription3', 'theme_altitude');
+        $settings->subsectionlabel3 = get_string('demosubsectionlabel', 'theme_altitude');
     }
 
     // Determine the number of sections.
