@@ -18,7 +18,7 @@
  * Renderer overrides for component 'theme_altitude'
  *
  * @package   theme-altitude
- * @author    Eric Bjella <eric.bjella@remote-learne.net>
+ * @author    Eric Bjella <eric.bjella@remote-learner.net>
  * @copyright 2016 Remote Learner  http://www.remote-learner.net/
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,14 +27,14 @@ class theme_altitude_core_renderer extends theme_bootstrapbase_core_renderer {
     protected function render_custom_menu(custom_menu $menu) {
         global $PAGE,$CFG;
         if (isloggedin()) {
-            if (!empty($PAGE->theme->settings->mycourses) && $PAGE->theme->settings->mycourses == true) {
+            if (empty($PAGE->theme->settings->mycourses) || $PAGE->theme->settings->mycourses == true) {
                 $branch = $menu->add(get_string('mycourses'), null, null, 9900);
                 if ($courses = enrol_get_my_courses(NULL,'visible DESC,fullname ASC')) {
                     foreach ($courses as $course) {
                         if ($course->id == SITEID) {
                            continue;
                         }
-                        $branch->add($course->shortname, new moodle_url('/course/view.php', array('id' => $course->id)), $course->fullname);
+                        $branch->add($course->fullname, new moodle_url('/course/view.php', array('id' => $course->id)), $course->shortname);
                     }
                 }
             }

@@ -106,6 +106,16 @@ $string['demomodedesc'] = 'Demo mode displays default content on the front page.
 $string['demomodeon'] = 'On';
 $string['demomodeoff'] = 'Off';
 
+$string['demowelcome'] = 'Welcome to {$a}';
+$string['demowelcomelink'] = 'View My Courses';
+$string['demosubsectiontitle1'] = 'Course Catalog';
+$string['demosubsectiondescription1'] = 'Browse a list of Available Courses';
+$string['demosubsectiontitle2'] = 'My Dashboard';
+$string['demosubsectiondescription2'] = 'Access all your learning needs';
+$string['demosubsectiontitle3'] = 'My Profile';
+$string['demosubsectiondescription3'] = 'View your profile information';
+$string['demosubsectionlabel'] = 'Click Here';
+
 for ($i = 1; $i <= 4; $i++) {
     $string['sliderheading'.$i] = '';
     $string['sliderheading'.$i.'desc'] = '<strong>Banner '.$i.'</strong> (<a class="keytoggle" href="#bannerkeyimage'.$i.'">?</a>) <div class="keyimage closed" id="bannerkeyimage'.$i.'"></div>';
