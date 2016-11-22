@@ -255,20 +255,20 @@ function theme_altitude_fetch_banner($settings) {
         global $OUTPUT, $SITE, $CFG;
         $themeimages['sliderimage1'] = $OUTPUT->pix_url('snowy-mountains', 'theme');
         $settings->sliderheader1 = get_string('demowelcome', 'theme_altitude', $SITE->fullname); //"Welcome to ".$SITE->fullname;
-        $settings->slidertext1 = "";
+        $settings->slidertext1 = " ";
         $settings->sliderbuttonlink1 = $CFG->wwwroot."/my";
         $settings->sliderbuttonlabel1 = get_string('demowelcomelink', 'theme_altitude');
 
         $themeimages['sliderimage2'] = $OUTPUT->pix_url('skyscrapers', 'theme');
         $settings->sliderheader2 = get_string('demowelcome', 'theme_altitude', $SITE->fullname);
         $settings->sliderbuttonlink2 = $CFG->wwwroot."/my";
-        $settings->slidertext2 = "";
+        $settings->slidertext2 = " ";
         $settings->sliderbuttonlabel2 = get_string('demowelcomelink', 'theme_altitude');
 
         $themeimages['sliderimage3'] = $OUTPUT->pix_url('mountain-sunset', 'theme');
         $settings->sliderheader3 = get_string('demowelcome', 'theme_altitude', $SITE->fullname);
         $settings->sliderbuttonlink3 = $CFG->wwwroot."/my";
-        $settings->slidertext3 = "";
+        $settings->slidertext3 = " ";
         $settings->sliderbuttonlabel3 = get_string('demowelcomelink', 'theme_altitude');
     }
 
