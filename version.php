@@ -22,9 +22,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2016052302;
+$plugin->version   = 2016052303;
 $plugin->requires  = 2016052300;
-$plugin->release   = '3.1.0.2';
+$plugin->release   = '3.1.0.3';
 $plugin->component = 'theme_altitude';
 $plugin->dependencies = array(
     'theme_bootstrapbase' => 2016052300,
